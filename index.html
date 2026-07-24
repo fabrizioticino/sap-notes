@@ -262,11 +262,16 @@ function fieldNote(label,value){
 // ogni numero di nota SAP -> me.sap.com/notes/…, ogni URL -> link diretto
 function linkify(value){
   if(!value) return '—';
-  const parts = String(value).split(/(https?:\/\/[^\s)]+)/g);
-  return parts.map(p => {
-    if(/^https?:\/\//.test(p)) return `<a class="ref-link" href="${p}" target="_blank" rel="noopener">${p} ↗</a>`;
-    return p.replace(/\b(\d{6,})\b/g, m => `<a class="ref-link" href="https://me.sap.com/notes/${m}" target="_blank" rel="noopener">${m}</a>`);
-  }).join('');
+  const nm = String(value).match(/\d{6,}/);
+  const noteUrl = nm ? `https://me.sap.com/notes/${nm[0]}/E` : null; // nota che ospita gli allegati
+  return String(value).replace(
+    /(https?:\/\/[^\s)]+)|([A-Za-z0-9_\-.]+\.(?:pdf|xlsx?|zip|docx?|pptx?))|(\d{6,})/gi,
+    (m, url, file, note) => {
+      if(url)  return `<a class="ref-link" href="${url}" target="_blank" rel="noopener">${url} ↗</a>`;
+      if(file) return noteUrl ? `<a class="ref-link" href="${noteUrl}" target="_blank" rel="noopener">${file} ↗</a>` : file;
+      if(note) return `<a class="ref-link" href="https://me.sap.com/notes/${note}" target="_blank" rel="noopener">${note}</a>`;
+      return m;
+    });
 }
 function fieldLinkify(label,value){
   return `<div class="field-label">${label}</div><div class="field-value">${linkify(value)}</div>`;
