@@ -258,6 +258,19 @@ function fieldNote(label,value){
   const link = n ? `<a class="ref-link" href="https://me.sap.com/notes/${n}" target="_blank" rel="noopener">${value} ↗</a>` : (value||'—');
   return `<div class="field-label">${label}</div><div class="field-value">${link}</div>`;
 }
+// rende cliccabili i riferimenti nei documenti di configurazione:
+// ogni numero di nota SAP -> me.sap.com/notes/…, ogni URL -> link diretto
+function linkify(value){
+  if(!value) return '—';
+  const parts = String(value).split(/(https?:\/\/[^\s)]+)/g);
+  return parts.map(p => {
+    if(/^https?:\/\//.test(p)) return `<a class="ref-link" href="${p}" target="_blank" rel="noopener">${p} ↗</a>`;
+    return p.replace(/\b(\d{6,})\b/g, m => `<a class="ref-link" href="https://me.sap.com/notes/${m}" target="_blank" rel="noopener">${m}</a>`);
+  }).join('');
+}
+function fieldLinkify(label,value){
+  return `<div class="field-label">${label}</div><div class="field-value">${linkify(value)}</div>`;
+}
 function renderSection(num,title,inner,countBadge){
   const cb = countBadge!=null ? `<span class="count">${countBadge}</span>` : '';
   return `<div class="section"><div class="section-head"><div class="section-num">${num}</div><div class="section-title">${title}${cb}</div></div>${inner}</div>`;
@@ -310,11 +323,11 @@ function openDetail(slug){
       const g = c.customizing;
       html += renderSection('03','Guida alle attività di customizing',
         `<div class="field-grid">${
-          field('Guida di configurazione', g.central) +
-          field('KBA configurazione', g.kba) +
-          field('Note customizing', g.note_cust) +
+          fieldLinkify('Guida di configurazione', g.central) +
+          fieldLinkify('KBA configurazione', g.kba) +
+          fieldLinkify('Note customizing', g.note_cust) +
           field('Attività IMG (SPRO)', `<span class="mono" style="font-size:12.5px">${g.img||'—'}</span>`) +
-          field('SAP Help Portal', g.help)
+          fieldLinkify('SAP Help Portal', g.help)
         }</div>`);
     }
 
