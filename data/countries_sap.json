@@ -17,7 +17,7 @@
                             "note_cust":  "2170013 - Modifiche struttura Customizing (IMG); 2662404/2709487 - AIF Customizing \u0026 Setup",
                             "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument (percorso esatto nella Config Guide allegata a 2684734)",
                             "central":  "2684734 - Configuration/Installation Guide allegata alla nota",
-                            "help":  "https://help.sap.com/docs/SAP_ERP (eDocument Italy) + DRC"
+                            "help":  "https://help.sap.com/docs/search?q=eDocument%20Italy"
                         },
         "notes":  [
                       {
@@ -592,7 +592,7 @@
                             "note_cust":  "3596911 / 3642502 - integrazione con DRC cloud edition; 3385482 - Integration DRC cloud",
                             "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument + setup integrazione DRC cloud edition",
                             "central":  "3413565 (+3079553) - Configuration Guide allegata alle note",
-                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC - France, Approved Platform)"
+                            "help":  "https://help.sap.com/docs/search?q=eDocument%20France"
                         },
         "notes":  [
                       {
@@ -693,7 +693,7 @@
                             "note_cust":  "Customizing incluso nelle note EU eInvoicing",
                             "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
                             "central":  "2690949 - Config Guide allegata",
-                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC Germany)"
+                            "help":  "https://help.sap.com/docs/search?q=eDocument%20Germany"
                         },
         "notes":  [
                       {
@@ -866,7 +866,7 @@
                             "note_cust":  "SII/B2G customizing nelle note; B2B non ancora rilasciato",
                             "img":  "SPRO \u003e ... \u003e eDocument",
                             "central":  "2940398 (SII) / 2735302 (B2G) - Config Guide allegata",
-                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC Spain)"
+                            "help":  "https://help.sap.com/docs/search?q=eDocument%20Spain"
                         },
         "notes":  [
                       {
@@ -913,7 +913,7 @@
                             "note_cust":  "Customizing incluso nelle note Peppol/B2B",
                             "img":  "SPRO \u003e ... \u003e eDocument",
                             "central":  "2424886 - Config Guide allegata",
-                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC Belgium)"
+                            "help":  "https://help.sap.com/docs/search?q=eDocument%20Belgium"
                         },
         "notes":  [
                       {
@@ -1050,7 +1050,7 @@
                             "note_cust":  "3303838 / 3303839 - Enablement Manage Electronic Documents; AIF customizing incluso nelle note KSeF",
                             "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument (dettaglio nella Config Guide allegata a 3279206)",
                             "central":  "3279206 - Configuration Guide allegata alla nota",
-                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC/eDocument Poland)"
+                            "help":  "https://help.sap.com/docs/search?q=eDocument%20Poland"
                         },
         "notes":  [
                       {
@@ -1163,7 +1163,7 @@
                             "note_cust":  "Customizing incluso nelle note della tabella Solution Enablement (proxy/DDIC/mapping); 3454302 - Enabling DRC External Document",
                             "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument (dettaglio nella Config Guide allegata a 3262931)",
                             "central":  "3262931 - Configuration Guide allegata alla nota",
-                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC/eDocument Romania)"
+                            "help":  "https://help.sap.com/docs/search?q=eDocument%20Romania"
                         },
         "notes":  [
                       {
@@ -1552,7 +1552,7 @@
                             "note_cust":  "Customizing incluso nelle note (proxy/DDIC/mapping)",
                             "img":  "SPRO \u003e ... \u003e eDocument",
                             "central":  "3499841 - Config Guide allegata",
-                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC Croatia)"
+                            "help":  "https://help.sap.com/docs/search?q=eDocument%20Croatia"
                         },
         "notes":  [
                       {
@@ -1827,7 +1827,7 @@
                             "note_cust":  "Customizing incluso nelle note",
                             "img":  "SPRO \u003e ... \u003e eDocument",
                             "central":  "2810746 - Config Guide allegata",
-                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC Norway)"
+                            "help":  "https://help.sap.com/docs/search?q=eDocument%20Norway"
                         },
         "notes":  [
                       {
@@ -1940,7 +1940,7 @@
                             "note_cust":  "Customizing incluso nelle note",
                             "img":  "SPRO \u003e ... \u003e eDocument",
                             "central":  "3363939 - Config Guide allegata",
-                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC Slovakia)"
+                            "help":  "https://help.sap.com/docs/search?q=eDocument%20Slovakia"
                         },
         "notes":  [
                       {
@@ -2005,7 +2005,7 @@
                             "note_cust":  "Customizing IRN/e-way incluso nelle note",
                             "img":  "SPRO \u003e ... \u003e eDocument",
                             "central":  "2884058 - Config Guide allegata",
-                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC India)"
+                            "help":  "https://help.sap.com/docs/search?q=eDocument%20India"
                         },
         "notes":  [
                       {
@@ -2124,7 +2124,7 @@
                             "note_cust":  "Customizing CFDI incluso nelle note; 2170013 IMG",
                             "img":  "SPRO \u003e ... \u003e eDocument",
                             "central":  "2565791 (S/4) / 2526771 (ERP) - Config Guide allegata",
-                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC Mexico)"
+                            "help":  "https://help.sap.com/docs/search?q=eDocument%20Mexico"
                         },
         "notes":  [
                       {
@@ -2867,7 +2867,7 @@
                             "note_cust":  "Business Configuration nelle note MyInvois",
                             "img":  "SPRO \u003e ... \u003e eDocument",
                             "central":  "3456090 - Config Guide + Checklist 3603740",
-                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC Malaysia)"
+                            "help":  "https://help.sap.com/docs/search?q=eDocument%20Malaysia"
                         },
         "notes":  [
                       {
@@ -3472,7 +3472,7 @@
                             "note_cust":  "Customizing ZATCA incluso nelle note; 2170013 IMG",
                             "img":  "SPRO \u003e ... \u003e eDocument",
                             "central":  "3095262 - Config Guide allegata",
-                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC Saudi Arabia)"
+                            "help":  "https://help.sap.com/docs/search?q=eDocument%20Saudi%20Arabia"
                         },
         "notes":  [
                       {
@@ -3843,7 +3843,7 @@
                             "note_cust":  "Customizing DIAN nelle note",
                             "img":  "SPRO \u003e ... \u003e eDocument",
                             "central":  "2297487 (+2485667 Full Solution) - Config Guide",
-                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC Colombia)"
+                            "help":  "https://help.sap.com/docs/search?q=eDocument%20Colombia"
                         },
         "notes":  [
                       {
@@ -3878,7 +3878,7 @@
                             "note_cust":  "Business Configuration Set (Peppol) 3676401",
                             "img":  "SPRO \u003e ... \u003e eDocument",
                             "central":  "3705171 - Config Guide + 3676401 Business Config Set",
-                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC UAE)"
+                            "help":  "https://help.sap.com/docs/search?q=eDocument%20United%20Arab%20Emirates"
                         },
         "notes":  [
                       {

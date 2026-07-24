@@ -327,7 +327,7 @@ function openDetail(slug){
           fieldLinkify('KBA configurazione', g.kba) +
           fieldLinkify('Note customizing', g.note_cust) +
           field('Attività IMG (SPRO)', `<span class="mono" style="font-size:12.5px">${g.img||'—'}</span>`) +
-          fieldLinkify('SAP Help Portal', g.help)
+          field('SAP Help Portal', `<a class="ref-link" href="https://help.sap.com/docs/search?q=eDocument%20${encodeURIComponent(c.name)}" target="_blank" rel="noopener">Cerca «eDocument ${c.name}» ↗</a>`)
         }</div>`);
     }
 
