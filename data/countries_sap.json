@@ -1,0 +1,3988 @@
+[
+    {
+        "name":  "Italy",
+        "name_it":  "Italia",
+        "slug":  "italia",
+        "b2b_status":  "Obbligatorio (dal 2019)",
+        "deployment":  "S/4HANA on-prem / ECC",
+        "central_note":  "2684734",
+        "central_title":  "eDocument: Italy - Installation Overview for Electronic Invoicing (B2B e Inbound)",
+        "component":  "CA-GTF-CSC-EDO-IT",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  92,
+        "customizing":  {
+                            "kba":  "2696897 - eDocument Italy Troubleshooting/Config Guide (KBA)",
+                            "note_cust":  "2170013 - Modifiche struttura Customizing (IMG); 2662404/2709487 - AIF Customizing \u0026 Setup",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument (percorso esatto nella Config Guide allegata a 2684734)",
+                            "central":  "2684734 - Configuration/Installation Guide allegata alla nota",
+                            "help":  "https://help.sap.com/docs/SAP_ERP (eDocument Italy) + DRC"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2134248",
+                          "title":  "Electronic Document Processing Framework - Installation Overview",
+                          "num":  "2134248",
+                          "category":  "Framework"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2378414",
+                          "title":  "SAP Document Compliance, on-premise edition (licenza)",
+                          "num":  "2378414",
+                          "category":  "Licenza/Prerequisito"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2583309",
+                          "title":  "Registrazione canale web-service SDICoop (SdI)",
+                          "num":  "2583309",
+                          "category":  "Configurazione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2702017",
+                          "title":  "eDocument Italy - Installation Overview FatturaPA 1.0",
+                          "num":  "2702017",
+                          "category":  "Overview precedente"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2118352",
+                          "title":  "eDocument Italy - Installation Overview FatturaPA 1.1",
+                          "num":  "2118352",
+                          "category":  "Overview precedente"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2399937",
+                          "title":  "eDocument Italy - Installation Overview FatturaPA 1.2",
+                          "num":  "2399937",
+                          "category":  "Overview precedente"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2534597",
+                          "title":  "eDocument Italy - Installation Overview Integration with Partner",
+                          "num":  "2534597",
+                          "category":  "Overview precedente"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2531092",
+                          "title":  "eDocument Italy - Partner Integration: AIF Customizing",
+                          "num":  "2531092",
+                          "category":  "Overview precedente"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2531150",
+                          "title":  "eDocument Italy - Partner Integration: AIF Setup and Connection",
+                          "num":  "2531150",
+                          "category":  "Overview precedente"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2684127",
+                          "title":  "eDocument Italy: catena principale (installazione)",
+                          "num":  "2684127",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2614498",
+                          "title":  "eDocument Italy: Electronic Invoicing",
+                          "num":  "2614498",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2684179",
+                          "title":  "eDocument Italy: prerequisito soluzione",
+                          "num":  "2684179",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2662404",
+                          "title":  "eDocument Italy: Proxies \u0026 AIF Implementation",
+                          "num":  "2662404",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2683272",
+                          "title":  "eDocument Italy: AIF Customizing (OBSOLETA)",
+                          "num":  "2683272",
+                          "category":  "Obsoleta"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2683318",
+                          "title":  "eDocument Italy: AIF Setup (OBSOLETE)",
+                          "num":  "2683318",
+                          "category":  "Obsoleta"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2709487",
+                          "title":  "eDocument Italy: AIF Setup",
+                          "num":  "2709487",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2959154",
+                          "title":  "eDocument Italy NEW FORMAT: Foreign Invoice Confirm Sent eMail",
+                          "num":  "2959154",
+                          "category":  "Legal change 2021"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2870461",
+                          "title":  "eDocument Italy NEW FORMAT: Proxies \u0026 AIF Implementation v1.2.1",
+                          "num":  "2870461",
+                          "category":  "Legal change 2021"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2965231",
+                          "title":  "eDocument Italy NEW FORMAT: AIF and Other Customizing v1.2.1",
+                          "num":  "2965231",
+                          "category":  "Legal change 2021"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3072613",
+                          "title":  "eDocument Italy: prerequisito per 3072620",
+                          "num":  "3072613",
+                          "category":  "Legal change 2022-07"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3072620",
+                          "title":  "eDocument Italy: Corrections",
+                          "num":  "3072620",
+                          "category":  "Legal change 2022-07"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3073141",
+                          "title":  "eDocument Italy: correzione legal change 2022",
+                          "num":  "3073141",
+                          "category":  "Legal change 2022-07"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3065705",
+                          "title":  "eDocument Italy: correzione legal change 2022",
+                          "num":  "3065705",
+                          "category":  "Legal change 2022-07"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3087946",
+                          "title":  "eDocument Italy (OBSOLETA)",
+                          "num":  "3087946",
+                          "category":  "Obsoleta"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3101911",
+                          "title":  "eDocument Italy: correzione legal change 2022",
+                          "num":  "3101911",
+                          "category":  "Legal change 2022-07"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3101865",
+                          "title":  "eDocument Italy: correzione legal change 2022",
+                          "num":  "3101865",
+                          "category":  "Legal change 2022-07"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3247265",
+                          "title":  "eDocument Italy: Legal Change Mapping Correction",
+                          "num":  "3247265",
+                          "category":  "Legal change 2022-10"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2001016",
+                          "title":  "Documentazione applicativa (Help Portal)",
+                          "num":  "2001016",
+                          "category":  "Documentazione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2170013",
+                          "title":  "Modifiche Customizing (IMG/SPRO)",
+                          "num":  "2170013",
+                          "category":  "Documentazione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2876151",
+                          "title":  "Data Protection \u0026 Privacy",
+                          "num":  "2876151",
+                          "category":  "Documentazione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2774704",
+                          "title":  "Incoming invoice messages non scaricati/processati",
+                          "num":  "2774704",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2712052",
+                          "title":  "Prerequisite for 2688343",
+                          "num":  "2712052",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2688343",
+                          "title":  "Enhancements implementation",
+                          "num":  "2688343",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2682894",
+                          "title":  "Implementation of corrections in mapping",
+                          "num":  "2682894",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2706849",
+                          "title":  "DDT data - support multiple lines / Dates for payment",
+                          "num":  "2706849",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2719095",
+                          "title":  "Prerequisite for 2714973",
+                          "num":  "2719095",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2714973",
+                          "title":  "Corrections: Customer Relevance, Filename, Sender",
+                          "num":  "2714973",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2719115",
+                          "title":  "Prerequisite for 2712829",
+                          "num":  "2719115",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2712829",
+                          "title":  "Mapping Changes: Sender, Supplier, Customer",
+                          "num":  "2712829",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2714378",
+                          "title":  "Corrections Purchase Order Data (DatiOrdineAcquisto)",
+                          "num":  "2714378",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2715932",
+                          "title":  "Mapping Corrections - Split Payment",
+                          "num":  "2715932",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2717023",
+                          "title":  "Bollo with Amount Zero or not Shown",
+                          "num":  "2717023",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2725762",
+                          "title":  "External Outgoing eInvoice - Prerequisite for 2718331",
+                          "num":  "2725762",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2718331",
+                          "title":  "External Outgoing eInvoice",
+                          "num":  "2718331",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2698654",
+                          "title":  "External Outgoing eInvoice Documents - AIF Setup",
+                          "num":  "2698654",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2720260",
+                          "title":  "SOA Service for eDocument Submission per Company Code",
+                          "num":  "2720260",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2723769",
+                          "title":  "eDocuments for incoming files are not created",
+                          "num":  "2723769",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2724185",
+                          "title":  "Corrections",
+                          "num":  "2724185",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2726312",
+                          "title":  "Mapping Corrections",
+                          "num":  "2726312",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2728282",
+                          "title":  "Electronic Invoicing for Italy Integration Package v1.0.2",
+                          "num":  "2728282",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2729411",
+                          "title":  "Replacement of Obsolete Proxies for Notifications",
+                          "num":  "2729411",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2730534",
+                          "title":  "Mapping Corrections",
+                          "num":  "2730534",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2731573",
+                          "title":  "Corrections",
+                          "num":  "2731573",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2734827",
+                          "title":  "Prerequisite for 2732019",
+                          "num":  "2734827",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2732019",
+                          "title":  "Corrections",
+                          "num":  "2732019",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2732150",
+                          "title":  "Mapping Corrections",
+                          "num":  "2732150",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2735491",
+                          "title":  "Mapping Corrections",
+                          "num":  "2735491",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2736303",
+                          "title":  "External Outgoing eInvoice Corrections",
+                          "num":  "2736303",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2737165",
+                          "title":  "Corrections",
+                          "num":  "2737165",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2738016",
+                          "title":  "Mapping Corrections",
+                          "num":  "2738016",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2740687",
+                          "title":  "Corrections",
+                          "num":  "2740687",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2740761",
+                          "title":  "Mapping Corrections",
+                          "num":  "2740761",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2736357",
+                          "title":  "Prerequisite for 2734157",
+                          "num":  "2736357",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2734157",
+                          "title":  "Corrections",
+                          "num":  "2734157",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2734371",
+                          "title":  "Mapping Corrections",
+                          "num":  "2734371",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2744224",
+                          "title":  "Mapping Corrections",
+                          "num":  "2744224",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2744369",
+                          "title":  "Corrections",
+                          "num":  "2744369",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2747001",
+                          "title":  "Mapping: Proxy Change for Length of SdI ID",
+                          "num":  "2747001",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2749770",
+                          "title":  "Mapping Corrections",
+                          "num":  "2749770",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2752510",
+                          "title":  "Incoming invoice messages: unsupported tags",
+                          "num":  "2752510",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2753367",
+                          "title":  "Corrections",
+                          "num":  "2753367",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2756705",
+                          "title":  "External Outgoing eInvoice System ID attribute",
+                          "num":  "2756705",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2757569",
+                          "title":  "Mapping Corrections",
+                          "num":  "2757569",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2761254",
+                          "title":  "Length of DB Field for SdI ID needs to be 12",
+                          "num":  "2761254",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2765729",
+                          "title":  "Corrections",
+                          "num":  "2765729",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2775940",
+                          "title":  "Prerequisite for 2771461",
+                          "num":  "2775940",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2771461",
+                          "title":  "Mapping Corrections",
+                          "num":  "2771461",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2779257",
+                          "title":  "Corrections",
+                          "num":  "2779257",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2771424",
+                          "title":  "Enhancements for Incoming Invoices",
+                          "num":  "2771424",
+                          "category":  "Correzione (pre-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2931328",
+                          "title":  "Rejection caused by invalid character in file",
+                          "num":  "2931328",
+                          "category":  "Correzione (post-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2990830",
+                          "title":  "Mapping correction",
+                          "num":  "2990830",
+                          "category":  "Correzione (post-2021)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3118249",
+                          "title":  "Mapping correction",
+                          "num":  "3118249",
+                          "category":  "Correzione (post-2022-07)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3128271",
+                          "title":  "Enabling Custom Fields",
+                          "num":  "3128271",
+                          "category":  "Correzione (post-2022-07)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3136938",
+                          "title":  "Correzione (post legal change 2022-07)",
+                          "num":  "3136938",
+                          "category":  "Correzione (post-2022-07)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3256923",
+                          "title":  "Electronic Document for Italy: Mapping Correction",
+                          "num":  "3256923",
+                          "category":  "Correzione (post-2022-10)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3261126",
+                          "title":  "Electronic Document for Italy: correzione",
+                          "num":  "3261126",
+                          "category":  "Correzione (post-2022-10)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3543738",
+                          "title":  "Correction: Send to Customer for Business Partner",
+                          "num":  "3543738",
+                          "category":  "Correzione (recente)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3418803",
+                          "title":  "eDocument Italy: nota aggiunta (v. cronologia)",
+                          "num":  "3418803",
+                          "category":  "Correzione (recente)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3400432",
+                          "title":  "eDocument Italy: nota aggiunta (v. cronologia)",
+                          "num":  "3400432",
+                          "category":  "Correzione (recente)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3582719",
+                          "title":  "eDocument Italy: nota aggiunta (v. cronologia)",
+                          "num":  "3582719",
+                          "category":  "Correzione (recente)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3527961",
+                          "title":  "eDocument Italy: nota aggiunta (v. cronologia)",
+                          "num":  "3527961",
+                          "category":  "Correzione (recente)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3536978",
+                          "title":  "eDocument Italy: nota aggiunta (v. cronologia)",
+                          "num":  "3536978",
+                          "category":  "Correzione (recente)"
+                      }
+                  ]
+    },
+    {
+        "name":  "France",
+        "name_it":  "Francia",
+        "slug":  "francia",
+        "b2b_status":  "Obbligatorio 09/2026 (grandi) / 09/2027 (tutte)",
+        "deployment":  "S/4HANA on-prem / ECC",
+        "central_note":  "3413565 (+3079553 base)",
+        "central_title":  "Electronic Invoicing for France via Approved Platform: Implementation Overview",
+        "component":  "CA-GTF-CSC-EDO-FR-PE",
+        "framework":  "3656949 / 2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  13,
+        "customizing":  {
+                            "kba":  "Config nelle note centrali (nessuna KBA troubleshooting on-prem dedicata)",
+                            "note_cust":  "3596911 / 3642502 - integrazione con DRC cloud edition; 3385482 - Integration DRC cloud",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument + setup integrazione DRC cloud edition",
+                            "central":  "3413565 (+3079553) - Configuration Guide allegata alle note",
+                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC - France, Approved Platform)"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/3079553",
+                          "title":  "Electronic Document Processing for France: Implementation Overview (base)",
+                          "num":  "3079553",
+                          "category":  "Overview base"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3413565",
+                          "title":  "Electronic Invoicing for France via Approved Platform: Implementation Overview",
+                          "num":  "3413565",
+                          "category":  "Overview (mandato B2B)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2134248",
+                          "title":  "Electronic Document Processing Framework - Installation Overview",
+                          "num":  "2134248",
+                          "category":  "Framework"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3656949",
+                          "title":  "Electronic Document Processing Framework (38)",
+                          "num":  "3656949",
+                          "category":  "Framework"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3673658",
+                          "title":  "Prerequisites for 3656949",
+                          "num":  "3673658",
+                          "category":  "Prerequisito"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3596914",
+                          "title":  "Electronic Communication Integration Framework: Prereq. for 3596911",
+                          "num":  "3596914",
+                          "category":  "Prerequisito"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3596911",
+                          "title":  "Enhancements to Communication with DRC cloud edition",
+                          "num":  "3596911",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3642502",
+                          "title":  "Integration with DRC cloud edition: Enhancements to Integration",
+                          "num":  "3642502",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3385482",
+                          "title":  "Integration with SAP DRC, cloud edition",
+                          "num":  "3385482",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3442326",
+                          "title":  "Integration with DRC cloud edition: Additional Features",
+                          "num":  "3442326",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3549679",
+                          "title":  "Integration with DRC cloud edition: Improved Error Message Handling",
+                          "num":  "3549679",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3668355",
+                          "title":  "Correction for integration with DRC cloud edition",
+                          "num":  "3668355",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3616236",
+                          "title":  "Correction for Follow-Up Actions",
+                          "num":  "3616236",
+                          "category":  "Correzione"
+                      }
+                  ]
+    },
+    {
+        "name":  "Germany",
+        "name_it":  "Germania",
+        "slug":  "germania",
+        "b2b_status":  "Ricezione obbligatoria dal 2025; invio 2027-2028",
+        "deployment":  "S/4HANA on-prem / ECC",
+        "central_note":  "2690949",
+        "central_title":  "Electronic Document Processing for Germany: Implementation Overview",
+        "component":  "CA-GTF-CSC-EDO-DE",
+        "framework":  "2134248",
+        "kba":  "2783795 (Peppol overview)",
+        "has_solution":  true,
+        "notes_count":  25,
+        "customizing":  {
+                            "kba":  "- (config nelle note; 2783795 Peppol)",
+                            "note_cust":  "Customizing incluso nelle note EU eInvoicing",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
+                            "central":  "2690949 - Config Guide allegata",
+                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC Germany)"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2783795",
+                          "title":  "",
+                          "num":  "2783795",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2690993",
+                          "title":  "",
+                          "num":  "2690993",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2613785",
+                          "title":  "",
+                          "num":  "2613785",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2819598",
+                          "title":  "",
+                          "num":  "2819598",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2835992",
+                          "title":  "",
+                          "num":  "2835992",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2805582",
+                          "title":  "",
+                          "num":  "2805582",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2846926",
+                          "title":  "",
+                          "num":  "2846926",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2923353",
+                          "title":  "",
+                          "num":  "2923353",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2994622",
+                          "title":  "",
+                          "num":  "2994622",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2994909",
+                          "title":  "",
+                          "num":  "2994909",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2999273",
+                          "title":  "",
+                          "num":  "2999273",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3013946",
+                          "title":  "",
+                          "num":  "3013946",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3118260",
+                          "title":  "",
+                          "num":  "3118260",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3217574",
+                          "title":  "",
+                          "num":  "3217574",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3346192",
+                          "title":  "",
+                          "num":  "3346192",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3170495",
+                          "title":  "",
+                          "num":  "3170495",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2949379",
+                          "title":  "",
+                          "num":  "2949379",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3141469",
+                          "title":  "",
+                          "num":  "3141469",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3221882",
+                          "title":  "",
+                          "num":  "3221882",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3360733",
+                          "title":  "",
+                          "num":  "3360733",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3391010",
+                          "title":  "",
+                          "num":  "3391010",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3423295",
+                          "title":  "",
+                          "num":  "3423295",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3520567",
+                          "title":  "",
+                          "num":  "3520567",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3061620",
+                          "title":  "",
+                          "num":  "3061620",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2854966",
+                          "title":  "",
+                          "num":  "2854966",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Spain",
+        "name_it":  "Spagna",
+        "slug":  "spagna",
+        "b2b_status":  "Obbligatorio 2027/28 (B2B in arrivo)",
+        "deployment":  "B2B: soluzione SAP non ancora rilasciata",
+        "central_note":  "2940398 (SII) / 2735302 (B2G)",
+        "central_title":  "EDP for Spain with SII / Public Entities: Implementation Overview",
+        "component":  "CA-GTF-CSC-EDO-ES",
+        "framework":  "2134248 / 3403461",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  4,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "SII/B2G customizing nelle note; B2B non ancora rilasciato",
+                            "img":  "SPRO \u003e ... \u003e eDocument",
+                            "central":  "2940398 (SII) / 2735302 (B2G) - Config Guide allegata",
+                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC Spain)"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/3403461",
+                          "title":  "",
+                          "num":  "3403461",
+                          "category":  "Framework"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2134248",
+                          "title":  "",
+                          "num":  "2134248",
+                          "category":  "Framework"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3127585",
+                          "title":  "",
+                          "num":  "3127585",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2530509",
+                          "title":  "",
+                          "num":  "2530509",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Belgium",
+        "name_it":  "Belgio",
+        "slug":  "belgio",
+        "b2b_status":  "Obbligatorio dal 01/2026",
+        "deployment":  "S/4HANA on-prem / ECC",
+        "central_note":  "2424886",
+        "central_title":  "Electronic Document Processing for Belgium: Implementation Overview",
+        "component":  "CA-GTF-CSC-EDO-BE",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  19,
+        "customizing":  {
+                            "kba":  "- (Peppol)",
+                            "note_cust":  "Customizing incluso nelle note Peppol/B2B",
+                            "img":  "SPRO \u003e ... \u003e eDocument",
+                            "central":  "2424886 - Config Guide allegata",
+                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC Belgium)"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2783795",
+                          "title":  "",
+                          "num":  "2783795",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2423502",
+                          "title":  "",
+                          "num":  "2423502",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2383536",
+                          "title":  "",
+                          "num":  "2383536",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2819608",
+                          "title":  "",
+                          "num":  "2819608",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2805626",
+                          "title":  "",
+                          "num":  "2805626",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2864578",
+                          "title":  "",
+                          "num":  "2864578",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3064880",
+                          "title":  "",
+                          "num":  "3064880",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2994910",
+                          "title":  "",
+                          "num":  "2994910",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3118676",
+                          "title":  "",
+                          "num":  "3118676",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3182187",
+                          "title":  "",
+                          "num":  "3182187",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2949379",
+                          "title":  "",
+                          "num":  "2949379",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3141469",
+                          "title":  "",
+                          "num":  "3141469",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3260083",
+                          "title":  "",
+                          "num":  "3260083",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3351785",
+                          "title":  "",
+                          "num":  "3351785",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3605436",
+                          "title":  "",
+                          "num":  "3605436",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3629834",
+                          "title":  "",
+                          "num":  "3629834",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3737980",
+                          "title":  "",
+                          "num":  "3737980",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3112210",
+                          "title":  "",
+                          "num":  "3112210",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2994160",
+                          "title":  "",
+                          "num":  "2994160",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Poland",
+        "name_it":  "Polonia",
+        "slug":  "polonia",
+        "b2b_status":  "Obbligatorio (KSeF)",
+        "deployment":  "S/4HANA on-prem / ECC",
+        "central_note":  "3279206",
+        "central_title":  "EDP for Poland - KSeF: Implementation Overview",
+        "component":  "CA-GTF-CSC-EDO-PL",
+        "framework":  "2134248",
+        "kba":  "3346323",
+        "has_solution":  true,
+        "notes_count":  15,
+        "customizing":  {
+                            "kba":  "3346323 - eDocument Poland B2B (KSeF) Troubleshooting Guide (KBA)",
+                            "note_cust":  "3303838 / 3303839 - Enablement Manage Electronic Documents; AIF customizing incluso nelle note KSeF",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument (dettaglio nella Config Guide allegata a 3279206)",
+                            "central":  "3279206 - Configuration Guide allegata alla nota",
+                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC/eDocument Poland)"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2134248",
+                          "title":  "Electronic Document Processing Framework - Installation Overview",
+                          "num":  "2134248",
+                          "category":  "Framework"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3279254",
+                          "title":  "KSeF: Consumer Proxy Generation",
+                          "num":  "3279254",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3279255",
+                          "title":  "KSeF: DDIC Objects - Prerequisite for 3279256",
+                          "num":  "3279255",
+                          "category":  "Prerequisito"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3279256",
+                          "title":  "KSeF: Mapping Enablement and Code Correction",
+                          "num":  "3279256",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3301912",
+                          "title":  "KSeF: Mapping and Code Correction I",
+                          "num":  "3301912",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3303838",
+                          "title":  "KSeF: Enablement in Manage Electronic Documents App",
+                          "num":  "3303838",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3303839",
+                          "title":  "KSeF: Manage Electronic Documents (solo S/4HANA)",
+                          "num":  "3303839",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3314175",
+                          "title":  "KSeF: Correction of eDocument Interface \u0026 Message Type",
+                          "num":  "3314175",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3256293",
+                          "title":  "KSeF: Process Documentation",
+                          "num":  "3256293",
+                          "category":  "Documentazione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3320855",
+                          "title":  "KSeF: Human Readable Format (HTML) View",
+                          "num":  "3320855",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3353473",
+                          "title":  "KSeF: DDIC Objects - Prerequisite for 3347750",
+                          "num":  "3353473",
+                          "category":  "Prerequisito"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3347750",
+                          "title":  "KSeF: Self-Billing, Mapping and Code Correction II",
+                          "num":  "3347750",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3363323",
+                          "title":  "Self-Billing Corrections I",
+                          "num":  "3363323",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3346323",
+                          "title":  "eDocument Poland B2B (KSeF) Troubleshooting Guide",
+                          "num":  "3346323",
+                          "category":  "KBA"
+                      },
+                      {
+                          "url":  "",
+                          "title":  "Blocco FA(2) Schema come prerequisito di FA(3): vedi elenco in nota 3279206",
+                          "num":  "-",
+                          "category":  "Prerequisito (FA2)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Romania",
+        "name_it":  "Romania",
+        "slug":  "romania",
+        "b2b_status":  "Obbligatorio (e-Factura)",
+        "deployment":  "S/4HANA on-prem / ECC",
+        "central_note":  "3262931",
+        "central_title":  "EDP for Romania: Implementation Overview",
+        "component":  "CA-GTF-CSC-EDO-RO",
+        "framework":  "2134248",
+        "kba":  "3405142",
+        "has_solution":  true,
+        "notes_count":  61,
+        "customizing":  {
+                            "kba":  "3405142 - EDP Romania Troubleshooting Guide (KBA)",
+                            "note_cust":  "Customizing incluso nelle note della tabella Solution Enablement (proxy/DDIC/mapping); 3454302 - Enabling DRC External Document",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument (dettaglio nella Config Guide allegata a 3262931)",
+                            "central":  "3262931 - Configuration Guide allegata alla nota",
+                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC/eDocument Romania)"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2134248",
+                          "title":  "Electronic Document Processing Framework - Installation Overview",
+                          "num":  "2134248",
+                          "category":  "Framework"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3403461",
+                          "title":  "Electronic Document Processing Framework (35)",
+                          "num":  "3403461",
+                          "category":  "Framework"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3241917",
+                          "title":  "Electronic Document Processing Framework (32)",
+                          "num":  "3241917",
+                          "category":  "Framework"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3291149",
+                          "title":  "eInvoice - Prerequisites for 3221581",
+                          "num":  "3291149",
+                          "category":  "Prerequisito"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3221581",
+                          "title":  "eInvoice - Base class changes",
+                          "num":  "3221581",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3364084",
+                          "title":  "Correction to 3221581",
+                          "num":  "3364084",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3243022",
+                          "title":  "eInvoice - Proxy changes",
+                          "num":  "3243022",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3233530",
+                          "title":  "eInvoice - Mapping changes",
+                          "num":  "3233530",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3321916",
+                          "title":  "Mapping Enhancements for Electronic Invoices",
+                          "num":  "3321916",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3397161",
+                          "title":  "Proxy for Electronic Credit Memos",
+                          "num":  "3397161",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3397144",
+                          "title":  "Implementation for Electronic Credit Memos",
+                          "num":  "3397144",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3410238",
+                          "title":  "Proxy for Electronic Supplier Invoices",
+                          "num":  "3410238",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3410231",
+                          "title":  "Data Dictionary for Electronic Supplier Invoices",
+                          "num":  "3410231",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3410240",
+                          "title":  "Implementation for Electronic Supplier Invoices",
+                          "num":  "3410240",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3418988",
+                          "title":  "Mapping Enhancements for Electronic Invoices - II",
+                          "num":  "3418988",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3442616",
+                          "title":  "Plants Abroad, Down Payment, One Time Customer, Commodity",
+                          "num":  "3442616",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3446217",
+                          "title":  "Enabling Resubmit Action for Rejected Document",
+                          "num":  "3446217",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3464299",
+                          "title":  "Package for enhanced proxies Customer/Vendor",
+                          "num":  "3464299",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3464300",
+                          "title":  "Enhanced proxies of Customer/Vendor Invoice",
+                          "num":  "3464300",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3464301",
+                          "title":  "Mapping enhancements for enhanced proxies",
+                          "num":  "3464301",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3471508",
+                          "title":  "Integrating with Incoming Automation Solution",
+                          "num":  "3471508",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3472110",
+                          "title":  "Enhanced eDocument Type Determination for Billing",
+                          "num":  "3472110",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3474644",
+                          "title":  "Proxy for Electronic Transport Registration",
+                          "num":  "3474644",
+                          "category":  "Soluzione (e-Transport)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3481082",
+                          "title":  "Prerequisite of 3474681 (e-Transport)",
+                          "num":  "3481082",
+                          "category":  "Prerequisito"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3474681",
+                          "title":  "Data Dictionary for Electronic Transport Registration",
+                          "num":  "3474681",
+                          "category":  "Soluzione (e-Transport)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3484718",
+                          "title":  "Prerequisite of 3475263 (e-Transport)",
+                          "num":  "3484718",
+                          "category":  "Prerequisito"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3475263",
+                          "title":  "Code for Electronic Transport Registration",
+                          "num":  "3475263",
+                          "category":  "Soluzione (e-Transport)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3485299",
+                          "title":  "Prerequisite of 3454302 (APPL ONLY)",
+                          "num":  "3485299",
+                          "category":  "Prerequisito"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3454302",
+                          "title":  "Enabling DRC External Document",
+                          "num":  "3454302",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3477184",
+                          "title":  "Proxy for Electronic Self Billing and XML to PDF",
+                          "num":  "3477184",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3478175",
+                          "title":  "Data Dictionary for Electronic Self Billing",
+                          "num":  "3478175",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3477183",
+                          "title":  "Code for Electronic Self Billing and XML to PDF",
+                          "num":  "3477183",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3489607",
+                          "title":  "Mapping Enhancements eInvoices and eTransport",
+                          "num":  "3489607",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3499447",
+                          "title":  "eTransport - Post Goods Issue from Delivery Doc",
+                          "num":  "3499447",
+                          "category":  "Soluzione (e-Transport)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3496721",
+                          "title":  "Correction for Missing Invoices in Incoming Solution",
+                          "num":  "3496721",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3489544",
+                          "title":  "Due Date calculation Correction",
+                          "num":  "3489544",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3506800",
+                          "title":  "Mapping Enhancements for Electronic Transport Registration",
+                          "num":  "3506800",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3505560",
+                          "title":  "Mapping Enhancements for Electronic Invoices - V",
+                          "num":  "3505560",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3520543",
+                          "title":  "Export Scenario in Electronic Customer Invoices",
+                          "num":  "3520543",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3519184",
+                          "title":  "Tax Amount Missing - Non-RON Currency",
+                          "num":  "3519184",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3520250",
+                          "title":  "Mapping Enhancements eInvoices \u0026 eTransport",
+                          "num":  "3520250",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3533976",
+                          "title":  "B2C Scenario DDIC Changes",
+                          "num":  "3533976",
+                          "category":  "Soluzione (B2C)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3532307",
+                          "title":  "Implementation of B2C Scenario",
+                          "num":  "3532307",
+                          "category":  "Soluzione (B2C)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3547549",
+                          "title":  "Data Dictionary Objects for Shipment Scenario (eTransport)",
+                          "num":  "3547549",
+                          "category":  "Soluzione (e-Transport)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3546462",
+                          "title":  "Shipment Scenario in Electronic Transport Registration",
+                          "num":  "3546462",
+                          "category":  "Soluzione (e-Transport)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3554056",
+                          "title":  "Enabling Intercompany Scenario (eTransport)",
+                          "num":  "3554056",
+                          "category":  "Soluzione (e-Transport)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3555086",
+                          "title":  "Enhancements for Electronic Invoices - VII",
+                          "num":  "3555086",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3568475",
+                          "title":  "Interface Log Icon Fix",
+                          "num":  "3568475",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3584530",
+                          "title":  "API Proxy Enablement for Customer Invoices (B2C)",
+                          "num":  "3584530",
+                          "category":  "Soluzione (B2C)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3581080",
+                          "title":  "API Mapping Enablement for Customer Invoices (B2C)",
+                          "num":  "3581080",
+                          "category":  "Soluzione (B2C)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3572782",
+                          "title":  "Correction for Commodity Code Determination",
+                          "num":  "3572782",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3573956",
+                          "title":  "Fixes and Corrections",
+                          "num":  "3573956",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3594040",
+                          "title":  "Manage Electronic Documents Enablement",
+                          "num":  "3594040",
+                          "category":  "Soluzione principale"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3608879",
+                          "title":  "DRC Romania Proxy - Message functionality",
+                          "num":  "3608879",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3605310",
+                          "title":  "Inbound Message Handler Messaging",
+                          "num":  "3605310",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3730982",
+                          "title":  "Inbound Message Handler Messaging Correction I",
+                          "num":  "3730982",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3623140",
+                          "title":  "CIF Number Correction",
+                          "num":  "3623140",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3631975",
+                          "title":  "Export option corrections OP",
+                          "num":  "3631975",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3633914",
+                          "title":  "Credit Memo Corrections",
+                          "num":  "3633914",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3751240",
+                          "title":  "PDF Attachment VIM Correction",
+                          "num":  "3751240",
+                          "category":  "Correzione"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3761513",
+                          "title":  "EDP and Electronic Transport - correzione",
+                          "num":  "3761513",
+                          "category":  "Correzione"
+                      }
+                  ]
+    },
+    {
+        "name":  "Croatia",
+        "name_it":  "Croazia",
+        "slug":  "croazia",
+        "b2b_status":  "Obbligatorio dal 01/2026",
+        "deployment":  "S/4HANA on-prem / ECC",
+        "central_note":  "3499841",
+        "central_title":  "EDP for Croatia: Implementation Overview",
+        "component":  "CA-GTF-CSC-EDO-HR",
+        "framework":  "2134248",
+        "kba":  "3688198",
+        "has_solution":  true,
+        "notes_count":  42,
+        "customizing":  {
+                            "kba":  "3688198 - Troubleshooting Guide",
+                            "note_cust":  "Customizing incluso nelle note (proxy/DDIC/mapping)",
+                            "img":  "SPRO \u003e ... \u003e eDocument",
+                            "central":  "3499841 - Config Guide allegata",
+                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC Croatia)"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/3672304",
+                          "title":  "",
+                          "num":  "3672304",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3523126",
+                          "title":  "",
+                          "num":  "3523126",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3514700",
+                          "title":  "",
+                          "num":  "3514700",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3522987",
+                          "title":  "",
+                          "num":  "3522987",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3514701",
+                          "title":  "",
+                          "num":  "3514701",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3596227",
+                          "title":  "",
+                          "num":  "3596227",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3622819",
+                          "title":  "",
+                          "num":  "3622819",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3674436",
+                          "title":  "",
+                          "num":  "3674436",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3629300",
+                          "title":  "",
+                          "num":  "3629300",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3652910",
+                          "title":  "",
+                          "num":  "3652910",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3619156",
+                          "title":  "",
+                          "num":  "3619156",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3685549",
+                          "title":  "",
+                          "num":  "3685549",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3686222",
+                          "title":  "",
+                          "num":  "3686222",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3693215",
+                          "title":  "",
+                          "num":  "3693215",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3694284",
+                          "title":  "",
+                          "num":  "3694284",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3692104",
+                          "title":  "",
+                          "num":  "3692104",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3692675",
+                          "title":  "",
+                          "num":  "3692675",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3692242",
+                          "title":  "",
+                          "num":  "3692242",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3691551",
+                          "title":  "",
+                          "num":  "3691551",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3698031",
+                          "title":  "",
+                          "num":  "3698031",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3701416",
+                          "title":  "",
+                          "num":  "3701416",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3697391",
+                          "title":  "",
+                          "num":  "3697391",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3703427",
+                          "title":  "",
+                          "num":  "3703427",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3712449",
+                          "title":  "",
+                          "num":  "3712449",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3705066",
+                          "title":  "",
+                          "num":  "3705066",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3702815",
+                          "title":  "",
+                          "num":  "3702815",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3715843",
+                          "title":  "",
+                          "num":  "3715843",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3712966",
+                          "title":  "",
+                          "num":  "3712966",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3724105",
+                          "title":  "",
+                          "num":  "3724105",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3737985",
+                          "title":  "",
+                          "num":  "3737985",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3734152",
+                          "title":  "",
+                          "num":  "3734152",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3715948",
+                          "title":  "",
+                          "num":  "3715948",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3715949",
+                          "title":  "",
+                          "num":  "3715949",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3729491",
+                          "title":  "",
+                          "num":  "3729491",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3743136",
+                          "title":  "",
+                          "num":  "3743136",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3738318",
+                          "title":  "",
+                          "num":  "3738318",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3758346",
+                          "title":  "",
+                          "num":  "3758346",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3755917",
+                          "title":  "",
+                          "num":  "3755917",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3759873",
+                          "title":  "",
+                          "num":  "3759873",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3769710",
+                          "title":  "",
+                          "num":  "3769710",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2530509",
+                          "title":  "",
+                          "num":  "2530509",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3677702",
+                          "title":  "",
+                          "num":  "3677702",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Norway",
+        "name_it":  "Norvegia",
+        "slug":  "norvegia",
+        "b2b_status":  "Obbligatorio 2027 (invio) / 2030 (ricezione)",
+        "deployment":  "S/4HANA on-prem / ECC",
+        "central_note":  "2810746",
+        "central_title":  "EDP for Norway: Implementation Overview",
+        "component":  "CA-GTF-CSC-EDO-NO",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  15,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nelle note",
+                            "img":  "SPRO \u003e ... \u003e eDocument",
+                            "central":  "2810746 - Config Guide allegata",
+                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC Norway)"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2783795",
+                          "title":  "",
+                          "num":  "2783795",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2832200",
+                          "title":  "",
+                          "num":  "2832200",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2792581",
+                          "title":  "",
+                          "num":  "2792581",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2832760",
+                          "title":  "",
+                          "num":  "2832760",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2891530",
+                          "title":  "",
+                          "num":  "2891530",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2931981",
+                          "title":  "",
+                          "num":  "2931981",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2996870",
+                          "title":  "",
+                          "num":  "2996870",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3128860",
+                          "title":  "",
+                          "num":  "3128860",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3189561",
+                          "title":  "",
+                          "num":  "3189561",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2949379",
+                          "title":  "",
+                          "num":  "2949379",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3141469",
+                          "title":  "",
+                          "num":  "3141469",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3201444",
+                          "title":  "",
+                          "num":  "3201444",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3201381",
+                          "title":  "",
+                          "num":  "3201381",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3351831",
+                          "title":  "",
+                          "num":  "3351831",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3093227",
+                          "title":  "",
+                          "num":  "3093227",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Slovakia",
+        "name_it":  "Slovacchia",
+        "slug":  "slovacchia",
+        "b2b_status":  "Obbligatorio dal 01/2027",
+        "deployment":  "S/4HANA on-prem / ECC",
+        "central_note":  "3363939",
+        "central_title":  "EDP for Slovakia: Implementation Overview",
+        "component":  "CA-GTF-CSC-EDO-SK",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  7,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nelle note",
+                            "img":  "SPRO \u003e ... \u003e eDocument",
+                            "central":  "3363939 - Config Guide allegata",
+                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC Slovakia)"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2134248",
+                          "title":  "",
+                          "num":  "2134248",
+                          "category":  "Framework"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2853195",
+                          "title":  "",
+                          "num":  "2853195",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3364424",
+                          "title":  "",
+                          "num":  "3364424",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3354893",
+                          "title":  "",
+                          "num":  "3354893",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3354888",
+                          "title":  "",
+                          "num":  "3354888",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3354952",
+                          "title":  "",
+                          "num":  "3354952",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3196322",
+                          "title":  "",
+                          "num":  "3196322",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      }
+                  ]
+    },
+    {
+        "name":  "India",
+        "name_it":  "India",
+        "slug":  "india",
+        "b2b_status":  "Obbligatorio (soglia fatturato)",
+        "deployment":  "S/4HANA on-prem / ECC",
+        "central_note":  "2884058 (on-prem) / 3569761 (Cloud)",
+        "central_title":  "EDP for India: E-Invoice - Implementation Overview",
+        "component":  "CA-GTF-CSC-EDO-IN",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  16,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing IRN/e-way incluso nelle note",
+                            "img":  "SPRO \u003e ... \u003e eDocument",
+                            "central":  "2884058 - Config Guide allegata",
+                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC India)"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2410917",
+                          "title":  "",
+                          "num":  "2410917",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2410105",
+                          "title":  "",
+                          "num":  "2410105",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3097156",
+                          "title":  "",
+                          "num":  "3097156",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3068968",
+                          "title":  "",
+                          "num":  "3068968",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3036976",
+                          "title":  "",
+                          "num":  "3036976",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3048673",
+                          "title":  "",
+                          "num":  "3048673",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3050272",
+                          "title":  "",
+                          "num":  "3050272",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3007979",
+                          "title":  "",
+                          "num":  "3007979",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3020984",
+                          "title":  "",
+                          "num":  "3020984",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3029343",
+                          "title":  "",
+                          "num":  "3029343",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3003891",
+                          "title":  "",
+                          "num":  "3003891",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2986200",
+                          "title":  "",
+                          "num":  "2986200",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2980638",
+                          "title":  "",
+                          "num":  "2980638",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2976209",
+                          "title":  "",
+                          "num":  "2976209",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2977488",
+                          "title":  "",
+                          "num":  "2977488",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2530509",
+                          "title":  "",
+                          "num":  "2530509",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Mexico",
+        "name_it":  "Messico",
+        "slug":  "messico",
+        "b2b_status":  "Obbligatorio (CFDI 4.0)",
+        "deployment":  "S/4HANA on-prem / ECC",
+        "central_note":  "2565791 (S/4HANA) / 2526771 (ERP)",
+        "central_title":  "eDocument Mexico: Overview Note",
+        "component":  "CA-GTF-CSC-EDO-MX",
+        "framework":  "2134248",
+        "kba":  "2523263",
+        "has_solution":  true,
+        "notes_count":  120,
+        "customizing":  {
+                            "kba":  "2523263 - Troubleshooting Guide",
+                            "note_cust":  "Customizing CFDI incluso nelle note; 2170013 IMG",
+                            "img":  "SPRO \u003e ... \u003e eDocument",
+                            "central":  "2565791 (S/4) / 2526771 (ERP) - Config Guide allegata",
+                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC Mexico)"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2378414",
+                          "title":  "",
+                          "num":  "2378414",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2343822",
+                          "title":  "",
+                          "num":  "2343822",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2853195",
+                          "title":  "",
+                          "num":  "2853195",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2676322",
+                          "title":  "",
+                          "num":  "2676322",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2891021",
+                          "title":  "",
+                          "num":  "2891021",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2828579",
+                          "title":  "",
+                          "num":  "2828579",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2951097",
+                          "title":  "",
+                          "num":  "2951097",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2955481",
+                          "title":  "",
+                          "num":  "2955481",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2941078",
+                          "title":  "",
+                          "num":  "2941078",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2912075",
+                          "title":  "",
+                          "num":  "2912075",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2941080",
+                          "title":  "",
+                          "num":  "2941080",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3036685",
+                          "title":  "",
+                          "num":  "3036685",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3066773",
+                          "title":  "",
+                          "num":  "3066773",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3045251",
+                          "title":  "",
+                          "num":  "3045251",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3004628",
+                          "title":  "",
+                          "num":  "3004628",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3088136",
+                          "title":  "",
+                          "num":  "3088136",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3104223",
+                          "title":  "",
+                          "num":  "3104223",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3191963",
+                          "title":  "",
+                          "num":  "3191963",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3259317",
+                          "title":  "",
+                          "num":  "3259317",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3226842",
+                          "title":  "",
+                          "num":  "3226842",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3299892",
+                          "title":  "",
+                          "num":  "3299892",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3200164",
+                          "title":  "",
+                          "num":  "3200164",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3333836",
+                          "title":  "",
+                          "num":  "3333836",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3440379",
+                          "title":  "",
+                          "num":  "3440379",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3503069",
+                          "title":  "",
+                          "num":  "3503069",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3537819",
+                          "title":  "",
+                          "num":  "3537819",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3781530",
+                          "title":  "",
+                          "num":  "3781530",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3780430",
+                          "title":  "",
+                          "num":  "3780430",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3780426",
+                          "title":  "",
+                          "num":  "3780426",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2526782",
+                          "title":  "",
+                          "num":  "2526782",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2511902",
+                          "title":  "",
+                          "num":  "2511902",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2528188",
+                          "title":  "",
+                          "num":  "2528188",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2561160",
+                          "title":  "",
+                          "num":  "2561160",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2535645",
+                          "title":  "",
+                          "num":  "2535645",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2535201",
+                          "title":  "",
+                          "num":  "2535201",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2585271",
+                          "title":  "",
+                          "num":  "2585271",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2824830",
+                          "title":  "",
+                          "num":  "2824830",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2818148",
+                          "title":  "",
+                          "num":  "2818148",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2824619",
+                          "title":  "",
+                          "num":  "2824619",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2824823",
+                          "title":  "",
+                          "num":  "2824823",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2885105",
+                          "title":  "",
+                          "num":  "2885105",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2908396",
+                          "title":  "",
+                          "num":  "2908396",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2906162",
+                          "title":  "",
+                          "num":  "2906162",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3017127",
+                          "title":  "",
+                          "num":  "3017127",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3075628",
+                          "title":  "",
+                          "num":  "3075628",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3108178",
+                          "title":  "",
+                          "num":  "3108178",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3149921",
+                          "title":  "",
+                          "num":  "3149921",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3149917",
+                          "title":  "",
+                          "num":  "3149917",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3152160",
+                          "title":  "",
+                          "num":  "3152160",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3152003",
+                          "title":  "",
+                          "num":  "3152003",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3155492",
+                          "title":  "",
+                          "num":  "3155492",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3155431",
+                          "title":  "",
+                          "num":  "3155431",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3167389",
+                          "title":  "",
+                          "num":  "3167389",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3167387",
+                          "title":  "",
+                          "num":  "3167387",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3167424",
+                          "title":  "",
+                          "num":  "3167424",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3225366",
+                          "title":  "",
+                          "num":  "3225366",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2533038",
+                          "title":  "",
+                          "num":  "2533038",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2561190",
+                          "title":  "",
+                          "num":  "2561190",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2533427",
+                          "title":  "",
+                          "num":  "2533427",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2559486",
+                          "title":  "",
+                          "num":  "2559486",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2565821",
+                          "title":  "",
+                          "num":  "2565821",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2565851",
+                          "title":  "",
+                          "num":  "2565851",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2574070",
+                          "title":  "",
+                          "num":  "2574070",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2575584",
+                          "title":  "",
+                          "num":  "2575584",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2575397",
+                          "title":  "",
+                          "num":  "2575397",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2593892",
+                          "title":  "",
+                          "num":  "2593892",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2625420",
+                          "title":  "",
+                          "num":  "2625420",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2591882",
+                          "title":  "",
+                          "num":  "2591882",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2627328",
+                          "title":  "",
+                          "num":  "2627328",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2609072",
+                          "title":  "",
+                          "num":  "2609072",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2642208",
+                          "title":  "",
+                          "num":  "2642208",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2661074",
+                          "title":  "",
+                          "num":  "2661074",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2825133",
+                          "title":  "",
+                          "num":  "2825133",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2825023",
+                          "title":  "",
+                          "num":  "2825023",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2818391",
+                          "title":  "",
+                          "num":  "2818391",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2859690",
+                          "title":  "",
+                          "num":  "2859690",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2806143",
+                          "title":  "",
+                          "num":  "2806143",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2800278",
+                          "title":  "",
+                          "num":  "2800278",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2906148",
+                          "title":  "",
+                          "num":  "2906148",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2914729",
+                          "title":  "",
+                          "num":  "2914729",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3003904",
+                          "title":  "",
+                          "num":  "3003904",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3088135",
+                          "title":  "",
+                          "num":  "3088135",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3062743",
+                          "title":  "",
+                          "num":  "3062743",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3105913",
+                          "title":  "",
+                          "num":  "3105913",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3115146",
+                          "title":  "",
+                          "num":  "3115146",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3109625",
+                          "title":  "",
+                          "num":  "3109625",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3134917",
+                          "title":  "",
+                          "num":  "3134917",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3131470",
+                          "title":  "",
+                          "num":  "3131470",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3132501",
+                          "title":  "",
+                          "num":  "3132501",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3151738",
+                          "title":  "",
+                          "num":  "3151738",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3153284",
+                          "title":  "",
+                          "num":  "3153284",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3155584",
+                          "title":  "",
+                          "num":  "3155584",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3170078",
+                          "title":  "",
+                          "num":  "3170078",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3214667",
+                          "title":  "",
+                          "num":  "3214667",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3350779",
+                          "title":  "",
+                          "num":  "3350779",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3414327",
+                          "title":  "",
+                          "num":  "3414327",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3420766",
+                          "title":  "",
+                          "num":  "3420766",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3352113",
+                          "title":  "",
+                          "num":  "3352113",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3442818",
+                          "title":  "",
+                          "num":  "3442818",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3470961",
+                          "title":  "",
+                          "num":  "3470961",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3434701",
+                          "title":  "",
+                          "num":  "3434701",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3226834",
+                          "title":  "",
+                          "num":  "3226834",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3203831",
+                          "title":  "",
+                          "num":  "3203831",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3446667",
+                          "title":  "",
+                          "num":  "3446667",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3405171",
+                          "title":  "",
+                          "num":  "3405171",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3496601",
+                          "title":  "",
+                          "num":  "3496601",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3496557",
+                          "title":  "",
+                          "num":  "3496557",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3652175",
+                          "title":  "",
+                          "num":  "3652175",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3658295",
+                          "title":  "",
+                          "num":  "3658295",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3521007",
+                          "title":  "",
+                          "num":  "3521007",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3415102",
+                          "title":  "",
+                          "num":  "3415102",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3418478",
+                          "title":  "",
+                          "num":  "3418478",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3650018",
+                          "title":  "",
+                          "num":  "3650018",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3548362",
+                          "title":  "",
+                          "num":  "3548362",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3762382",
+                          "title":  "",
+                          "num":  "3762382",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3710225",
+                          "title":  "",
+                          "num":  "3710225",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2170013",
+                          "title":  "",
+                          "num":  "2170013",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2876151",
+                          "title":  "",
+                          "num":  "2876151",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3779761",
+                          "title":  "",
+                          "num":  "3779761",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3358712",
+                          "title":  "",
+                          "num":  "3358712",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Malaysia",
+        "name_it":  "Malesia",
+        "slug":  "malesia",
+        "b2b_status":  "Obbligatorio (graduale, MyInvois)",
+        "deployment":  "S/4HANA on-prem / ECC",
+        "central_note":  "3456090",
+        "central_title":  "Electronic Invoice Processing for Malaysia: Implementation Overview",
+        "component":  "CA-GTF-CSC-EDO-MY",
+        "framework":  "2134248 / 3403461",
+        "kba":  "3487313",
+        "has_solution":  true,
+        "notes_count":  97,
+        "customizing":  {
+                            "kba":  "3487313 - Troubleshooting Guide; 3622847 FAQ",
+                            "note_cust":  "Business Configuration nelle note MyInvois",
+                            "img":  "SPRO \u003e ... \u003e eDocument",
+                            "central":  "3456090 - Config Guide + Checklist 3603740",
+                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC Malaysia)"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/3403461",
+                          "title":  "",
+                          "num":  "3403461",
+                          "category":  "Framework"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2134248",
+                          "title":  "",
+                          "num":  "2134248",
+                          "category":  "Framework"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3366731",
+                          "title":  "",
+                          "num":  "3366731",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3390734",
+                          "title":  "",
+                          "num":  "3390734",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3399479",
+                          "title":  "",
+                          "num":  "3399479",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3408375",
+                          "title":  "",
+                          "num":  "3408375",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3385482",
+                          "title":  "",
+                          "num":  "3385482",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3442326",
+                          "title":  "",
+                          "num":  "3442326",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3423606",
+                          "title":  "",
+                          "num":  "3423606",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3408477",
+                          "title":  "",
+                          "num":  "3408477",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3459968",
+                          "title":  "",
+                          "num":  "3459968",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3454518",
+                          "title":  "",
+                          "num":  "3454518",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3446100",
+                          "title":  "",
+                          "num":  "3446100",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3454614",
+                          "title":  "",
+                          "num":  "3454614",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3453390",
+                          "title":  "",
+                          "num":  "3453390",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3454606",
+                          "title":  "",
+                          "num":  "3454606",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3455168",
+                          "title":  "",
+                          "num":  "3455168",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3455323",
+                          "title":  "",
+                          "num":  "3455323",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3458611",
+                          "title":  "",
+                          "num":  "3458611",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3458612",
+                          "title":  "",
+                          "num":  "3458612",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3467982",
+                          "title":  "",
+                          "num":  "3467982",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3469295",
+                          "title":  "",
+                          "num":  "3469295",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3475550",
+                          "title":  "",
+                          "num":  "3475550",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3480966",
+                          "title":  "",
+                          "num":  "3480966",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3479521",
+                          "title":  "",
+                          "num":  "3479521",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3479612",
+                          "title":  "",
+                          "num":  "3479612",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3471394",
+                          "title":  "",
+                          "num":  "3471394",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3480935",
+                          "title":  "",
+                          "num":  "3480935",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3478694",
+                          "title":  "",
+                          "num":  "3478694",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3487081",
+                          "title":  "",
+                          "num":  "3487081",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3485026",
+                          "title":  "",
+                          "num":  "3485026",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3481492",
+                          "title":  "",
+                          "num":  "3481492",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3481491",
+                          "title":  "",
+                          "num":  "3481491",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3487911",
+                          "title":  "",
+                          "num":  "3487911",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3496530",
+                          "title":  "",
+                          "num":  "3496530",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3496562",
+                          "title":  "",
+                          "num":  "3496562",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3497965",
+                          "title":  "",
+                          "num":  "3497965",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3490848",
+                          "title":  "",
+                          "num":  "3490848",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3498897",
+                          "title":  "",
+                          "num":  "3498897",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3498572",
+                          "title":  "",
+                          "num":  "3498572",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3499984",
+                          "title":  "",
+                          "num":  "3499984",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3498902",
+                          "title":  "",
+                          "num":  "3498902",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3501393",
+                          "title":  "",
+                          "num":  "3501393",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3501360",
+                          "title":  "",
+                          "num":  "3501360",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3502533",
+                          "title":  "",
+                          "num":  "3502533",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3510880",
+                          "title":  "",
+                          "num":  "3510880",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3503329",
+                          "title":  "",
+                          "num":  "3503329",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3521693",
+                          "title":  "",
+                          "num":  "3521693",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3522229",
+                          "title":  "",
+                          "num":  "3522229",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3528227",
+                          "title":  "",
+                          "num":  "3528227",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3529307",
+                          "title":  "",
+                          "num":  "3529307",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3523359",
+                          "title":  "",
+                          "num":  "3523359",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3549367",
+                          "title":  "",
+                          "num":  "3549367",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3503276",
+                          "title":  "",
+                          "num":  "3503276",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3544518",
+                          "title":  "",
+                          "num":  "3544518",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3544558",
+                          "title":  "",
+                          "num":  "3544558",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3548531",
+                          "title":  "",
+                          "num":  "3548531",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3546267",
+                          "title":  "",
+                          "num":  "3546267",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3556547",
+                          "title":  "",
+                          "num":  "3556547",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3559296",
+                          "title":  "",
+                          "num":  "3559296",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3572482",
+                          "title":  "",
+                          "num":  "3572482",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3572659",
+                          "title":  "",
+                          "num":  "3572659",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3571977",
+                          "title":  "",
+                          "num":  "3571977",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3573738",
+                          "title":  "",
+                          "num":  "3573738",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3558842",
+                          "title":  "",
+                          "num":  "3558842",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3575388",
+                          "title":  "",
+                          "num":  "3575388",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3573034",
+                          "title":  "",
+                          "num":  "3573034",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3573212",
+                          "title":  "",
+                          "num":  "3573212",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3575354",
+                          "title":  "",
+                          "num":  "3575354",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3578153",
+                          "title":  "",
+                          "num":  "3578153",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3584408",
+                          "title":  "",
+                          "num":  "3584408",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3584295",
+                          "title":  "",
+                          "num":  "3584295",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3598039",
+                          "title":  "",
+                          "num":  "3598039",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3604159",
+                          "title":  "",
+                          "num":  "3604159",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3601278",
+                          "title":  "",
+                          "num":  "3601278",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3606298",
+                          "title":  "",
+                          "num":  "3606298",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3608880",
+                          "title":  "",
+                          "num":  "3608880",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3609867",
+                          "title":  "",
+                          "num":  "3609867",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3612289",
+                          "title":  "",
+                          "num":  "3612289",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3595053",
+                          "title":  "",
+                          "num":  "3595053",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3641996",
+                          "title":  "",
+                          "num":  "3641996",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3644595",
+                          "title":  "",
+                          "num":  "3644595",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3656623",
+                          "title":  "",
+                          "num":  "3656623",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3628952",
+                          "title":  "",
+                          "num":  "3628952",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3633523",
+                          "title":  "",
+                          "num":  "3633523",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3637261",
+                          "title":  "",
+                          "num":  "3637261",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3641354",
+                          "title":  "",
+                          "num":  "3641354",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3656598",
+                          "title":  "",
+                          "num":  "3656598",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3692400",
+                          "title":  "",
+                          "num":  "3692400",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3466649",
+                          "title":  "",
+                          "num":  "3466649",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3470391",
+                          "title":  "",
+                          "num":  "3470391",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3474819",
+                          "title":  "",
+                          "num":  "3474819",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3474690",
+                          "title":  "",
+                          "num":  "3474690",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3487313",
+                          "title":  "",
+                          "num":  "3487313",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3445944",
+                          "title":  "",
+                          "num":  "3445944",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3444777",
+                          "title":  "",
+                          "num":  "3444777",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3471967",
+                          "title":  "",
+                          "num":  "3471967",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Saudi Arabia",
+        "name_it":  "Arabia Saudita",
+        "slug":  "arabia-saudita",
+        "b2b_status":  "Obbligatorio (ZATCA Fase 2)",
+        "deployment":  "S/4HANA on-prem / ECC",
+        "central_note":  "3095262",
+        "central_title":  "SAP Document Compliance Saudi Arabia: eInvoicing",
+        "component":  "CA-GTF-CSC-EDO-SA",
+        "framework":  "-",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  58,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing ZATCA incluso nelle note; 2170013 IMG",
+                            "img":  "SPRO \u003e ... \u003e eDocument",
+                            "central":  "3095262 - Config Guide allegata",
+                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC Saudi Arabia)"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/3108133",
+                          "title":  "",
+                          "num":  "3108133",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3112475",
+                          "title":  "",
+                          "num":  "3112475",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3105238",
+                          "title":  "",
+                          "num":  "3105238",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3123617",
+                          "title":  "",
+                          "num":  "3123617",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3122399",
+                          "title":  "",
+                          "num":  "3122399",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3125817",
+                          "title":  "",
+                          "num":  "3125817",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3131332",
+                          "title":  "",
+                          "num":  "3131332",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3147199",
+                          "title":  "",
+                          "num":  "3147199",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3193376",
+                          "title":  "",
+                          "num":  "3193376",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3199682",
+                          "title":  "",
+                          "num":  "3199682",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3228293",
+                          "title":  "",
+                          "num":  "3228293",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3236978",
+                          "title":  "",
+                          "num":  "3236978",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3238708",
+                          "title":  "",
+                          "num":  "3238708",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3238709",
+                          "title":  "",
+                          "num":  "3238709",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3238710",
+                          "title":  "",
+                          "num":  "3238710",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3256545",
+                          "title":  "",
+                          "num":  "3256545",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3258406",
+                          "title":  "",
+                          "num":  "3258406",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3269459",
+                          "title":  "",
+                          "num":  "3269459",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3281328",
+                          "title":  "",
+                          "num":  "3281328",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3286114",
+                          "title":  "",
+                          "num":  "3286114",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3283587",
+                          "title":  "",
+                          "num":  "3283587",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3286006",
+                          "title":  "",
+                          "num":  "3286006",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3289481",
+                          "title":  "",
+                          "num":  "3289481",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3298711",
+                          "title":  "",
+                          "num":  "3298711",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3304537",
+                          "title":  "",
+                          "num":  "3304537",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3327259",
+                          "title":  "",
+                          "num":  "3327259",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3329205",
+                          "title":  "",
+                          "num":  "3329205",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3329140",
+                          "title":  "",
+                          "num":  "3329140",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3339152",
+                          "title":  "",
+                          "num":  "3339152",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3358366",
+                          "title":  "",
+                          "num":  "3358366",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3418158",
+                          "title":  "",
+                          "num":  "3418158",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3418249",
+                          "title":  "",
+                          "num":  "3418249",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3403848",
+                          "title":  "",
+                          "num":  "3403848",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3447265",
+                          "title":  "",
+                          "num":  "3447265",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3457480",
+                          "title":  "",
+                          "num":  "3457480",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3439802",
+                          "title":  "",
+                          "num":  "3439802",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3460323",
+                          "title":  "",
+                          "num":  "3460323",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3487773",
+                          "title":  "",
+                          "num":  "3487773",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3474208",
+                          "title":  "",
+                          "num":  "3474208",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3477504",
+                          "title":  "",
+                          "num":  "3477504",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3499873",
+                          "title":  "",
+                          "num":  "3499873",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3621131",
+                          "title":  "",
+                          "num":  "3621131",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3534615",
+                          "title":  "",
+                          "num":  "3534615",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3654993",
+                          "title":  "",
+                          "num":  "3654993",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3644532",
+                          "title":  "",
+                          "num":  "3644532",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3711583",
+                          "title":  "",
+                          "num":  "3711583",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3721605",
+                          "title":  "",
+                          "num":  "3721605",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3686747",
+                          "title":  "",
+                          "num":  "3686747",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3095273",
+                          "title":  "",
+                          "num":  "3095273",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3095264",
+                          "title":  "",
+                          "num":  "3095264",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3095265",
+                          "title":  "",
+                          "num":  "3095265",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3212218",
+                          "title":  "",
+                          "num":  "3212218",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3326938",
+                          "title":  "",
+                          "num":  "3326938",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3523812",
+                          "title":  "",
+                          "num":  "3523812",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3196322",
+                          "title":  "",
+                          "num":  "3196322",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2170013",
+                          "title":  "",
+                          "num":  "2170013",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3465473",
+                          "title":  "",
+                          "num":  "3465473",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3345488",
+                          "title":  "",
+                          "num":  "3345488",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Colombia",
+        "name_it":  "Colombia",
+        "slug":  "colombia",
+        "b2b_status":  "Obbligatorio",
+        "deployment":  "S/4HANA on-prem / ECC",
+        "central_note":  "2297487 (+2485667 Full Solution)",
+        "central_title":  "eDocument Colombia - eInvoicing",
+        "component":  "CA-GTF-CSC-EDO-CO",
+        "framework":  "-",
+        "kba":  "2805847",
+        "has_solution":  true,
+        "notes_count":  2,
+        "customizing":  {
+                            "kba":  "2805847 - Troubleshooting Guide",
+                            "note_cust":  "Customizing DIAN nelle note",
+                            "img":  "SPRO \u003e ... \u003e eDocument",
+                            "central":  "2297487 (+2485667 Full Solution) - Config Guide",
+                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC Colombia)"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2476857",
+                          "title":  "",
+                          "num":  "2476857",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2348940",
+                          "title":  "",
+                          "num":  "2348940",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      }
+                  ]
+    },
+    {
+        "name":  "United Arab Emirates",
+        "name_it":  "Emirati Arabi Uniti",
+        "slug":  "emirati-arabi-uniti",
+        "b2b_status":  "Obbligatorio dal 2027",
+        "deployment":  "S/4HANA on-prem / ECC",
+        "central_note":  "3705171",
+        "central_title":  "EDP for UAE - Peppol: Implementation Overview",
+        "component":  "CA-GTF-CSC-EDO-AE",
+        "framework":  "2134248",
+        "kba":  "3729281 (FAQ)",
+        "has_solution":  true,
+        "notes_count":  11,
+        "customizing":  {
+                            "kba":  "3729281 - FAQ",
+                            "note_cust":  "Business Configuration Set (Peppol) 3676401",
+                            "img":  "SPRO \u003e ... \u003e eDocument",
+                            "central":  "3705171 - Config Guide + 3676401 Business Config Set",
+                            "help":  "https://help.sap.com/docs/SAP_S4HANA (DRC UAE)"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2134248",
+                          "title":  "",
+                          "num":  "2134248",
+                          "category":  "Framework"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2783795",
+                          "title":  "",
+                          "num":  "2783795",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3654706",
+                          "title":  "",
+                          "num":  "3654706",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3652290",
+                          "title":  "",
+                          "num":  "3652290",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3674040",
+                          "title":  "",
+                          "num":  "3674040",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3676401",
+                          "title":  "",
+                          "num":  "3676401",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3713764",
+                          "title":  "",
+                          "num":  "3713764",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3742431",
+                          "title":  "",
+                          "num":  "3742431",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3739770",
+                          "title":  "",
+                          "num":  "3739770",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3754026",
+                          "title":  "",
+                          "num":  "3754026",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3753725",
+                          "title":  "",
+                          "num":  "3753725",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Oman",
+        "name_it":  "Oman",
+        "slug":  "oman",
+        "b2b_status":  "Obbligatorio (nascente)",
+        "deployment":  "n/d",
+        "central_note":  "-",
+        "central_title":  "Nessuna soluzione SAP eDocument dedicata (verificato lug 2026)",
+        "component":  "-",
+        "framework":  "-",
+        "kba":  "-",
+        "has_solution":  false,
+        "notes_count":  0,
+        "customizing":  null,
+        "notes":  [
+
+                  ]
+    },
+    {
+        "name":  "Philippines",
+        "name_it":  "Filippine",
+        "slug":  "filippine",
+        "b2b_status":  "Obbligatorio 2027 (grandi)",
+        "deployment":  "n/d",
+        "central_note":  "-",
+        "central_title":  "Nessuna soluzione SAP eDocument dedicata (cfr. Singapore 3591356) (verificato lug 2026)",
+        "component":  "-",
+        "framework":  "-",
+        "kba":  "-",
+        "has_solution":  false,
+        "notes_count":  0,
+        "customizing":  null,
+        "notes":  [
+
+                  ]
+    }
+]

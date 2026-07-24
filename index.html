@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Note &amp; configurazioni SAP — e-Invoicing B2B per paese</title>
+<meta name="description" content="Note SAP di implementazione (SAP Document and Reporting Compliance / eDocument) per l'e-invoicing B2B on-premise, paese per paese: nota centrale, tutte le note da installare e la guida alle attività di customizing.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+  :root{
+    --paper:#F5F5F5; --ink:#161616; --ink-soft:#5A5A5A; --line:#D6D6D6;
+    --stamp-green:#1F1F1F; --stamp-green-bg:#E4E4E4;
+    --stamp-amber:#B0151F; --stamp-amber-bg:#F6DEE0;
+    --stamp-grey:#8A8A8A; --stamp-grey-bg:#EAEAEA;
+    --accent:#C8102E; --card:#FFFFFF;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;}
+  body::before{content:"";position:fixed;inset:0;background-image:repeating-linear-gradient(0deg, rgba(27,36,33,0.018) 0px, rgba(27,36,33,0.018) 1px, transparent 1px, transparent 3px);pointer-events:none;z-index:0;}
+  a{color:inherit;}
+
+  header.masthead{position:relative;z-index:1;border-bottom:3px double var(--ink);padding:28px 5vw 18px;}
+  .masthead-top{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:18px;}
+  .masthead-top .dot{color:var(--accent);}
+  h1.title{font-family:'Fraunces',serif;font-optical-sizing:auto;font-weight:600;font-size:clamp(34px,6vw,64px);line-height:0.98;margin:0 0 10px;letter-spacing:-0.01em;}
+  h1.title em{font-style:italic;font-weight:400;color:var(--accent);}
+  .subhead{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:18px;border-top:1px solid var(--line);padding-top:14px;margin-top:18px;}
+  .subhead p{max-width:620px;font-size:15px;line-height:1.55;color:var(--ink-soft);margin:0;}
+  .meta-stamp{font-family:'IBM Plex Mono',monospace;font-size:11px;text-align:right;color:var(--ink-soft);line-height:1.6;white-space:nowrap;}
+  .meta-stamp .label{text-transform:uppercase;letter-spacing:.08em;font-size:10px;color:var(--stamp-green);}
+
+  .controls{position:sticky;top:0;z-index:50;background:var(--paper);border-bottom:1px solid var(--line);padding:14px 5vw;display:flex;gap:14px;align-items:center;flex-wrap:wrap;backdrop-filter:blur(2px);}
+  .search-wrap{position:relative;flex:1 1 260px;max-width:420px;}
+  .search-wrap input{width:100%;font-family:'IBM Plex Mono',monospace;font-size:13px;padding:10px 14px 10px 32px;border:1px solid var(--ink);background:var(--card);color:var(--ink);outline:none;border-radius:2px;}
+  .search-wrap input:focus{box-shadow:0 0 0 3px rgba(181,71,43,0.15);border-color:var(--accent);}
+  .search-wrap::before{content:"⌕";position:absolute;left:11px;top:50%;transform:translateY(-50%);font-size:15px;color:var(--ink-soft);}
+  .filter-group{display:flex;gap:6px;flex-wrap:wrap;}
+  .filter-chip{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.03em;text-transform:uppercase;padding:7px 12px;border:1px solid var(--line);background:var(--card);color:var(--ink-soft);cursor:pointer;border-radius:2px;transition:all .15s ease;user-select:none;}
+  .filter-chip:hover{border-color:var(--ink);color:var(--ink);}
+  .filter-chip.active{background:var(--ink);color:var(--paper);border-color:var(--ink);}
+  .result-count{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink-soft);margin-left:auto;white-space:nowrap;}
+
+  main{position:relative;z-index:1;padding:30px 5vw 80px;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);}
+  .country-card{background:var(--card);padding:20px 22px;cursor:pointer;transition:background .15s ease;display:flex;flex-direction:column;gap:12px;}
+  .country-card:hover{background:#fff;}
+  .country-card-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;}
+  .country-name{font-family:'Fraunces',serif;font-weight:600;font-size:21px;line-height:1.15;}
+  .country-index{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink-soft);margin-top:2px;}
+  .badge-row{display:flex;gap:6px;flex-wrap:wrap;}
+  .badge{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.03em;padding:3px 8px;border-radius:20px;white-space:nowrap;display:inline-flex;align-items:center;gap:5px;}
+  .badge::before{content:"";width:6px;height:6px;border-radius:50%;display:inline-block;}
+  .badge.mandatory{background:var(--stamp-green-bg);color:var(--stamp-green);}
+  .badge.mandatory::before{background:var(--stamp-green);}
+  .badge.planned{background:var(--stamp-amber-bg);color:var(--stamp-amber);}
+  .badge.planned::before{background:var(--stamp-amber);}
+  .badge.voluntary{background:var(--stamp-grey-bg);color:var(--stamp-grey);}
+  .badge.voluntary::before{background:var(--stamp-grey);}
+  .badge.n_a{background:#f0f0f0;color:#aaa;}
+  .badge.n_a::before{background:#ccc;}
+  .note-pill{font-family:'IBM Plex Mono',monospace;font-size:10px;padding:3px 8px;border-radius:20px;background:#EDE7DC;color:#7A5C1E;white-space:nowrap;}
+  .note-pill.zero{background:#f0f0f0;color:#aaa;}
+  .country-foot{margin-top:auto;font-size:12.5px;color:var(--ink-soft);line-height:1.5;border-top:1px solid var(--line);padding-top:10px;}
+  .country-foot b{color:var(--ink);font-weight:600;font-family:'IBM Plex Mono',monospace;}
+  .no-results{grid-column:1/-1;background:var(--card);padding:60px 20px;text-align:center;font-family:'IBM Plex Mono',monospace;color:var(--ink-soft);font-size:13px;}
+
+  .detail-overlay{position:fixed;inset:0;background:var(--paper);z-index:200;display:none;overflow-y:auto;}
+  .detail-overlay.open{display:block;}
+  .detail-header{position:sticky;top:0;background:var(--paper);border-bottom:3px double var(--ink);padding:18px 5vw;display:flex;justify-content:space-between;align-items:center;z-index:5;}
+  .back-btn{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.04em;text-transform:uppercase;background:none;border:1px solid var(--ink);padding:8px 16px;cursor:pointer;color:var(--ink);border-radius:2px;display:flex;align-items:center;gap:8px;}
+  .back-btn:hover{background:var(--ink);color:var(--paper);}
+  .detail-title{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(28px,4.5vw,46px);}
+  .detail-body{max-width:1000px;margin:0 auto;padding:36px 5vw 100px;}
+  .detail-meta{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink-soft);margin-bottom:30px;text-transform:uppercase;letter-spacing:.05em;}
+
+  .section{margin-bottom:34px;}
+  .section-head{display:flex;align-items:center;gap:12px;margin-bottom:14px;}
+  .section-num{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--ink-soft);border:1px solid var(--line);width:26px;height:26px;display:flex;align-items:center;justify-content:center;border-radius:50%;flex-shrink:0;}
+  .section-title{font-family:'Fraunces',serif;font-weight:600;font-size:22px;}
+  .section-title .count{font-family:'IBM Plex Mono',monospace;font-size:13px;color:var(--accent);font-weight:600;margin-left:8px;}
+
+  .field-grid{display:grid;grid-template-columns:190px 1fr;border:1px solid var(--line);background:var(--line);gap:1px;}
+  .field-label{background:var(--card);padding:13px 16px;font-family:'IBM Plex Mono',monospace;font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--ink-soft);display:flex;align-items:center;}
+  .field-value{background:#fff;padding:13px 16px;font-size:14px;line-height:1.55;display:flex;align-items:center;flex-wrap:wrap;gap:8px;}
+  .field-value.status-mandatory{color:var(--stamp-green);font-weight:600;}
+  .field-value.status-planned{color:var(--stamp-amber);font-weight:600;}
+  .field-value.status-voluntary{color:var(--stamp-grey);font-weight:600;}
+  .mono{font-family:'IBM Plex Mono',monospace;}
+  .ref-link{color:var(--accent);font-weight:600;text-decoration:none;font-family:'IBM Plex Mono',monospace;font-size:13px;}
+  .ref-link:hover{text-decoration:underline;}
+
+  /* elenco note */
+  .notes-toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:12px;}
+  .cat-filter{font-family:'IBM Plex Mono',monospace;font-size:10.5px;text-transform:uppercase;letter-spacing:.03em;padding:5px 10px;border:1px solid var(--line);background:var(--card);color:var(--ink-soft);cursor:pointer;border-radius:2px;}
+  .cat-filter.active{background:var(--ink);color:var(--paper);border-color:var(--ink);}
+  .notes-table{width:100%;border-collapse:collapse;border:1px solid var(--line);background:#fff;font-size:13px;}
+  .notes-table th{background:#f0f0f0;font-family:'IBM Plex Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:var(--ink-soft);text-align:left;padding:8px 12px;border-bottom:1px solid var(--line);}
+  .notes-table td{padding:8px 12px;border-bottom:1px solid #ededed;vertical-align:top;}
+  .notes-table tr:last-child td{border-bottom:none;}
+  .notes-table td.num a{font-family:'IBM Plex Mono',monospace;font-weight:600;color:var(--accent);text-decoration:none;}
+  .notes-table td.num a:hover{text-decoration:underline;}
+  .cat-tag{font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.03em;padding:2px 7px;border-radius:20px;white-space:nowrap;background:#EEE;color:#666;}
+  .cat-tag.framework{background:#E4E4E4;color:#1F1F1F;}
+  .cat-tag.soluzione{background:#E3EDE3;color:#2C6E2C;}
+  .cat-tag.legal{background:#F6DEE0;color:#B0151F;}
+  .cat-tag.correzione{background:#EDE7DC;color:#7A5C1E;}
+  .cat-tag.obsoleta{background:#f0f0f0;color:#aaa;text-decoration:line-through;}
+  .cat-tag.prereq{background:#E4ECF6;color:#2C4E8A;}
+  .callout{background:#fff;border:1px solid var(--line);border-left:3px solid var(--accent);padding:16px 20px;font-size:14px;line-height:1.6;color:var(--ink-soft);}
+  .callout b{color:var(--ink);}
+
+  @media (max-width:640px){ .field-grid{grid-template-columns:1fr;} .field-label{padding-bottom:4px;} }
+  footer{border-top:1px solid var(--line);padding:24px 5vw 40px;font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink-soft);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;}
+  ::selection{background:var(--accent);color:#fff;}
+  button:focus-visible,input:focus-visible,.country-card:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto;}*{transition:none !important;}}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-top">
+    <span>SAP DOCUMENT &amp; REPORTING COMPLIANCE — eDOCUMENT · AUTORE: FABRIZIO TICINO</span>
+    <span id="live-clock"></span>
+  </div>
+  <h1 class="title">Note &amp; configurazioni <em>SAP</em><br>per l'e-invoicing B2B</h1>
+  <div class="subhead">
+    <p>Note SAP di implementazione per l'e-invoicing B2B <b>on-premise</b> (S/4HANA on-prem / ECC), paese per paese: la <b>nota centrale</b> (Installation/Implementation Overview), <b>tutte le note da installare</b> e la <b>guida alle attività di customizing</b>. Dati letti dal SAP for Me Knowledge Base.</p>
+    <div class="meta-stamp">
+      <div class="label">Ultima verifica</div>
+      <div id="last-updated">—</div>
+      <div class="label" style="margin-top:8px;">Paesi · Note</div>
+      <div id="tot-stamp">—</div>
+    </div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="search-wrap">
+    <input type="text" id="search" placeholder="Cerca paese o numero nota…" autocomplete="off">
+  </div>
+  <div class="filter-group" id="filter-status" data-field="b2b_status">
+    <span class="filter-chip active" data-val="all">Mandato: Tutti</span>
+    <span class="filter-chip" data-val="mandatory">Attivo</span>
+    <span class="filter-chip" data-val="planned">In arrivo</span>
+  </div>
+  <div class="filter-group" id="filter-sol" data-field="solution">
+    <span class="filter-chip active" data-val="all">Soluzione: Tutte</span>
+    <span class="filter-chip" data-val="yes">Con nota SAP</span>
+    <span class="filter-chip" data-val="no">Senza</span>
+  </div>
+  <div class="result-count" id="result-count"></div>
+</div>
+
+<main>
+  <div class="grid" id="grid"></div>
+</main>
+
+<footer>
+  <span>Fonte: SAP for Me — Knowledge Base (Note SAP). Non è consulenza: l'elenco esatto da installare va risolto con SNOTE per release/Support Package.</span>
+</footer>
+
+<div class="detail-overlay" id="detail-overlay">
+  <div class="detail-header">
+    <button class="back-btn" id="back-btn">← Torna all'elenco</button>
+    <div class="detail-title" id="detail-title"></div>
+    <div style="width:150px;"></div>
+  </div>
+  <div class="detail-body" id="detail-body"></div>
+</div>
+
+<script>
+let COUNTRIES = [];
+let activeFilters = { b2b_status:'all', solution:'all' };
+let searchTerm = '';
+let currentNotes = [];   // note del paese aperto
+let currentCat = 'all';
+
+function classifyStatus(text){
+  const t = (text||'').toLowerCase();
+  if(t==='n/d' || t==='' || t.includes('nessuna soluzione')) return 'n_a';
+  if(/\b(202[7-9]|203\d)\b/.test(t)) return 'planned';
+  if(/(agosto|settembre|ottobre|novembre|dicembre)\s+2026/.test(t)) return 'planned';
+  if(/dal\s+2026\b/.test(t) && !/(gennaio|febbraio|marzo|aprile|maggio|giugno|luglio)\s+2026/.test(t)) return 'planned';
+  if(t.includes('in arrivo') || t.includes('pianificato') || t.includes('non ancora')) return 'planned';
+  if(t.includes('obbligatori') || t.includes('mandatory')) return 'mandatory';
+  return 'voluntary';
+}
+const STATUS_LABEL = { mandatory:'Attivo', planned:'In arrivo', voluntary:'Volontario', n_a:'N/D' };
+function firstNum(s){ const m=(s||'').match(/\d{6,}/); return m?m[0]:null; }
+function catClass(cat){
+  const c=(cat||'').toLowerCase();
+  if(c.includes('framework')) return 'framework';
+  if(c.includes('obsolet')) return 'obsoleta';
+  if(c.includes('legal')) return 'legal';
+  if(c.includes('prerequis') || c.includes('prereq')) return 'prereq';
+  if(c.includes('correzione')) return 'correzione';
+  if(c.includes('soluzione') || c.includes('overview') || c.includes('documentazione') || c.includes('config') || c.includes('b2c') || c.includes('e-transport') || c.includes('licenza')) return 'soluzione';
+  return '';
+}
+
+function renderGrid(){
+  const grid = document.getElementById('grid');
+  const term = searchTerm.trim().toLowerCase();
+  const filtered = COUNTRIES.filter(c => {
+    if(term){
+      const inName = (c.name_it||c.name).toLowerCase().includes(term);
+      const inNote = (c.central_note||'').includes(term) || (c.notes||[]).some(n => (n.num||'').includes(term));
+      if(!inName && !inNote) return false;
+    }
+    if(activeFilters.b2b_status!=='all' && classifyStatus(c.b2b_status)!==activeFilters.b2b_status) return false;
+    if(activeFilters.solution==='yes' && !c.has_solution) return false;
+    if(activeFilters.solution==='no' && c.has_solution) return false;
+    return true;
+  });
+  document.getElementById('result-count').textContent = `${filtered.length} / ${COUNTRIES.length} paesi`;
+  if(filtered.length===0){ grid.innerHTML = `<div class="no-results">Nessun paese corrisponde ai filtri.</div>`; return; }
+
+  grid.innerHTML = filtered.map(c => {
+    const idx = COUNTRIES.indexOf(c)+1;
+    const st = classifyStatus(c.b2b_status);
+    const pill = c.has_solution
+      ? `<span class="note-pill">${c.notes_count} note</span>`
+      : `<span class="note-pill zero">nessuna nota</span>`;
+    const central = c.has_solution ? `<b>${c.central_note}</b>` : '—';
+    return `
+    <div class="country-card" tabindex="0" data-slug="${c.slug}" role="button" aria-label="Apri ${c.name_it}">
+      <div class="country-card-top">
+        <div>
+          <div class="country-name">${c.name_it}</div>
+          <div class="country-index">${String(idx).padStart(2,'0')} / ${String(COUNTRIES.length).padStart(2,'0')}</div>
+        </div>
+        ${pill}
+      </div>
+      <div class="badge-row">
+        <span class="badge ${st}">Mandato B2B: ${STATUS_LABEL[st]}</span>
+      </div>
+      <div class="country-foot">
+        <b>Nota centrale:</b> ${central}
+      </div>
+    </div>`;
+  }).join('');
+
+  grid.querySelectorAll('.country-card').forEach(card => {
+    card.addEventListener('click', () => openDetail(card.dataset.slug));
+    card.addEventListener('keypress', e => { if(e.key==='Enter') openDetail(card.dataset.slug); });
+  });
+}
+
+function field(label,value,statusClass){
+  const cls = statusClass ? ` status-${statusClass}` : '';
+  return `<div class="field-label">${label}</div><div class="field-value${cls}">${value||'—'}</div>`;
+}
+function fieldNote(label,value){
+  const n = firstNum(value);
+  const link = n ? `<a class="ref-link" href="https://me.sap.com/notes/${n}" target="_blank" rel="noopener">${value} ↗</a>` : (value||'—');
+  return `<div class="field-label">${label}</div><div class="field-value">${link}</div>`;
+}
+function renderSection(num,title,inner,countBadge){
+  const cb = countBadge!=null ? `<span class="count">${countBadge}</span>` : '';
+  return `<div class="section"><div class="section-head"><div class="section-num">${num}</div><div class="section-title">${title}${cb}</div></div>${inner}</div>`;
+}
+
+function renderNotesTable(notes){
+  if(!notes.length) return '';
+  const cats = ['all', ...Array.from(new Set(notes.map(n=>n.category).filter(Boolean)))];
+  const toolbar = `<div class="notes-toolbar" id="cat-toolbar">${cats.map(c=>`<span class="cat-filter${c==='all'?' active':''}" data-cat="${c}">${c==='all'?'Tutte ('+notes.length+')':c}</span>`).join('')}</div>`;
+  return toolbar + `<div id="notes-table-wrap">${notesTableHTML(notes)}</div>`;
+}
+function notesTableHTML(notes){
+  const rows = notes.map(n => {
+    const title = n.title && n.title.length ? n.title : '<span class="mono" style="color:#aaa">(titolo nella nota centrale)</span>';
+    return `<tr><td class="num"><a href="${n.url||('https://me.sap.com/notes/'+n.num)}" target="_blank" rel="noopener">${n.num}</a></td>
+      <td><span class="cat-tag ${catClass(n.category)}">${n.category||'—'}</span></td>
+      <td>${title}</td></tr>`;
+  }).join('');
+  return `<table class="notes-table"><thead><tr><th style="width:110px">Nota SAP</th><th style="width:210px">Categoria</th><th>Titolo</th></tr></thead><tbody>${rows}</tbody></table>`;
+}
+
+function openDetail(slug){
+  const c = COUNTRIES.find(x => x.slug===slug);
+  if(!c) return;
+  currentNotes = c.notes || [];
+  currentCat = 'all';
+  document.getElementById('detail-title').textContent = c.name_it;
+  const body = document.getElementById('detail-body');
+  const st = classifyStatus(c.b2b_status);
+
+  let html = `<div class="detail-meta">SAP Document and Reporting Compliance · eDocument — ${c.deployment||'on-premise'}</div>`;
+
+  html += renderSection('01','Mandato e-invoicing B2B',
+    `<div class="field-grid">${
+      field('Stato mandato', STATUS_LABEL[st] + (c.b2b_status?(' — '+c.b2b_status):''), st) +
+      field('Deployment SAP', c.deployment)
+    }</div>`);
+
+  if(c.has_solution){
+    html += renderSection('02','Nota centrale SAP (Overview)',
+      `<div class="field-grid">${
+        fieldNote('Nota centrale', c.central_note) +
+        field('Titolo', c.central_title) +
+        field('Componente', `<span class="mono">${c.component||'—'}</span>`) +
+        fieldNote('Framework eDocument', c.framework) +
+        fieldNote('KBA / Troubleshooting', c.kba)
+      }</div>`);
+
+    if(c.customizing){
+      const g = c.customizing;
+      html += renderSection('03','Guida alle attività di customizing',
+        `<div class="field-grid">${
+          field('Guida di configurazione', g.central) +
+          field('KBA configurazione', g.kba) +
+          field('Note customizing', g.note_cust) +
+          field('Attività IMG (SPRO)', `<span class="mono" style="font-size:12.5px">${g.img||'—'}</span>`) +
+          field('SAP Help Portal', g.help)
+        }</div>`);
+    }
+
+    html += renderSection('04','Note da installare', renderNotesTable(currentNotes), currentNotes.length);
+  } else {
+    html += renderSection('02','Soluzione SAP',
+      `<div class="callout">Al momento della verifica <b>SAP non ha rilasciato una soluzione eDocument dedicata</b> per questo paese (mandato ancora nascente). Non risultano note di implementazione da installare.</div>`);
+  }
+
+  body.innerHTML = html;
+
+  // filtro categoria note
+  const tb = document.getElementById('cat-toolbar');
+  if(tb){
+    tb.querySelectorAll('.cat-filter').forEach(f => f.addEventListener('click', () => {
+      tb.querySelectorAll('.cat-filter').forEach(x=>x.classList.remove('active'));
+      f.classList.add('active');
+      currentCat = f.dataset.cat;
+      const list = currentCat==='all' ? currentNotes : currentNotes.filter(n=>n.category===currentCat);
+      document.getElementById('notes-table-wrap').innerHTML = notesTableHTML(list);
+    }));
+  }
+
+  document.getElementById('detail-overlay').classList.add('open');
+  document.body.style.overflow='hidden';
+  window.scrollTo(0,0);
+  history.pushState({slug},'',`#${slug}`);
+}
+function closeDetail(){
+  document.getElementById('detail-overlay').classList.remove('open');
+  document.body.style.overflow='';
+  history.pushState({},'',window.location.pathname);
+}
+document.getElementById('back-btn').addEventListener('click', closeDetail);
+window.addEventListener('popstate', () => {
+  const hash = window.location.hash.replace('#','');
+  if(hash) openDetail(hash); else closeDetail();
+});
+document.getElementById('search').addEventListener('input', e => { searchTerm=e.target.value; renderGrid(); });
+document.querySelectorAll('.filter-group').forEach(group => {
+  const f = group.dataset.field==='solution' ? 'solution' : 'b2b_status';
+  group.querySelectorAll('.filter-chip').forEach(chip => chip.addEventListener('click', () => {
+    group.querySelectorAll('.filter-chip').forEach(x=>x.classList.remove('active'));
+    chip.classList.add('active');
+    activeFilters[f] = chip.dataset.val;
+    renderGrid();
+  }));
+});
+function updateClock(){
+  const opts={weekday:'short',year:'numeric',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'};
+  document.getElementById('live-clock').textContent = new Date().toLocaleDateString('it-IT',opts);
+}
+updateClock(); setInterval(updateClock,30000);
+
+async function init(){
+  try{
+    COUNTRIES = await (await fetch('data/countries_sap.json')).json();
+  }catch(e){
+    document.getElementById('grid').innerHTML = `<div class="no-results">Errore nel caricamento di data/countries_sap.json.</div>`;
+    return;
+  }
+  try{
+    const meta = await (await fetch('data/meta.json')).json();
+    document.getElementById('last-updated').textContent = meta.last_run || '24 luglio 2026';
+    document.getElementById('tot-stamp').textContent = `${meta.countries_count} · ${meta.notes_count} note`;
+  }catch(e){
+    document.getElementById('last-updated').textContent = '24 luglio 2026';
+  }
+  renderGrid();
+  const hash = window.location.hash.replace('#','');
+  if(hash) openDetail(hash);
+}
+init();
+</script>
+</body>
+</html>
