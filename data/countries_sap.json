@@ -865,8 +865,30 @@
                             "kba":  "-",
                             "note_cust":  "SII/B2G customizing nelle note; B2B non ancora rilasciato",
                             "img":  "SPRO \u003e ... \u003e eDocument",
-                            "central":  "2940398 (SII) / 2735302 (B2G) - allegati nota 2940398: SpainElectronicTaxRegisterBooksSII_ProductAssistanceDoc_S4HANA_2020June.pdf ; Spain_SII_List_of_Notes_S4H.xlsx",
-                            "help":  "https://help.sap.com/docs/search?q=eDocument%20Spain"
+                            "central":  "2940398 (SII) / 2735302 (B2G) / 2941372 (External Docs) - Configuration Guide allegate",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument%20Spain",
+                            "config_docs":  [
+                                                {
+                                                    "note":  "2940398",
+                                                    "file":  "SpainElectronicTaxRegisterBooksSII_ProductAssistanceDoc_S4HANA_2020June.pdf"
+                                                },
+                                                {
+                                                    "note":  "2940398",
+                                                    "file":  "Spain_SII_List_of_Notes_S4H.xlsx"
+                                                },
+                                                {
+                                                    "note":  "2735302",
+                                                    "file":  "Spain_ElectronicInvoicingPublicEnt_ProductAssistance_S4HANA1610-1809_2021July.pdf"
+                                                },
+                                                {
+                                                    "note":  "2735302",
+                                                    "file":  "Spain_ElectronicInvoicingPublicEnt_ProductAssistance_S4HANA1909\u0026Above_2021July.pdf"
+                                                },
+                                                {
+                                                    "note":  "2941372",
+                                                    "file":  "Spain_SubmitListsForFilesCreatedInExternalSystems_S4HANA_2020June.pdf"
+                                                }
+                                            ]
                         },
         "notes":  [
                       {
@@ -2004,8 +2026,12 @@
                             "kba":  "-",
                             "note_cust":  "Customizing IRN/e-way incluso nelle note",
                             "img":  "SPRO \u003e ... \u003e eDocument",
-                            "central":  "2884058 - Config Guide allegata",
-                            "help":  "https://help.sap.com/docs/search?q=eDocument%20India"
+                            "central":  "2884058 - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument%20India",
+                            "config_docs":  {
+                                                "note":  "2884058",
+                                                "file":  "Package Creation.pdf"
+                                            }
                         },
         "notes":  [
                       {
@@ -3842,8 +3868,18 @@
                             "kba":  "2805847 - Troubleshooting Guide",
                             "note_cust":  "Customizing DIAN nelle note",
                             "img":  "SPRO \u003e ... \u003e eDocument",
-                            "central":  "2297487 (+2485667 Full Solution) - Config Guide",
-                            "help":  "https://help.sap.com/docs/search?q=eDocument%20Colombia"
+                            "central":  "2297487 (+2485667 Full Solution) - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument%20Colombia",
+                            "config_docs":  [
+                                                {
+                                                    "note":  "2297487",
+                                                    "file":  "2297487_Manual_Post-Implementation_Steps.pdf"
+                                                },
+                                                {
+                                                    "note":  "2297487",
+                                                    "file":  "SFPF_CO_FORMS.zip"
+                                                }
+                                            ]
                         },
         "notes":  [
                       {

@@ -326,9 +326,17 @@ function openDetail(slug){
 
     if(c.customizing){
       const g = c.customizing;
+      const cdocs = g.config_docs ? (Array.isArray(g.config_docs) ? g.config_docs : [g.config_docs]) : [];
+      const docsRow = cdocs.length
+        ? field('Documenti allegati',
+            `<div style="display:flex;flex-direction:column;gap:6px;">${cdocs.map(d =>
+              `<a class="ref-link" href="https://me.sap.com/notes/${d.note}/E" target="_blank" rel="noopener">${d.file} ↗</a>`
+            ).join('')}</div>`)
+        : '';
       html += renderSection('03','Guida alle attività di customizing',
         `<div class="field-grid">${
           fieldLinkify('Guida di configurazione', g.central) +
+          docsRow +
           fieldLinkify('KBA configurazione', g.kba) +
           fieldLinkify('Note customizing', g.note_cust) +
           field('Attività IMG (SPRO)', `<span class="mono" style="font-size:12.5px">${g.img||'—'}</span>`) +
