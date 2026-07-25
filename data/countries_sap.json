@@ -2161,7 +2161,7 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/2343822",
-                          "title":  "",
+                          "title":  "eDocument Framework - Installation Overview for SAP S/4HANA",
                           "num":  "2343822",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -2173,85 +2173,85 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/2676322",
-                          "title":  "",
+                          "title":  "eDocument Mexico: AIF mapping corrections II",
                           "num":  "2676322",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2891021",
-                          "title":  "",
+                          "title":  "eDocument Mexico: DDICs for AIF mapping corrections IV",
                           "num":  "2891021",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2828579",
-                          "title":  "",
+                          "title":  "eDocument Mexico: AIF mapping corrections IV",
                           "num":  "2828579",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2951097",
-                          "title":  "",
+                          "title":  "eDocument Mexico - ePayment: Value Mapping to Identify Line Items for Bank Charges",
                           "num":  "2951097",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2955481",
-                          "title":  "",
+                          "title":  "eDocument Mexico: AIF Mapping Corrections VI",
                           "num":  "2955481",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2941078",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Electronic Delivery Notes (Full Solution)",
                           "num":  "2941078",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2912075",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Electronic Delivery Notes (Basic Enablement)",
                           "num":  "2912075",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2941080",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Electronic Delivery Note - Prerequisite for SAP Note 2912075",
                           "num":  "2941080",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3036685",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Performance improvement",
                           "num":  "3036685",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3066773",
-                          "title":  "",
+                          "title":  "eDocument Mexico - eInvoice: Remove Line Items with \"Zero\" Amounts and Quantities in the Case of Batch Splits",
                           "num":  "3066773",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3045251",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Inclusion of the Fiscal Text Complement",
                           "num":  "3045251",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3004628",
-                          "title":  "",
+                          "title":  "eDocument Mexico - eInvoice: Correction to the Retrieval of Withholding Tax Rates",
                           "num":  "3004628",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3088136",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Proxy Changes for the Transportation Complement",
                           "num":  "3088136",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3104223",
-                          "title":  "",
+                          "title":  "Error while displaying PDF for eDocuments with status \"Send to Customer\"",
                           "num":  "3104223",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -2263,589 +2263,589 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/3259317",
-                          "title":  "",
+                          "title":  "eDocument Mexico - eInvoice : UUID for Debit Memo",
                           "num":  "3259317",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3226842",
-                          "title":  "",
+                          "title":  "eDocument Mexico - eInvoice : Duplicate Messages in the Application Log",
                           "num":  "3226842",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3299892",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Payments- AIF mapping corrections IX",
                           "num":  "3299892",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3200164",
-                          "title":  "",
+                          "title":  "eDocument Mexico: AIF Mapping Corrections VIII",
                           "num":  "3200164",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3333836",
-                          "title":  "",
+                          "title":  "eDocument Mexico: EquivalenciaDR Enhancement - Collective Note",
                           "num":  "3333836",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3440379",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Usability improvements in ePayments and withholding tax",
                           "num":  "3440379",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3503069",
-                          "title":  "",
+                          "title":  "eDocument Mexico - Legal Change Transportation Complement (Carta Porte) 3.1 and Multiple Complemento - Collective Note",
                           "num":  "3503069",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3537819",
-                          "title":  "",
+                          "title":  "DRC MX: Adjustment of GLN-Global Localization Number source data for Retail Complement",
                           "num":  "3537819",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3781530",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Mexico - ePayments: Withholding Tax Placement and Amounts in DoctoRelacionado",
                           "num":  "3781530",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3780430",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Mexico - Prerequisite Objects for Implementing SAP Note 3780426",
                           "num":  "3780430",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3780426",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Mexico - Recipient Type Correction for SAT Foreign Payments Complement",
                           "num":  "3780426",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2526782",
-                          "title":  "",
+                          "title":  "eDocument Mexico - Pre-requisite note for 2511902",
                           "num":  "2526782",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2511902",
-                          "title":  "",
+                          "title":  "eDocument Mexico - ePayment",
                           "num":  "2511902",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2528188",
-                          "title":  "",
+                          "title":  "eDocument Mexico - ePayment",
                           "num":  "2528188",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2561160",
-                          "title":  "",
+                          "title":  "eDocument Mexico - ePayments: Prerequisite Objects (Note 2535645)",
                           "num":  "2561160",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2535645",
-                          "title":  "",
+                          "title":  "eDocument Mexico - ePayments Corrections",
                           "num":  "2535645",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2535201",
-                          "title":  "",
+                          "title":  "eDocument Mexico: ePayments - Additional Information to the Basic Enablement",
                           "num":  "2535201",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2585271",
-                          "title":  "",
+                          "title":  "Manual Steps for Data Archiving of Already Delivered eDocument Solutions",
                           "num":  "2585271",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2824830",
-                          "title":  "",
+                          "title":  "eDocument Mexico: LC - Pre-requisite of SAP Note 2818148",
                           "num":  "2824830",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2818148",
-                          "title":  "",
+                          "title":  "eDocument Mexico: LC - New Cancellation process",
                           "num":  "2818148",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2824619",
-                          "title":  "",
+                          "title":  "eDocument Mexico: LC - eInvoice New Cancellation Changes (Process Manager)",
                           "num":  "2824619",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2824823",
-                          "title":  "",
+                          "title":  "eDocument Mexico: LC - ePayment New cancellation process (Process Manager)",
                           "num":  "2824823",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2885105",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Stop Creating eDocuments for Cancelation Documents",
                           "num":  "2885105",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2908396",
-                          "title":  "",
+                          "title":  "Document Compliance Mexico: ePayment- Pre-requisite of SAP Note 2906162",
                           "num":  "2908396",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2906162",
-                          "title":  "",
+                          "title":  "Document Compliance Mexico: ePayment- Consolidation of multiple ePayments in single ePayment(Basic Solution)",
                           "num":  "2906162",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3017127",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Code Corrections for Read Access Logging (Basic solution)",
                           "num":  "3017127",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3075628",
-                          "title":  "",
+                          "title":  "eDocument Mexico: save PDF sent to customer",
                           "num":  "3075628",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3108178",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Cancellation Status Mismatch",
                           "num":  "3108178",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3149921",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Withholding Tax Certificate: Prerequisites for SAP Note 3149917",
                           "num":  "3149921",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3149917",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Electronic Withholding Tax Certificates (Basic Solution)",
                           "num":  "3149917",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3152160",
-                          "title":  "",
+                          "title":  "eDocument Mexico - Cancellation Changes Due to New Version 4.0 of Annex 20: Prerequisites for SAP Note 3152003",
                           "num":  "3152160",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3152003",
-                          "title":  "",
+                          "title":  "eDocument Mexico - Cancellation Changes Due to New Version 4.0 of Annex 20",
                           "num":  "3152003",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3155492",
-                          "title":  "",
+                          "title":  "eDocument Mexico - eWHT Certificate - Cancellation Annex 20 V4.0: Prerequisites for SAP Note 3155431",
                           "num":  "3155492",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3155431",
-                          "title":  "",
+                          "title":  "eDocument Mexico - eWHT Certificate - Cancellation Annex 20 V4.0: Basic Solution",
                           "num":  "3155431",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3167389",
-                          "title":  "",
+                          "title":  "eDocument Mexico - Annex 20 V4.0: Prerequisites for SAP Note 3167387",
                           "num":  "3167389",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3167387",
-                          "title":  "",
+                          "title":  "eDocument Mexico - Annex 20 V4.0: Basic Solution",
                           "num":  "3167387",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3167424",
-                          "title":  "",
+                          "title":  "eDocument Mexico - eWHT Certificate: Enhancement to the Create Withholding Tax Certificates Report",
                           "num":  "3167424",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3225366",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Error While Cancelling eDocument with Version 4 Interface - Basic Solution",
                           "num":  "3225366",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2533038",
-                          "title":  "",
+                          "title":  "eDocument Mexico - ePayments: ABAP Proxies",
                           "num":  "2533038",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2561190",
-                          "title":  "",
+                          "title":  "eDocument Mexico - ePayments: Prerequisite Objects for AIF (Note 2533427)",
                           "num":  "2561190",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2533427",
-                          "title":  "",
+                          "title":  "eDocument Mexico - ePayments: Implementation of AIF",
                           "num":  "2533427",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2559486",
-                          "title":  "",
+                          "title":  "eDocument Mexico - Interface Connector implementation for S/4HANA Systems",
                           "num":  "2559486",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2565821",
-                          "title":  "",
+                          "title":  "eDocument Mexico - ePayments: AIF Setup",
                           "num":  "2565821",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2565851",
-                          "title":  "",
+                          "title":  "eDocument Mexico - ePayments: AIF Customizing",
                           "num":  "2565851",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2574070",
-                          "title":  "",
+                          "title":  "eDocument Mexico - ePayments Mapping Corrections",
                           "num":  "2574070",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2575584",
-                          "title":  "",
+                          "title":  "eDocument Mexico - eInvoice: Prerequisite Objects (Note 2575397)",
                           "num":  "2575584",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2575397",
-                          "title":  "",
+                          "title":  "eDocument Mexico - eInvoice",
                           "num":  "2575397",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2593892",
-                          "title":  "",
+                          "title":  "eDocument Mexico - eInvoice: ABAP Proxies",
                           "num":  "2593892",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2625420",
-                          "title":  "",
+                          "title":  "eDocument Mexico - eInvoice: Prerequisite Objects for AIF (Note 2591882)",
                           "num":  "2625420",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2591882",
-                          "title":  "",
+                          "title":  "eDocument Mexico - eInvoice: Implementation of AIF",
                           "num":  "2591882",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2627328",
-                          "title":  "",
+                          "title":  "eDocument Mexico - eInvoice: AIF Customizing for s4 systems",
                           "num":  "2627328",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2609072",
-                          "title":  "",
+                          "title":  "eDocument Mexico - PDF for e-Payment and e-Invoice",
                           "num":  "2609072",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2642208",
-                          "title":  "",
+                          "title":  "eDocument Mexico - eInvoice and ePayments Mapping Corrections",
                           "num":  "2642208",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2661074",
-                          "title":  "",
+                          "title":  "eDocument Mexico - BAdI method to fill Invoice UUID",
                           "num":  "2661074",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2825133",
-                          "title":  "",
+                          "title":  "eDocument Mexico: LC - New Cancellation AIF Proxy corrections",
                           "num":  "2825133",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2825023",
-                          "title":  "",
+                          "title":  "eDocument Mexico: New Cancellation Process - Customizing for SAP Application Interface Framework (SAP S/4HANA)",
                           "num":  "2825023",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2818391",
-                          "title":  "",
+                          "title":  "eDocument Mexico: New Cancellation Process - Implementation of SAP Application Interface Framework",
                           "num":  "2818391",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2859690",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Bank Details mapping for ePayment",
                           "num":  "2859690",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2806143",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Corrections for Free Goods scenario and Commercio Exterior Taxes",
                           "num":  "2806143",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2800278",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Store UUIDs of Approved E-Invoices in Source Document Header (Table BKPF)",
                           "num":  "2800278",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2906148",
-                          "title":  "",
+                          "title":  "Document Compliance Mexico: ePayment- Consolidation of multiple ePayments in single ePayment(Full Solution)",
                           "num":  "2906148",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2914729",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Corrections to AIF Mapping V",
                           "num":  "2914729",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3003904",
-                          "title":  "",
+                          "title":  "eDocument Mexico: ePayment Mapping Corrections VII",
                           "num":  "3003904",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3088135",
-                          "title":  "",
+                          "title":  "eDocument Mexico - ePayment: Additional \"Pago\" Node in the Case of Condoned Incomplete Payments",
                           "num":  "3088135",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3062743",
-                          "title":  "",
+                          "title":  "eDocument Mexico - ePayment: Corrections to Bank Details",
                           "num":  "3062743",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3105913",
-                          "title":  "",
+                          "title":  "eDocument Mexico: ePayment - Changes for over-payment of Invoices",
                           "num":  "3105913",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3115146",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Interface Connector Changes for Read Access Logging",
                           "num":  "3115146",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3109625",
-                          "title":  "",
+                          "title":  "eDocument Mexico - ePayment: Corrections to Bank Details II",
                           "num":  "3109625",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3134917",
-                          "title":  "",
+                          "title":  "eDocument Mexico - eInvoice: Performance Improvement II",
                           "num":  "3134917",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3131470",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Proxy Changes for the Transportation Complement Version 2",
                           "num":  "3131470",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3132501",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Mapping Changes for the Transportation Complement Version 2",
                           "num":  "3132501",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3151738",
-                          "title":  "",
+                          "title":  "eDocument Mexico - Electronic Withholding Tax Certificate: Sequence of Note Implementations",
                           "num":  "3151738",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3153284",
-                          "title":  "",
+                          "title":  "eDocument Mexico - Cancellation Changes Due to New Version 4.0 of Annex 20: Sequence of Note Implementations",
                           "num":  "3153284",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3155584",
-                          "title":  "",
+                          "title":  "eDocument Mexico - eWHT Certificate - Cancellation Annex 20 V4.0: Sequence of Note Implementations",
                           "num":  "3155584",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3170078",
-                          "title":  "",
+                          "title":  "eDocument Mexico - Annex 20 Version 4.0: Sequence of Note Implementations",
                           "num":  "3170078",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3214667",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Error While Cancelling Older eDocuments With Version 4.0 Interface",
                           "num":  "3214667",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3350779",
-                          "title":  "",
+                          "title":  "eDocument MX: LC Version 4.0 Mapping Correction X",
                           "num":  "3350779",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3414327",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Fix for incorrect interface version in the GetStatus process",
                           "num":  "3414327",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3420766",
-                          "title":  "",
+                          "title":  "eDocument Mexico - Legal Change Transportation Complement (Carta Porte) 3.0 and Foreign Trade Complement (Comercio Exterior) 2.0 - Collective Note",
                           "num":  "3420766",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3352113",
-                          "title":  "",
+                          "title":  "DRC Mexico: Mapping Correction for Exchange Rate in eInvoices",
                           "num":  "3352113",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3442818",
-                          "title":  "",
+                          "title":  "Fix for the extended field length for XBLNR when add-on IS-PS 4.62 is added and switch IS-PS-XT is active",
                           "num":  "3442818",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3470961",
-                          "title":  "",
+                          "title":  "DRC MX: Display XML of latest rejected eDocument",
                           "num":  "3470961",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3434701",
-                          "title":  "",
+                          "title":  "DRC MX - Correction for field DescripcionConcepto in WTC",
                           "num":  "3434701",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3226834",
-                          "title":  "",
+                          "title":  "DRC MX: Surcharges Calculation Adjusted For Billing Documents",
                           "num":  "3226834",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3203831",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Display PDF in Cockpit",
                           "num":  "3203831",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3446667",
-                          "title":  "",
+                          "title":  "eDocument Mexico : ePayment Correction for Credit Memo",
                           "num":  "3446667",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3405171",
-                          "title":  "",
+                          "title":  "eDocument Mexico: PDF Form for Withholding Tax eCertificate - Version 2.0",
                           "num":  "3405171",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3496601",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Mapping for Transportation Complement 3.1 and Multiple Complementos",
                           "num":  "3496601",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3496557",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Proxy for Transportation Complement 3.1 and Multiple Complementos",
                           "num":  "3496557",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3652175",
-                          "title":  "",
+                          "title":  "eInvoice for Mexico - Adjustment of GLN-Global Localization Number source data for Retail Complement",
                           "num":  "3652175",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3658295",
-                          "title":  "",
+                          "title":  "SINTAX_ERROR dump while displaying ePayments in edocument cockpit for Mexico Country",
                           "num":  "3658295",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3521007",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Correction - Enabling switch case for OP",
                           "num":  "3521007",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3415102",
-                          "title":  "",
+                          "title":  "eDocument Mexico - Legal Change Transportation Complement (Carta Porte) 3.0 and Foreign trade complement (Comercio Exterior) 2.0 - Mapping Changes",
                           "num":  "3415102",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3418478",
-                          "title":  "",
+                          "title":  "eDocument MX: Changes for Convergent Invoicing",
                           "num":  "3418478",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3650018",
-                          "title":  "",
+                          "title":  "Eletronic Invoice for Mexico - ComercioExteriorDestinatario Node Mapping Correction",
                           "num":  "3650018",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3548362",
-                          "title":  "",
+                          "title":  "BC Sets for Electronic Document Processing for Mexico",
                           "num":  "3548362",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3762382",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Mexico - Enhancement: Tax Calculation for IEPS and VAT",
                           "num":  "3762382",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3710225",
-                          "title":  "",
+                          "title":  "Document and Reporting Compliance Mexico - Cancel eDocument with UUID reference",
                           "num":  "3710225",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -2863,13 +2863,13 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/3779761",
-                          "title":  "",
+                          "title":  "eDocument Mexico: EquivalenciaDR Exchange Rate Serialization Exception (ePayment)",
                           "num":  "3779761",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3358712",
-                          "title":  "",
+                          "title":  "eDocument Mexico: Convergent Invoicing - enabling your system to send electronic documents to SAT",
                           "num":  "3358712",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       }
@@ -2910,49 +2910,49 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/3366731",
-                          "title":  "",
+                          "title":  "Electronic communication integration of SAP Document and Reporting Compliance, cloud edition and SAP S/4HANA applications",
                           "num":  "3366731",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3390734",
-                          "title":  "",
+                          "title":  "Electronic communication integration of SAP Document and Reporting Compliance, cloud edition and SAP ERP applications",
                           "num":  "3390734",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3399479",
-                          "title":  "",
+                          "title":  "Electronic communication integration of SAP Document and Reporting Compliance, cloud edition and SAP S/4HANA applications",
                           "num":  "3399479",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3408375",
-                          "title":  "",
+                          "title":  "Electronic communication integration of SAP Document and Reporting Compliance, cloud edition and SAP ERP applications",
                           "num":  "3408375",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3385482",
-                          "title":  "",
+                          "title":  "Integration with SAP Document and Reporting Compliance, cloud edition",
                           "num":  "3385482",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3442326",
-                          "title":  "",
+                          "title":  "Integration with SAP Document and Reporting Compliance, cloud edition: Additional Features",
                           "num":  "3442326",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3423606",
-                          "title":  "",
+                          "title":  "Company Code Parameter Enablement for Electronic Invoicing",
                           "num":  "3423606",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3408477",
-                          "title":  "",
+                          "title":  "Malaysia Tax category update",
                           "num":  "3408477",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -2964,187 +2964,187 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/3454518",
-                          "title":  "",
+                          "title":  "Malaysia: New Additional Parameters in Company Code Data",
                           "num":  "3454518",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3446100",
-                          "title":  "",
+                          "title":  "Malaysia: Master Data Enhancements for Customers and Suppliers",
                           "num":  "3446100",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3454614",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Generation of Electronic Invoices",
                           "num":  "3454614",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3453390",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Malaysia: Proxy Objects (Part 1)",
                           "num":  "3453390",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3454606",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Malaysia: XML Mapping and BC Sets",
                           "num":  "3454606",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3455168",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Malaysia: Implementation of SAP Application Interface Framework (Relevant for SAP ERP Only)",
                           "num":  "3455168",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3455323",
-                          "title":  "",
+                          "title":  "App - Manage Electronic Documents: Electronic Invoices for Malaysia (Relevant for SAP S/4HANA 2021 and Above Only)",
                           "num":  "3455323",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3458611",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Proxy Objects (Part 2)",
                           "num":  "3458611",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3458612",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Submission of Electronic Invoices",
                           "num":  "3458612",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3467982",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia - Correction: Missing eDocument Message Types (Relevant for SAP ERP Only)",
                           "num":  "3467982",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3469295",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: XML Mapping and BC Sets for Submission",
                           "num":  "3469295",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3475550",
-                          "title":  "",
+                          "title":  "App - Manage Electronic Documents: New Confirmation Message and Dialog Box for the Malaysia-Specific Processes",
                           "num":  "3475550",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3480966",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia - Correction: Content Missing from BC Sets (Relevant for SAP S/4HANA 2022)",
                           "num":  "3480966",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3479521",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia - Correction: Can not receive the pushed message from DRCce",
                           "num":  "3479521",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3479612",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia - Correction: Display PDF issue",
                           "num":  "3479612",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3471394",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Enabling of Electronic Refund Notes and Cancellation of Validated Electronic Invoice",
                           "num":  "3471394",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3480935",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia - Enhancement: XML Mapping",
                           "num":  "3480935",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3478694",
-                          "title":  "",
+                          "title":  "App - Manage Electronic Documents: New Dialog Box for Entering Reasons for Cancelling Validated Electronic Invoices (Relevant for Malaysia)",
                           "num":  "3478694",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3487081",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Preparation of External Documents XML Files",
                           "num":  "3487081",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3485026",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Submission of External Documents and Enhancements",
                           "num":  "3485026",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3481492",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Proxy Objects (Part 3)",
                           "num":  "3481492",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3481491",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: XML Mapping and BC Sets for External Documents and Enhancements",
                           "num":  "3481491",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3487911",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia - Correction: Reference Document UUIDs Not Found and Others",
                           "num":  "3487911",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3496530",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Enabling of Buyer-Issued Debit Memos and Other Enhancements",
                           "num":  "3496530",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3496562",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: XML Mapping for Buyer-Issued Debit Memos and Other Enhancements",
                           "num":  "3496562",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3497965",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia - Correction: Fix the issue Tax tourism number is not valid - SUPPLIER",
                           "num":  "3497965",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3490848",
-                          "title":  "",
+                          "title":  "App - Manage Electronic Documents: Editable Generic Fields Appear When Cancelling Multiple Validated Invoices at One Time (Relevant for Malaysia)",
                           "num":  "3490848",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3498897",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Manual Pulling of Electronic Invoice Status",
                           "num":  "3498897",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3498572",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: One Common Sender Registration ID for Multiple Company Codes",
                           "num":  "3498572",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3499984",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Support for Reverse Charge and Non-Deductible Tax for Buyer-Issued Tax Invoices and Corrections",
                           "num":  "3499984",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3498902",
-                          "title":  "",
+                          "title":  "App - Manage Electronic Documents: New Button Named Get Service Status for Malaysia-Specific Processes",
                           "num":  "3498902",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -3156,37 +3156,37 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/3501360",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia - Correction: XML Mapping",
                           "num":  "3501360",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3502533",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia - Correction: Zero Tax Rate for Tax-Exempt Buyer-Issued Tax Invoices and Other Corrections",
                           "num":  "3502533",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3510880",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Generation of Buyer-Issued Electronic Tax Invoices Based on Accounting Documents Without Tax Codes",
                           "num":  "3510880",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3503329",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Support for the Free of Charge Scenario",
                           "num":  "3503329",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3521693",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia - Correction: Wrong Positive/Negative Attributes for Some Numbers in XML Files and Other Issues",
                           "num":  "3521693",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3522229",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia - Correction: Classification Code for Buyer-Created Invoices Is Reset to Not Relevant",
                           "num":  "3522229",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -3204,43 +3204,43 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/3523359",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: MIRO with G/L Account Posting and Other Enhancements or Corrections",
                           "num":  "3523359",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3549367",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Enablement of the Generic Filter for the EDOC_ADAPTOR BAdI and Corrections",
                           "num":  "3549367",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3503276",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Support for One-Time Customers and Suppliers",
                           "num":  "3503276",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3544518",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Enhancements to PDF Display",
                           "num":  "3544518",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3544558",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Sharing of Electronic Invoices with Customers or Suppliers by Email in the eDocument Cockpit",
                           "num":  "3544558",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3548531",
-                          "title":  "",
+                          "title":  "App - Manage Electronic Documents: Sharing of Electronic Invoices with Customers or Suppliers by Email (Relevant for Malaysia Only)",
                           "num":  "3548531",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3546267",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia - Correction: Incorrect Tax Amounts for Items Posted to G/L Accounts Directly in MIRO and Others",
                           "num":  "3546267",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -3252,7 +3252,7 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/3559296",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Use of Custom Fields",
                           "num":  "3559296",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -3288,55 +3288,55 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/3575388",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia - Correction: Issues with Submitting Correction Documents and Consolidated Invoices",
                           "num":  "3575388",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3573034",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Negative Exchange Rate Corrections and Mandatory Checks on Cancellations and Correction Documents",
                           "num":  "3573034",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3573212",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Enabling of Buyer-Issued Refund Notes and Enhancements to Supplier-Issued Refund Notes",
                           "num":  "3573212",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3575354",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Mixed Tax Type Support for Electronic Invoices",
                           "num":  "3575354",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3578153",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Enhancements in Creating Consolidated Electronic Invoices",
                           "num":  "3578153",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3584408",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: eDocument Mass Cancellation, Deletion, and Improved User Experience",
                           "num":  "3584408",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3584295",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia - Correction: Issues with Reverse Charge, eDocument Type Determination for Refund Notes, and Others",
                           "num":  "3584295",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3598039",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia - Correction: API Validation Errors Related to E-mail Address and General TIN, and Other Issues",
                           "num":  "3598039",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3604159",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia - Correction: System generate a refund note for credit memos without original invoice reference",
                           "num":  "3604159",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -3354,55 +3354,55 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/3608880",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia - Correction: Activation Error for BC Set EDOC_MY_ONETIME_WORKBENCH",
                           "num":  "3608880",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3609867",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia - Correction: Fix Serialization Error for SD Document and UTC Postfix Enhancement for PDF File",
                           "num":  "3609867",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3612289",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia - Correction of Buyer\u0027s State Code in Issuance of Consolidated e-Invoice",
                           "num":  "3612289",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3595053",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Enabling of Electronic Settlement Documents",
                           "num":  "3595053",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3641996",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Population of Currency Exchange Rate in XML Payload",
                           "num":  "3641996",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3644595",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Population of Currency Exchange Rate in XML Payload for Settlement Documents",
                           "num":  "3644595",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3656623",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Indicate Whether Consolidated Invoicing Is Allowed for Buyer-Issued Tax Invoices at Supplier Level",
                           "num":  "3656623",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3628952",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Enhancements to Transaction EDOC_MY_SUMMARY for Enabling Buyer-Issued Consolidated Invoices",
                           "num":  "3628952",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3633523",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: XML Mapping Updates for Enabling Buyer-Issued Consolidated Invoices",
                           "num":  "3633523",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -3414,43 +3414,43 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/3641354",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: Handling of Multiple Import Shipments Under a Single Supplier Invoice",
                           "num":  "3641354",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3656598",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: RM10,000 Transaction Limit for Consolidated Electronic Invoices",
                           "num":  "3656598",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3692400",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia: New Value Mapping MY_VERSION_ID for Setting Document Type Versions at Company Code Level",
                           "num":  "3692400",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3466649",
-                          "title":  "",
+                          "title":  "Malaysia-Specific Fields Appear in Master Data for Non-Malaysian Customers and Vendors",
                           "num":  "3466649",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3470391",
-                          "title":  "",
+                          "title":  "Malaysia: LIC003 (Customer: Ctry-Specific Enh. 2) Tab Not Displayed",
                           "num":  "3470391",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3474819",
-                          "title":  "",
+                          "title":  "Electronic Invoice Processing for Malaysia - Correction: Syntax Incompatibility in the Enhanced Function Groups for Suppliers and Customers",
                           "num":  "3474819",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3474690",
-                          "title":  "",
+                          "title":  "Malaysia: Implementation of a Change Log for Extension Fields in Master Data",
                           "num":  "3474690",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -3474,7 +3474,7 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/3471967",
-                          "title":  "",
+                          "title":  "eDocument Malaysia - Convergent Invoicing: Electronic Document Processing for Documents in Convergent Invoicing (Submission to IRBM)",
                           "num":  "3471967",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       }
@@ -3503,115 +3503,115 @@
         "notes":  [
                       {
                           "url":  "https://me.sap.com/notes/3108133",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Code Corrections for SAP Note 3095265",
                           "num":  "3108133",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3112475",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Code Corrections II for SAP Note 3095265",
                           "num":  "3112475",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3105238",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Mapping Enablement and Code Correction II",
                           "num":  "3105238",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3123617",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Consumer Proxy Correction II",
                           "num":  "3123617",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3122399",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Mapping Enablement and Code Correction III",
                           "num":  "3122399",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3125817",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Mapping Enablement and Code Correction IV",
                           "num":  "3125817",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3131332",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Mapping Enablement and Code Correction V",
                           "num":  "3131332",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3147199",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Mapping Enablement and Code Correction VI",
                           "num":  "3147199",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3193376",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Mapping Enablement and Code Correction VII",
                           "num":  "3193376",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3199682",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Correction to the process description for process SAINVSTR",
                           "num":  "3199682",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3228293",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: DDIC Objects - Prerequisite for 3236978",
                           "num":  "3228293",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3236978",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Mapping Enablement and Code Correction VIII",
                           "num":  "3236978",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3238708",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Consumer Proxy Correction III",
                           "num":  "3238708",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3238709",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: DDIC Objects - Prerequisite for 3238710",
                           "num":  "3238709",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3238710",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Mapping Enablement and Code Correction IX",
                           "num":  "3238710",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3256545",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Mapping Enablement and Code Correction X",
                           "num":  "3256545",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3258406",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: DDIC Objects - Prerequisite for 3269459",
                           "num":  "3258406",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3269459",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Mapping Enablement and Code Correction XI",
                           "num":  "3269459",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3281328",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Code Corrections for SAP Note 3269459",
                           "num":  "3281328",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -3623,205 +3623,205 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/3283587",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Mapping Enablement and Code Correction XII",
                           "num":  "3283587",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3286006",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Mapping Enablement and Code Correction XIII",
                           "num":  "3286006",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3289481",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Mapping Enablement and Code Correction XIV",
                           "num":  "3289481",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3298711",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Mapping Enablement and Code Correction XV",
                           "num":  "3298711",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3304537",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Mapping Enablement and Code Correction XVI",
                           "num":  "3304537",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3327259",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Mapping Enablement and Code Correction XVII",
                           "num":  "3327259",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3329205",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Consumer Proxy Correction IV",
                           "num":  "3329205",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3329140",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Mapping Enablement and Code Correction XVIII",
                           "num":  "3329140",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3339152",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Mapping Enablement and Code Correction XIX",
                           "num":  "3339152",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3358366",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Mapping Enablement and Code Correction XX",
                           "num":  "3358366",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3418158",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Mapping Enablement and Code Correction XXI",
                           "num":  "3418158",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3418249",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Mapping Enablement and Code Correction XXII",
                           "num":  "3418249",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3403848",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Documentation Correction",
                           "num":  "3403848",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3447265",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Code Correction XXIII (Bilingual XML)",
                           "num":  "3447265",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3457480",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Code Correction XXIV",
                           "num":  "3457480",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3439802",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Code Correction XXV (Settlement Management)",
                           "num":  "3439802",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3460323",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Code Correction XXVI (Bilingual Corrections)",
                           "num":  "3460323",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3487773",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: DDIC Objects - Prerequisite for 3474208",
                           "num":  "3487773",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3474208",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Code Correction XXVII (Warning Indicator)",
                           "num":  "3474208",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3477504",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Code Correction XXVIII (Supplier Downpayment)",
                           "num":  "3477504",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3499873",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Code Correction XXIX",
                           "num":  "3499873",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3621131",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Saudi Arabia: Code Correction XXX (CL_EDOCUMENT_SA updates)",
                           "num":  "3621131",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3534615",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Saudi Arabia: Code Correction XXXI",
                           "num":  "3534615",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3654993",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Saudi Arabia: Code Correction XXXII (Downpayment Account Type)",
                           "num":  "3654993",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3644532",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Saudi Arabia: Code Correction XXXIII (Tax Items Export Scenario)",
                           "num":  "3644532",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3711583",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Saudi Arabia: Code Correction XXXIV (Downpayment Account Type Corrections)",
                           "num":  "3711583",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3721605",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Saudi Arabia: Code Correction XXXV (Amounts and Rounding Corrections)",
                           "num":  "3721605",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3686747",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Saudi Arabia: Code Correction XXXVI (Time-zone Correction)",
                           "num":  "3686747",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3095273",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Consumer Proxy Generation",
                           "num":  "3095273",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3095264",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: DDIC Objects - Prerequisite for 3095265",
                           "num":  "3095264",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3095265",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Mapping Enablement and Code Correction",
                           "num":  "3095265",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3212218",
-                          "title":  "",
+                          "title":  "Company code additional parameters for KSA E-invoicing",
                           "num":  "3212218",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3326938",
-                          "title":  "",
+                          "title":  "KSA - eDocument xml-based PDF/A-3 Form in KSA e-Invoicing",
                           "num":  "3326938",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3523812",
-                          "title":  "",
+                          "title":  "S/4 HANA: KSA Commercial Registration Number of Branch Office(Sales Office)",
                           "num":  "3523812",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -3839,13 +3839,13 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/3465473",
-                          "title":  "",
+                          "title":  "eDocuments based on FI document of RE-FX transactions - Workaround for Saudi Arabia",
                           "num":  "3465473",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3345488",
-                          "title":  "",
+                          "title":  "SAP Document Compliance Saudi Arabia: Code Corrections for SAP Note 3238709 (S4CORE 107)",
                           "num":  "3345488",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       }
