@@ -893,25 +893,25 @@
         "notes":  [
                       {
                           "url":  "https://me.sap.com/notes/3403461",
-                          "title":  "",
+                          "title":  "Electronic Document Processing Framework (35)",
                           "num":  "3403461",
                           "category":  "Framework"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2134248",
-                          "title":  "",
+                          "title":  "Electronic Document Processing Framework - Implementation Overview",
                           "num":  "2134248",
                           "category":  "Framework"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3127585",
-                          "title":  "",
+                          "title":  "eDocument Spain SII - AIF Customizing BC set",
                           "num":  "3127585",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2530509",
-                          "title":  "",
+                          "title":  "eDocument Framework Troubleshooting Guide",
                           "num":  "2530509",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       }
@@ -946,55 +946,55 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/2423502",
-                          "title":  "",
+                          "title":  "eDocument Belgium - EU eInvoicing: Prerequisite Objects for SAP Note 2383536",
                           "num":  "2423502",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2383536",
-                          "title":  "",
+                          "title":  "eDocument Belgium - EU eInvoicing",
                           "num":  "2383536",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2819608",
-                          "title":  "",
+                          "title":  "eDocument Belgium: Enablement for Push Scenario",
                           "num":  "2819608",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2805626",
-                          "title":  "",
+                          "title":  "eDocument Belgium - EU eInvoicing: Corrections",
                           "num":  "2805626",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2864578",
-                          "title":  "",
+                          "title":  "eDocument Belgium - EU eInvoicing: Corrections",
                           "num":  "2864578",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3064880",
-                          "title":  "",
+                          "title":  "eDocument Belgium - EU eInvoicing: Corrections",
                           "num":  "3064880",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2994910",
-                          "title":  "",
+                          "title":  "eDocument Belgium - EU eInvoicing: Read Access Logging Enablement",
                           "num":  "2994910",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3118676",
-                          "title":  "",
+                          "title":  "eDocument Belgium - EU eInvoicing: Corrections/External File Upload",
                           "num":  "3118676",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3182187",
-                          "title":  "",
+                          "title":  "eDocument Belgium - EU eInvoicing: HTML Display Additional Customizing",
                           "num":  "3182187",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -1012,43 +1012,43 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/3260083",
-                          "title":  "",
+                          "title":  "eDocument eOrdering Peppol Belgium: Customizing",
                           "num":  "3260083",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3351785",
-                          "title":  "",
+                          "title":  "Electronic Invoice for Belgium - Peppol Network Exchange: Corrections",
                           "num":  "3351785",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3605436",
-                          "title":  "",
+                          "title":  "Electronic Invoice for Belgium - Peppol Network Exchange: Corrections",
                           "num":  "3605436",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3629834",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Belgium: Domestic B2B Self-Billing Documents",
                           "num":  "3629834",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3737980",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Belgium: External Documents",
                           "num":  "3737980",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3112210",
-                          "title":  "",
+                          "title":  "eDocument Belgium - EU eInvoicing Settlement Management: Installation Overview",
                           "num":  "3112210",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2994160",
-                          "title":  "",
+                          "title":  "eDocuments: PEPPOL for Convergent Invoicing (Belgium)",
                           "num":  "2994160",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       }
@@ -1585,37 +1585,37 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/3523126",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Croatia: Package Creation",
                           "num":  "3523126",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3514700",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Croatia: Consumer Proxy Generation",
                           "num":  "3514700",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3522987",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Croatia: DDIC Objects - Prerequisite for 3514701",
                           "num":  "3522987",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3514701",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Croatia: Mapping and Code Correction",
                           "num":  "3514701",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3596227",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Croatia: Code Correction I",
                           "num":  "3596227",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3622819",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Croatia: Code Correction II",
                           "num":  "3622819",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -1645,7 +1645,7 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/3685549",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Croatia: DDIC Objects - Prerequisite for 3686222",
                           "num":  "3685549",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -1657,19 +1657,19 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/3693215",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Croatia - FINA: External Documents",
                           "num":  "3693215",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3694284",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Croatia - FINA: External Data XML Format Preparation",
                           "num":  "3694284",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3692104",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Croatia: B2G Actions Consumer Proxy Generation",
                           "num":  "3692104",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -1699,7 +1699,7 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/3701416",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Croatia: Code Corrections IV",
                           "num":  "3701416",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -1729,19 +1729,19 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/3702815",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Croatia - Consumer Proxy Generation II",
                           "num":  "3702815",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3715843",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Croatia - B2B Data Dictionary Objects II",
                           "num":  "3715843",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3712966",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Croatia: Customer Invoice e-Reporting and Fiscalization",
                           "num":  "3712966",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -1753,13 +1753,13 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/3737985",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Croatia: Prerequisite of SAP Note 3734152",
                           "num":  "3737985",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3734152",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Croatia: Self Billing and Display PDF changes",
                           "num":  "3734152",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -1789,43 +1789,43 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/3738318",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Croatia: Self Billing - Invoice Verification",
                           "num":  "3738318",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3758346",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Croatia - B2B Data Dictionary Objects III",
                           "num":  "3758346",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3755917",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Croatia: Copy Indicator enablement",
                           "num":  "3755917",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3759873",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Croatia: Multiple bank accounts OP",
                           "num":  "3759873",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3769710",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Croatia: Mapping corrections VIII",
                           "num":  "3769710",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2530509",
-                          "title":  "",
+                          "title":  "eDocument Framework Troubleshooting Guide",
                           "num":  "2530509",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3677702",
-                          "title":  "",
+                          "title":  "Croatia: Creating Electronic Customer Invoices in Convergent Invoicing (B2G)",
                           "num":  "3677702",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       }
@@ -1860,49 +1860,49 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/2832200",
-                          "title":  "",
+                          "title":  "eDocument Norway - EU eInvoicing: Prerequisite for SAP Note 2792581",
                           "num":  "2832200",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2792581",
-                          "title":  "",
+                          "title":  "eDocument Norway - EU eInvoicing",
                           "num":  "2792581",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2832760",
-                          "title":  "",
+                          "title":  "eDocument Norway - AIF Customizing",
                           "num":  "2832760",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2891530",
-                          "title":  "",
+                          "title":  "eDocument Norway - EU eInvoicing: Corrections",
                           "num":  "2891530",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2931981",
-                          "title":  "",
+                          "title":  "eDocument Norway - EU eInvoicing: Corrections",
                           "num":  "2931981",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2996870",
-                          "title":  "",
+                          "title":  "eDocument Norway - EU eInvoicing: Read Access Logging Enablement",
                           "num":  "2996870",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3128860",
-                          "title":  "",
+                          "title":  "eDocument Norway - EU eInvoicing: Corrections/External File Upload",
                           "num":  "3128860",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3189561",
-                          "title":  "",
+                          "title":  "eDocument Norway - EU eInvoicing: HTML Display Additional Customizing",
                           "num":  "3189561",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -1920,25 +1920,25 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/3201444",
-                          "title":  "",
+                          "title":  "eDocument eOrdering Peppol Norway: Implementation",
                           "num":  "3201444",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3201381",
-                          "title":  "",
+                          "title":  "eDocument eOrdering Peppol Norway: Customizing",
                           "num":  "3201381",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3351831",
-                          "title":  "",
+                          "title":  "Electronic Invoice for Norway - Peppol Network Exchange: Corrections",
                           "num":  "3351831",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3093227",
-                          "title":  "",
+                          "title":  "eDocument Norway - EU eInvoicing Settlement Management: Installation Overview",
                           "num":  "3093227",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       }
@@ -1967,37 +1967,37 @@
         "notes":  [
                       {
                           "url":  "https://me.sap.com/notes/2134248",
-                          "title":  "",
+                          "title":  "Electronic Document Processing Framework - Implementation Overview",
                           "num":  "2134248",
                           "category":  "Framework"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2853195",
-                          "title":  "",
+                          "title":  "eDocument Framework (24)",
                           "num":  "2853195",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3364424",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Slovakia: Prerequisites for SAP Note 3354893",
                           "num":  "3364424",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3354893",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Slovakia: Base Class Changes",
                           "num":  "3354893",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3354888",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Slovakia: Proxy Objects",
                           "num":  "3354888",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3354952",
-                          "title":  "",
+                          "title":  "Electronic Document Processing for Slovakia: Mapping Class Changes",
                           "num":  "3354952",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -2036,13 +2036,13 @@
         "notes":  [
                       {
                           "url":  "https://me.sap.com/notes/2410917",
-                          "title":  "",
+                          "title":  "GST IN: Line item wise tax calculation for sales invoices",
                           "num":  "2410917",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2410105",
-                          "title":  "",
+                          "title":  "GST IN: Sales related changes for India GST for sales order creation and Invoice posting",
                           "num":  "2410105",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -2096,13 +2096,13 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/3003891",
-                          "title":  "",
+                          "title":  "SAP Solution for eInvoice/IRN India: Update history table for delete action and restrict e-waybill generation",
                           "num":  "3003891",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2986200",
-                          "title":  "",
+                          "title":  "eDocument India: Error log report extension for eInvoice India solution",
                           "num":  "2986200",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -2126,7 +2126,7 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/2530509",
-                          "title":  "",
+                          "title":  "eDocument Framework Troubleshooting Guide",
                           "num":  "2530509",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       }
@@ -2167,7 +2167,7 @@
                       },
                       {
                           "url":  "https://me.sap.com/notes/2853195",
-                          "title":  "",
+                          "title":  "eDocument Framework (24)",
                           "num":  "2853195",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
@@ -2898,13 +2898,13 @@
         "notes":  [
                       {
                           "url":  "https://me.sap.com/notes/3403461",
-                          "title":  "",
+                          "title":  "Electronic Document Processing Framework (35)",
                           "num":  "3403461",
                           "category":  "Framework"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2134248",
-                          "title":  "",
+                          "title":  "Electronic Document Processing Framework - Implementation Overview",
                           "num":  "2134248",
                           "category":  "Framework"
                       },
@@ -3884,13 +3884,13 @@
         "notes":  [
                       {
                           "url":  "https://me.sap.com/notes/2476857",
-                          "title":  "",
+                          "title":  "eDocument Framework - Utility Class Improvements",
                           "num":  "2476857",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/2348940",
-                          "title":  "",
+                          "title":  "eDocument Colombia - eInvoicing: Prerequisite Objects for SAP Note 2297487",
                           "num":  "2348940",
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       }
@@ -3919,7 +3919,7 @@
         "notes":  [
                       {
                           "url":  "https://me.sap.com/notes/2134248",
-                          "title":  "",
+                          "title":  "Electronic Document Processing Framework - Implementation Overview",
                           "num":  "2134248",
                           "category":  "Framework"
                       },
