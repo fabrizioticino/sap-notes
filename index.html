@@ -64,6 +64,7 @@
   .note-pill.zero{background:#f0f0f0;color:#aaa;}
   .country-foot{margin-top:auto;font-size:12.5px;color:var(--ink-soft);line-height:1.5;border-top:1px solid var(--line);padding-top:10px;}
   .country-foot b{color:var(--ink);font-weight:600;font-family:'IBM Plex Mono',monospace;}
+  .country-updated{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink-soft);margin-top:5px;opacity:.7;}
   .no-results{grid-column:1/-1;background:var(--card);padding:60px 20px;text-align:center;font-family:'IBM Plex Mono',monospace;color:var(--ink-soft);font-size:13px;}
 
   .detail-overlay{position:fixed;inset:0;background:var(--paper);z-index:200;display:none;overflow-y:auto;}
@@ -240,6 +241,7 @@ function renderGrid(){
       <div class="country-foot">
         <b>Nota centrale:</b> ${central}
       </div>
+      ${c.last_update ? `<div class="country-updated">Aggiornato: ${c.last_update}</div>` : ''}
     </div>`;
   }).join('');
 
@@ -306,7 +308,7 @@ function openDetail(slug){
   const body = document.getElementById('detail-body');
   const st = classifyStatus(c.b2b_status);
 
-  let html = `<div class="detail-meta">SAP Document and Reporting Compliance · eDocument — ${c.deployment||'on-premise'}</div>`;
+  let html = `<div class="detail-meta">SAP Document and Reporting Compliance · eDocument — ${c.deployment||'on-premise'}${c.last_update ? ` · <span style="opacity:.75">Verificato: ${c.last_update}</span>` : ''}</div>`;
 
   html += renderSection('01','Mandato e-invoicing B2B',
     `<div class="field-grid">${
