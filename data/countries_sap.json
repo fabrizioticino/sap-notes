@@ -1,4 +1,4 @@
-[
+﻿[
     {
         "name":  "Italy",
         "name_it":  "Italia",
@@ -4019,6 +4019,745 @@
         "customizing":  null,
         "notes":  [
 
+                  ]
+    },
+    {
+        "name":  "Australia",
+        "name_it":  "Australia",
+        "slug":  "australia",
+        "b2b_status":  "Volontario (Peppol, promosso dal governo)",
+        "deployment":  "S/4HANA on-prem / Cloud",
+        "central_note":  "3020436",
+        "central_title":  "Electronic Documents - Australia: Implementation Overview (Peppol)",
+        "component":  "CA-GTF-CSC-EDO-AU",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  1,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nella nota centrale",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
+                            "central":  "3020436 - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument+Australia"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/3020436",
+                          "title":  "Electronic Documents Australia: Peppol Implementation Overview",
+                          "num":  "3020436",
+                          "category":  "Nota centrale (Implementation Overview)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Austria",
+        "name_it":  "Austria",
+        "slug":  "austria",
+        "b2b_status":  "Non obbligatorio (Peppol B2G; nessun mandato B2B)",
+        "deployment":  "S/4HANA on-prem / Cloud",
+        "central_note":  "2377670",
+        "central_title":  "Electronic Documents - Austria: Implementation Overview (Peppol)",
+        "component":  "CA-GTF-CSC-EDO-AT",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  1,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nella nota centrale",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
+                            "central":  "2377670 - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument+Austria"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2377670",
+                          "title":  "Electronic Documents Austria: Implementation Overview",
+                          "num":  "2377670",
+                          "category":  "Nota centrale (Implementation Overview)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Brazil",
+        "name_it":  "Brasile",
+        "slug":  "brasile",
+        "b2b_status":  "Obbligatorio (NF-e/CT-e clearance SEFAZ)",
+        "deployment":  "S/4HANA on-prem / Cloud",
+        "central_note":  "2776753",
+        "central_title":  "Electronic Documents - Brazil: Inbound NF-e/CT-e Implementation Overview",
+        "component":  "CA-GTF-CSC-EDO-BR",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  2,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nella nota centrale",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
+                            "central":  "2776753 - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument+Brazil"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2776753",
+                          "title":  "Electronic Documents Brazil: Inbound NF-e/CT-e",
+                          "num":  "2776753",
+                          "category":  "Nota centrale (Implementation Overview)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2671909",
+                          "title":  "eDocument Brazil NF-e/CT-e Outbound (LOD-LH-NFE)",
+                          "num":  "2671909",
+                          "category":  "Framework outbound NF-e/CT-e"
+                      }
+                  ]
+    },
+    {
+        "name":  "Chile",
+        "name_it":  "Cile",
+        "slug":  "cile",
+        "b2b_status":  "Obbligatorio (DTE via SII - Servicio de Impuestos Internos)",
+        "deployment":  "S/4HANA on-prem / Cloud",
+        "central_note":  "2344815",
+        "central_title":  "Electronic Documents - Chile: Implementation Overview (DTE)",
+        "component":  "CA-GTF-CSC-EDO-CL",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  1,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nella nota centrale",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
+                            "central":  "2344815 - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument+Chile"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2344815",
+                          "title":  "Electronic Documents Chile: DTE Implementation Overview",
+                          "num":  "2344815",
+                          "category":  "Nota centrale (Implementation Overview)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Denmark",
+        "name_it":  "Danimarca",
+        "slug":  "danimarca",
+        "b2b_status":  "Ricezione obbligatoria (NemHandel/Peppol)",
+        "deployment":  "S/4HANA on-prem / Cloud",
+        "central_note":  "2843544",
+        "central_title":  "Electronic Documents - Denmark: Implementation Overview (NemHandel/Peppol)",
+        "component":  "CA-GTF-CSC-EDO-DK",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  2,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nella nota centrale",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
+                            "central":  "2843544 - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument+Denmark"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2843544",
+                          "title":  "Electronic Documents Denmark: Implementation Overview",
+                          "num":  "2843544",
+                          "category":  "Nota centrale (Implementation Overview)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/325998",
+                          "title":  "Electronic Orders Denmark (Peppol)",
+                          "num":  "325998",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Finland",
+        "name_it":  "Finlandia",
+        "slug":  "finlandia",
+        "b2b_status":  "Altamente volontario (Finvoice/Peppol - di fatto quasi obbligatorio)",
+        "deployment":  "S/4HANA on-prem / Cloud",
+        "central_note":  "3256030",
+        "central_title":  "Electronic Documents - Finland: Implementation Overview (Finvoice/Peppol)",
+        "component":  "CA-GTF-CSC-EDO-FI",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  1,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nella nota centrale",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
+                            "central":  "3256030 - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument+Finland"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/3256030",
+                          "title":  "Electronic Documents Finland: Finvoice/Peppol Implementation Overview",
+                          "num":  "3256030",
+                          "category":  "Nota centrale (Implementation Overview)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Greece",
+        "name_it":  "Grecia",
+        "slug":  "grecia",
+        "b2b_status":  "Obbligatorio (myDATA e-Reporting - tutte le imprese greche)",
+        "deployment":  "S/4HANA on-prem / Cloud",
+        "central_note":  "2930400",
+        "central_title":  "Electronic Documents - Greece: Implementation Overview (myDATA)",
+        "component":  "CA-GTF-CSC-EDO-GR",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  2,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nella nota centrale",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
+                            "central":  "2930400 - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument+Greece"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2930400",
+                          "title":  "Electronic Documents Greece: myDATA Implementation Overview",
+                          "num":  "2930400",
+                          "category":  "Nota centrale (Implementation Overview)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3123296",
+                          "title":  "Electronic Documents Greece: myDATA Additional Notes",
+                          "num":  "3123296",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Hungary",
+        "name_it":  "Ungheria",
+        "slug":  "ungheria",
+        "b2b_status":  "Obbligatorio (KIBO - fattura XML real-time verso NAV)",
+        "deployment":  "S/4HANA on-prem / Cloud",
+        "central_note":  "2637574",
+        "central_title":  "Electronic Documents - Hungary: Implementation Overview (KIBO/NAV)",
+        "component":  "CA-GTF-CSC-EDO-HU",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  3,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nella nota centrale",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
+                            "central":  "2637574 - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument+Hungary"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2637574",
+                          "title":  "Electronic Documents Hungary: KIBO Implementation Overview",
+                          "num":  "2637574",
+                          "category":  "Nota centrale (Implementation Overview)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3256980",
+                          "title":  "Electronic Documents Hungary: KIBO Updates",
+                          "num":  "3256980",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2227052",
+                          "title":  "Electronic Documents Hungary: Transfer Pricing (HU-TR)",
+                          "num":  "2227052",
+                          "category":  "Nota correlata (Transfer Pricing)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Ireland",
+        "name_it":  "Irlanda",
+        "slug":  "irlanda",
+        "b2b_status":  "Pianificato (introduzione graduale 2028-2030 ai sensi di ViDA)",
+        "deployment":  "S/4HANA on-prem / Cloud",
+        "central_note":  "2893997",
+        "central_title":  "Electronic Documents - Ireland: Implementation Overview (Peppol)",
+        "component":  "CA-GTF-CSC-EDO-IE",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  2,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nella nota centrale",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
+                            "central":  "2893997 - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument+Ireland"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2893997",
+                          "title":  "Electronic Documents Ireland: Peppol Implementation Overview",
+                          "num":  "2893997",
+                          "category":  "Nota centrale (Implementation Overview)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3422725",
+                          "title":  "Enhanced Reporting Requirements (ERR) Ireland",
+                          "num":  "3422725",
+                          "category":  "Nota correlata (ERR)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Israel",
+        "name_it":  "Israele",
+        "slug":  "israele",
+        "b2b_status":  "Parzialmente obbligatorio (clearance SHAAM basata su soglia importo)",
+        "deployment":  "S/4HANA on-prem / Cloud",
+        "central_note":  "3392197",
+        "central_title":  "Electronic Documents - Israel: Implementation Overview (SHAAM clearance)",
+        "component":  "CA-GTF-CSC-EDO-IL",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  1,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nella nota centrale",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
+                            "central":  "3392197 - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument+Israel"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/3392197",
+                          "title":  "Electronic Documents Israel: SHAAM Clearance Implementation Overview",
+                          "num":  "3392197",
+                          "category":  "Nota centrale (Implementation Overview)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Japan",
+        "name_it":  "Giappone",
+        "slug":  "giappone",
+        "b2b_status":  "Obbligatorio (JP PINT - fattura conforme JIS/Peppol)",
+        "deployment":  "S/4HANA on-prem / Cloud",
+        "central_note":  "3283981",
+        "central_title":  "Electronic Documents - Japan: Implementation Overview (JP PINT/Peppol)",
+        "component":  "CA-GTF-CSC-EDO-JP",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  1,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nella nota centrale",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
+                            "central":  "3283981 - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument+Japan"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/3283981",
+                          "title":  "Electronic Documents Japan: JP PINT Implementation Overview",
+                          "num":  "3283981",
+                          "category":  "Nota centrale (Implementation Overview)"
+                      }
+                  ]
+    },
+    {
+        "name":  "South Korea",
+        "name_it":  "Corea del Sud",
+        "slug":  "corea-del-sud",
+        "b2b_status":  "Obbligatorio (e-Tax Invoice - sistema Hometax NTS)",
+        "deployment":  "S/4HANA on-prem / Cloud",
+        "central_note":  "2778520",
+        "central_title":  "Electronic Documents - South Korea: Implementation Overview (e-Tax Invoice)",
+        "component":  "CA-GTF-CSC-EDO-KR",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  3,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nella nota centrale",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
+                            "central":  "2778520 - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument+South Korea"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2778520",
+                          "title":  "Electronic Documents South Korea: e-Tax Invoice Implementation Overview",
+                          "num":  "2778520",
+                          "category":  "Nota centrale (Implementation Overview)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2823157",
+                          "title":  "Electronic Documents South Korea: e-Tax Invoice Update",
+                          "num":  "2823157",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2931945",
+                          "title":  "Electronic Documents South Korea: Additional Functions",
+                          "num":  "2931945",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Luxembourg",
+        "name_it":  "Lussemburgo",
+        "slug":  "lussemburgo",
+        "b2b_status":  "In arrivo - obbligatorio (bozza di legge, recepimento ViDA)",
+        "deployment":  "S/4HANA on-prem / Cloud",
+        "central_note":  "3060204",
+        "central_title":  "Electronic Documents - Luxembourg: Implementation Overview (Peppol B2G)",
+        "component":  "CA-GTF-CSC-EDO-LU",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  1,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nella nota centrale",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
+                            "central":  "3060204 - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument+Luxembourg"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/3060204",
+                          "title":  "Electronic Documents Luxembourg: Peppol B2G Implementation Overview",
+                          "num":  "3060204",
+                          "category":  "Nota centrale (Implementation Overview)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Netherlands",
+        "name_it":  "Paesi Bassi",
+        "slug":  "paesi-bassi",
+        "b2b_status":  "Non obbligatorio (Peppol B2G obbligatorio; B2B possibile entro il 2030)",
+        "deployment":  "S/4HANA on-prem / Cloud",
+        "central_note":  "2424637",
+        "central_title":  "Electronic Documents - Netherlands: Implementation Overview (Peppol)",
+        "component":  "CA-GTF-CSC-EDO-NL",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  1,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nella nota centrale",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
+                            "central":  "2424637 - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument+Netherlands"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2424637",
+                          "title":  "Electronic Documents Netherlands: Peppol Implementation Overview",
+                          "num":  "2424637",
+                          "category":  "Nota centrale (Implementation Overview)"
+                      }
+                  ]
+    },
+    {
+        "name":  "New Zealand",
+        "name_it":  "Nuova Zelanda",
+        "slug":  "nuova-zelanda",
+        "b2b_status":  "Non obbligatorio (Peppol promosso dal governo - AU/NZ framework)",
+        "deployment":  "S/4HANA on-prem / Cloud",
+        "central_note":  "3043424",
+        "central_title":  "Electronic Documents - New Zealand: Implementation Overview (Peppol AU/NZ)",
+        "component":  "CA-GTF-CSC-EDO-NZ",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  1,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nella nota centrale",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
+                            "central":  "3043424 - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument+New Zealand"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/3043424",
+                          "title":  "Electronic Documents New Zealand: Peppol AU/NZ Implementation Overview",
+                          "num":  "3043424",
+                          "category":  "Nota centrale (Implementation Overview)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Peru",
+        "name_it":  "Peru",
+        "slug":  "peru",
+        "b2b_status":  "Obbligatorio (fattura elettronica SUNAT - UBL 2.1)",
+        "deployment":  "S/4HANA on-prem / Cloud",
+        "central_note":  "2651114",
+        "central_title":  "Electronic Documents - Peru: Implementation Overview (SUNAT)",
+        "component":  "CA-GTF-CSC-EDO-PE",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  1,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nella nota centrale",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
+                            "central":  "2651114 - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument+Peru"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2651114",
+                          "title":  "Electronic Documents Peru: SUNAT Implementation Overview",
+                          "num":  "2651114",
+                          "category":  "Nota centrale (Implementation Overview)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Portugal",
+        "name_it":  "Portogallo",
+        "slug":  "portogallo",
+        "b2b_status":  "Non obbligatorio (adozione volontaria - e-fatura SAF-T)",
+        "deployment":  "S/4HANA on-prem / Cloud",
+        "central_note":  "2832220",
+        "central_title":  "Electronic Documents - Portugal: Implementation Overview (e-fatura SAF-T)",
+        "component":  "CA-GTF-CSC-EDO-PT",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  2,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nella nota centrale",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
+                            "central":  "2832220 - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument+Portugal"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2832220",
+                          "title":  "Electronic Documents Portugal: e-fatura SAF-T Implementation Overview",
+                          "num":  "2832220",
+                          "category":  "Nota centrale (Implementation Overview)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3282015",
+                          "title":  "Electronic Transport Registration Portugal (AT)",
+                          "num":  "3282015",
+                          "category":  "Nota correlata (e-Transport)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Singapore",
+        "name_it":  "Singapore",
+        "slug":  "singapore",
+        "b2b_status":  "Ricezione obbligatoria per imprese IVA (dal novembre 2025 - InvoiceNow/Peppol)",
+        "deployment":  "S/4HANA on-prem / Cloud",
+        "central_note":  "2949585",
+        "central_title":  "Electronic Documents - Singapore: Implementation Overview (InvoiceNow/Peppol)",
+        "component":  "CA-GTF-CSC-EDO-SG",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  2,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nella nota centrale",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
+                            "central":  "2949585 - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument+Singapore"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2949585",
+                          "title":  "Electronic Documents Singapore: InvoiceNow/Peppol Implementation Overview",
+                          "num":  "2949585",
+                          "category":  "Nota centrale (Implementation Overview)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3591356",
+                          "title":  "Electronic Documents Singapore: Submission to Tax Authority (IRAS)",
+                          "num":  "3591356",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Sweden",
+        "name_it":  "Svezia",
+        "slug":  "svezia",
+        "b2b_status":  "Non obbligatorio (volontario, alta adozione - Peppol/Svefaktura)",
+        "deployment":  "S/4HANA on-prem / Cloud",
+        "central_note":  "2808076",
+        "central_title":  "Electronic Documents - Sweden: Implementation Overview (Svefaktura/Peppol)",
+        "component":  "CA-GTF-CSC-EDO-SE",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  2,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nella nota centrale",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
+                            "central":  "2808076 - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument+Sweden"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2808076",
+                          "title":  "Electronic Documents Sweden: Svefaktura/Peppol Implementation Overview",
+                          "num":  "2808076",
+                          "category":  "Nota centrale (Implementation Overview)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3259947",
+                          "title":  "Electronic Orders Sweden (Peppol)",
+                          "num":  "3259947",
+                          "category":  "Nota soluzione/correzione (vedi nota centrale)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Switzerland",
+        "name_it":  "Svizzera",
+        "slug":  "svizzera",
+        "b2b_status":  "Volontario (nessun mandato attivo)",
+        "deployment":  "S/4HANA on-prem / Cloud",
+        "central_note":  "3232159",
+        "central_title":  "Electronic Documents - Switzerland: Implementation Overview",
+        "component":  "CA-GTF-CSC-EDO-CH",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  1,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nella nota centrale",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
+                            "central":  "3232159 - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument+Switzerland"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/3232159",
+                          "title":  "Electronic Documents Switzerland: Implementation Overview",
+                          "num":  "3232159",
+                          "category":  "Nota centrale (Implementation Overview)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Taiwan",
+        "name_it":  "Taiwan",
+        "slug":  "taiwan",
+        "b2b_status":  "Obbligatorio (e-GUI - sistema GIG Ministry of Finance)",
+        "deployment":  "S/4HANA on-prem / Cloud",
+        "central_note":  "2530233",
+        "central_title":  "Electronic Documents - Taiwan: Implementation Overview (e-GUI)",
+        "component":  "CA-GTF-CSC-EDO-TW",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  1,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nella nota centrale",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
+                            "central":  "2530233 - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument+Taiwan"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2530233",
+                          "title":  "Electronic Documents Taiwan: e-GUI Implementation Overview",
+                          "num":  "2530233",
+                          "category":  "Nota centrale (Implementation Overview)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Thailand",
+        "name_it":  "Tailandia",
+        "slug":  "tailandia",
+        "b2b_status":  "Obbligatorio (eTax Invoice and Receipt - grandi contribuenti)",
+        "deployment":  "S/4HANA on-prem / Cloud",
+        "central_note":  "2569090",
+        "central_title":  "Electronic Documents - Thailand: Implementation Overview (eTax Invoice)",
+        "component":  "CA-GTF-CSC-EDO-TH",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  1,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nella nota centrale",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
+                            "central":  "2569090 - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument+Thailand"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2569090",
+                          "title":  "Electronic Documents Thailand: eTax Invoice Implementation Overview",
+                          "num":  "2569090",
+                          "category":  "Nota centrale (Implementation Overview)"
+                      }
+                  ]
+    },
+    {
+        "name":  "Turkey",
+        "name_it":  "Turchia",
+        "slug":  "turchia",
+        "b2b_status":  "Obbligatorio (e-Fatura - clearance GIB/Revenue Administration)",
+        "deployment":  "S/4HANA on-prem / Cloud",
+        "central_note":  "2736407",
+        "central_title":  "Electronic Documents - Turkey: Implementation Overview (e-Fatura/GIB)",
+        "component":  "CA-GTF-CSC-EDO-TR",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  2,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing incluso nella nota centrale",
+                            "img":  "SPRO \u003e Cross-Application Components \u003e General Application Functions \u003e eDocument",
+                            "central":  "2736407 - Configuration Guide allegata",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument+Turkey"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2736407",
+                          "title":  "Electronic Documents Turkey: e-Fatura Implementation Overview",
+                          "num":  "2736407",
+                          "category":  "Nota centrale (Implementation Overview)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2726671",
+                          "title":  "Electronic Documents Turkey: e-Arsiv (Electronic Archive)",
+                          "num":  "2726671",
+                          "category":  "Nota correlata (e-Arsiv)"
+                      }
                   ]
     }
 ]
