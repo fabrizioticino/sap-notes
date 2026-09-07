@@ -4800,5 +4800,48 @@
 
                   ],
         "last_update":  "24 luglio 2026"
+    },
+    {
+        "name":  "Slovenia",
+        "name_it":  "Slovenia",
+        "slug":  "slovenia",
+        "b2b_status":  "Obbligatorio dal 01/2028 (ZIERDED)",
+        "deployment":  "S/4HANA on-prem / ECC",
+        "central_note":  "-",
+        "central_title":  "Nota SAP dedicata non ancora disponibile",
+        "component":  "-",
+        "framework":  "2134248",
+        "kba":  "3507404",
+        "has_solution":  false,
+        "notes_count":  0,
+        "customizing":  {
+                            "kba":  "3507404 - Slovenia: Reports in SAP DRC (Getting Started)",
+                            "note_cust":  "Nessuna configurazione eDocument disponibile per Slovenia. La nota 3507404 copre solo report IVA (DRC Getting Started), non la fattura elettronica B2B.",
+                            "img":  "-",
+                            "central":  "Non disponibile — monitorare nota 3595794 (Country-Specific e-Invoicing Guidance in SAP DRC)",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument%20Slovenia"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2134248",
+                          "title":  "Electronic Document Processing Framework - Implementation Overview",
+                          "num":  "2134248",
+                          "category":  "Framework (generico)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3507404",
+                          "title":  "Slovenia - Reports in the SAP Document and Reporting Compliance - Getting Started - SAP S/4HANA",
+                          "num":  "3507404",
+                          "category":  "DRC Getting Started — report IVA (non e-invoicing B2B)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/3595794",
+                          "title":  "Country/Region-Specific Electronic Invoicing Guidance in SAP DRC",
+                          "num":  "3595794",
+                          "category":  "Nota di riferimento — da monitorare per Slovenia"
+                      }
+                  ],
+        "sap_note_status":  "Non disponibile — mandato B2B dal 01/01/2028 (Legge ZIERDED adottata 23/10/2025). SAP non ha ancora rilasciato contenuto DRC/eDocument specifico per la fattura elettronica B2B slovena. La nota 3507404 copre esclusivamente i report di conformità IVA (Obrazec PD-O e simili), non il flusso di emissione/ricezione fattura elettronica. Monitorare SAP nota 3595794 per aggiornamenti sul supporto paese Slovenia.",
+        "last_update":  "7 settembre 2026"
     }
 ]
