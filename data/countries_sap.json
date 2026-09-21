@@ -4171,7 +4171,7 @@
         "framework":  "2134248",
         "kba":  "-",
         "has_solution":  true,
-        "notes_count":  3,
+        "notes_count":  4,
         "customizing":  {
                             "kba":  "-",
                             "note_cust":  "Customizing incluso nella nota centrale",
@@ -4197,9 +4197,16 @@
                           "title":  "Electronic Documents Hungary: Transfer Pricing (HU-TR)",
                           "num":  "2227052",
                           "category":  "Nota correlata (Transfer Pricing)"
+                      },
+                      {
+                          "title":  "Hungary: VAT Return 2026 structural changes and mandatory transition to eVAT (eAFA) - M2M from 01.01.2027 ANYK phase-out",
+                          "url":  "https://me.sap.com/notes/3719669",
+                          "num":  "3719669",
+                          "category":  "Nota soluzione (dichiarazione IVA eAFA/M2M - obbligatorio dal 1 gennaio 2027)"
                       }
                   ],
-        "last_update":  "28 agosto 2026"
+        "sap_note_status":  "SAP supporta il passaggio a eAFA (eVAT) tramite la nota 3719669: modifica strutturale della dichiarazione IVA 2026 e obbligo M2M dal 1 gennaio 2027 (dismissione ANYK). Il componente e CA-GTF-CSC-EDO-HU. Verificare la versione SP per compatibilita con M2M eAFA v2.0 XSD (in produzione dal 3 agosto 2026). Le funzionalita KIBO real-time rimangono invariate.",
+        "last_update":  "21 settembre 2026"
     },
     {
         "name":  "Finland",
@@ -4818,7 +4825,7 @@
                             "kba":  "3507404 - Slovenia: Reports in SAP DRC (Getting Started)",
                             "note_cust":  "Nessuna configurazione eDocument disponibile per Slovenia. La nota 3507404 copre solo report IVA (DRC Getting Started), non la fattura elettronica B2B.",
                             "img":  "-",
-                            "central":  "Non disponibile — monitorare nota 3595794 (Country-Specific e-Invoicing Guidance in SAP DRC)",
+                            "central":  "Non disponibile â€” monitorare nota 3595794 (Country-Specific e-Invoicing Guidance in SAP DRC)",
                             "help":  "https://help.sap.com/docs/search?q=eDocument%20Slovenia"
                         },
         "notes":  [
@@ -4832,16 +4839,16 @@
                           "url":  "https://me.sap.com/notes/3507404",
                           "title":  "Slovenia - Reports in the SAP Document and Reporting Compliance - Getting Started - SAP S/4HANA",
                           "num":  "3507404",
-                          "category":  "DRC Getting Started — report IVA (non e-invoicing B2B)"
+                          "category":  "DRC Getting Started â€” report IVA (non e-invoicing B2B)"
                       },
                       {
                           "url":  "https://me.sap.com/notes/3595794",
                           "title":  "Country/Region-Specific Electronic Invoicing Guidance in SAP DRC",
                           "num":  "3595794",
-                          "category":  "Nota di riferimento — da monitorare per Slovenia"
+                          "category":  "Nota di riferimento â€” da monitorare per Slovenia"
                       }
                   ],
-        "sap_note_status":  "Non disponibile — mandato B2B dal 01/01/2028 (Legge ZIERDED adottata 23/10/2025). SAP non ha ancora rilasciato contenuto DRC/eDocument specifico per la fattura elettronica B2B slovena. La nota 3507404 copre esclusivamente i report di conformità IVA (Obrazec PD-O e simili), non il flusso di emissione/ricezione fattura elettronica. Monitorare SAP nota 3595794 per aggiornamenti sul supporto paese Slovenia.",
+        "sap_note_status":  "Non disponibile â€” mandato B2B dal 01/01/2028 (Legge ZIERDED adottata 23/10/2025). SAP non ha ancora rilasciato contenuto DRC/eDocument specifico per la fattura elettronica B2B slovena. La nota 3507404 copre esclusivamente i report di conformitÃ  IVA (Obrazec PD-O e simili), non il flusso di emissione/ricezione fattura elettronica. Monitorare SAP nota 3595794 per aggiornamenti sul supporto paese Slovenia.",
         "last_update":  "7 settembre 2026"
     }
 ]
