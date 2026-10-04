@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="it">
 <head>
 <meta charset="UTF-8">
@@ -22,8 +22,9 @@
   a{color:inherit;}
 
   header.masthead{position:relative;z-index:1;border-bottom:3px double var(--ink);padding:28px 5vw 18px;}
-  .masthead-top{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:18px;}
+  .masthead-top{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:18px;}
   .masthead-top .dot{color:var(--accent);}
+  .masthead-logo{ height:28px;flex-shrink:0;opacity:.9;margin-right:14px; }
   h1.title{font-family:'Fraunces',serif;font-optical-sizing:auto;font-weight:600;font-size:clamp(34px,6vw,64px);line-height:0.98;margin:0 0 10px;letter-spacing:-0.01em;}
   h1.title em{font-style:italic;font-weight:400;color:var(--accent);}
   .subhead{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:18px;border-top:1px solid var(--line);padding-top:14px;margin-top:18px;}
@@ -123,7 +124,8 @@
 
 <header class="masthead">
   <div class="masthead-top">
-    <span>SAP DOCUMENT &amp; REPORTING COMPLIANCE — eDOCUMENT · AUTORE: FABRIZIO TICINO</span>
+    <img class="masthead-logo" src="regesta-logo.png" alt="Regesta Group">
+    <span>SAP DOCUMENT &amp; REPORTING COMPLIANCE — eDOCUMENT</span>
     <span id="live-clock"></span>
   </div>
   <h1 class="title">Note &amp; configurazioni <em>SAP</em><br>per l'e-invoicing B2B</h1>
