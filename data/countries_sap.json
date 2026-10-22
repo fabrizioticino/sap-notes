@@ -1413,7 +1413,7 @@
         "name":  "United Arab Emirates",
         "name_it":  "Emirati Arabi Uniti",
         "slug":  "emirati-arabi-uniti",
-        "b2b_status":  "Obbligatorio dal 2027",
+        "b2b_status":  "Obbligatorio dal 1/1/2027 (>50M AED) e dal 1/7/2027 (altri); nomina ASP entro 30/10/2026",
         "deployment":  "S/4HANA on-prem / ECC",
         "central_note":  "3705171",
         "central_title":  "EDP for UAE - Peppol: Implementation Overview",
@@ -1497,7 +1497,7 @@
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       }
                   ],
-        "last_update":  "24 luglio 2026"
+        "last_update":  "22 ottobre 2026"
     },
     {
         "name":  "Belgium",
@@ -2115,7 +2115,7 @@
         "name":  "Malaysia",
         "name_it":  "Malesia",
         "slug":  "malesia",
-        "b2b_status":  "Obbligatorio (graduale, MyInvois)",
+        "b2b_status":  "Obbligatorio (graduale, MyInvois); esenzione sotto 3M MYR dal 1/9/2026",
         "deployment":  "S/4HANA on-prem / ECC",
         "central_note":  "3456090",
         "central_title":  "Electronic Invoice Processing for Malaysia: Implementation Overview",
@@ -2715,7 +2715,7 @@
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       }
                   ],
-        "last_update":  "24 luglio 2026"
+        "last_update":  "22 ottobre 2026"
     },
     {
         "name":  "Singapore",
@@ -3631,7 +3631,7 @@
         "name":  "Ireland",
         "name_it":  "Irlanda",
         "slug":  "irlanda",
-        "b2b_status":  "Pianificato (introduzione graduale 2028-2030 ai sensi di ViDA)",
+        "b2b_status":  "Pianificato (obbligo domestico graduale 2028-2029; ViDA intra-UE dal 1/7/2030)",
         "deployment":  "S/4HANA on-prem / Cloud",
         "central_note":  "2893997",
         "central_title":  "Electronic Documents - Ireland: Implementation Overview (Peppol)",
@@ -3661,13 +3661,13 @@
                           "category":  "Nota correlata (ERR)"
                       }
                   ],
-        "last_update":  "28 agosto 2026"
+        "last_update":  "22 ottobre 2026"
     },
     {
         "name":  "Spain",
         "name_it":  "Spagna",
         "slug":  "spagna",
-        "b2b_status":  "Obbligatorio 2027/28 (B2B in arrivo)",
+        "b2b_status":  "Obbligatorio dal 6/10/2027 (fatturato >8M EUR) e dal 6/10/2028 (tutte)",
         "deployment":  "B2B: soluzione SAP non ancora rilasciata",
         "central_note":  "2940398 (SII) / 2735302 (B2G)",
         "central_title":  "EDP for Spain with SII / Public Entities: Implementation Overview",
@@ -3731,7 +3731,7 @@
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       }
                   ],
-        "last_update":  "24 luglio 2026"
+        "last_update":  "22 ottobre 2026"
     },
     {
         "name":  "Israel",
@@ -4272,7 +4272,7 @@
         "name":  "Greece",
         "name_it":  "Grecia",
         "slug":  "grecia",
-        "b2b_status":  "Obbligatorio (myDATA e-Reporting - tutte le imprese greche)",
+        "b2b_status":  "Obbligatorio (myDATA); e-fattura B2B dal 2/3/2026 (>1M EUR) e dal 2/11/2026 (tutte)",
         "deployment":  "S/4HANA on-prem / Cloud",
         "central_note":  "2930400",
         "central_title":  "Electronic Documents - Greece: Implementation Overview (myDATA)",
@@ -4302,7 +4302,7 @@
                           "category":  "Nota soluzione/correzione (vedi nota centrale)"
                       }
                   ],
-        "last_update":  "28 agosto 2026"
+        "last_update":  "22 ottobre 2026"
     },
     {
         "name":  "Luxembourg",
@@ -4774,7 +4774,7 @@
         "name":  "Philippines",
         "name_it":  "Filippine",
         "slug":  "filippine",
-        "b2b_status":  "Obbligatorio 2027 (grandi)",
+        "b2b_status":  "Obbligatorio entro il 31/12/2026 (contribuenti designati, EIS)",
         "deployment":  "n/d",
         "central_note":  "-",
         "central_title":  "Nessuna soluzione SAP eDocument dedicata (cfr. Singapore 3591356) (verificato lug 2026)",
@@ -4787,13 +4787,13 @@
         "notes":  [
 
                   ],
-        "last_update":  "24 luglio 2026"
+        "last_update":  "22 ottobre 2026"
     },
     {
         "name":  "Oman",
         "name_it":  "Oman",
         "slug":  "oman",
-        "b2b_status":  "Obbligatorio (nascente)",
+        "b2b_status":  "Obbligatorio dal 1/4/2027 (>5M OMR) e dal 1/10/2027 (tutti) - Decisione 189/2026",
         "deployment":  "n/d",
         "central_note":  "-",
         "central_title":  "Nessuna soluzione SAP eDocument dedicata (verificato lug 2026)",
@@ -4806,7 +4806,7 @@
         "notes":  [
 
                   ],
-        "last_update":  "24 luglio 2026"
+        "last_update":  "22 ottobre 2026"
     },
     {
         "name":  "Slovenia",
