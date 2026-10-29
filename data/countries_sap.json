@@ -4855,7 +4855,7 @@
         "name":  "Czech Republic",
         "name_it":  "Repubblica Ceca",
         "slug":  "repubblica-ceca",
-        "b2b_status":  "Volontario (nessun obbligo annunciato; ViDA intra-UE dal 07/2030)",
+        "b2b_status":  "Nessun obbligo annunciato (ViDA intra-UE dal 07/2030)",
         "deployment":  "S/4HANA on-prem / ECC",
         "central_note":  "-",
         "central_title":  "Nessuna nota e-invoicing B2B: non c'e' un obbligo nazionale",
