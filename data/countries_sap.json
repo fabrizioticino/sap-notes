@@ -4850,5 +4850,35 @@
                   ],
         "sap_note_status":  "Non disponibile â€” mandato B2B dal 01/01/2028 (Legge ZIERDED adottata 23/10/2025). SAP non ha ancora rilasciato contenuto DRC/eDocument specifico per la fattura elettronica B2B slovena. La nota 3507404 copre esclusivamente i report di conformitÃ  IVA (Obrazec PD-O e simili), non il flusso di emissione/ricezione fattura elettronica. Monitorare SAP nota 3595794 per aggiornamenti sul supporto paese Slovenia.",
         "last_update":  "7 settembre 2026"
+    },
+    {
+        "name":  "Czech Republic",
+        "name_it":  "Repubblica Ceca",
+        "slug":  "repubblica-ceca",
+        "b2b_status":  "Volontario (nessun obbligo annunciato; ViDA intra-UE dal 07/2030)",
+        "deployment":  "S/4HANA on-prem / ECC",
+        "central_note":  "-",
+        "central_title":  "Nessuna nota e-invoicing B2B: non c'e' un obbligo nazionale",
+        "component":  "-",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  false,
+        "notes_count":  0,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Nessuna configurazione eDocument specifica per la Repubblica Ceca. La comunicazione di controllo IVA (Kontrolni hlaseni, mensile, XML) si gestisce con i report di conformita' IVA di SAP Document and Reporting Compliance / Advanced Compliance Reporting. Fatture B2G in ISDOC o EN 16931: valutare l'invio Peppol tramite eDocument (scenario Peppol generico).",
+                            "img":  "-",
+                            "central":  "Non disponibile: da verificare su me.sap.com le note dei report IVA ceci (DRC)",
+                            "help":  "https://help.sap.com/docs/search?q=Czech%20Republic%20VAT%20control%20statement"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/2134248",
+                          "title":  "Electronic Document Processing Framework - Implementation Overview",
+                          "num":  "2134248",
+                          "category":  "Framework (generico)"
+                      }
+                  ],
+        "last_update":  "29 ottobre 2026"
     }
 ]
