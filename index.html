@@ -200,6 +200,7 @@ let currentCat = 'all';
 function classifyStatus(text){
   const t = (text||'').toLowerCase();
   if(t==='n/d' || t==='' || t.includes('nessuna soluzione')) return 'n_a';
+  if(t.startsWith('volontari')) return 'voluntary';
   if(/\b(202[7-9]|203\d)\b/.test(t)) return 'planned';
   if(/(agosto|settembre|ottobre|novembre|dicembre)\s+2026/.test(t)) return 'planned';
   if(/dal\s+2026\b/.test(t) && !/(gennaio|febbraio|marzo|aprile|maggio|giugno|luglio)\s+2026/.test(t)) return 'planned';
@@ -367,7 +368,7 @@ function openDetail(slug){
     html += renderSection('04','Note da installare', renderNotesTable(currentNotes), currentNotes.length);
   } else {
     html += renderSection('02','Soluzione SAP',
-      `<div class="callout">Al momento della verifica <b>SAP non ha rilasciato una soluzione eDocument dedicata</b> per questo paese (mandato ancora nascente). Non risultano note di implementazione da installare.</div>`);
+      `<div class="callout">Al momento della verifica <b>SAP non ha rilasciato una soluzione eDocument dedicata</b> per questo paese (${classifyStatus(c.b2b_status)==='voluntary' ? 'non esiste un obbligo nazionale di e-fattura B2B' : 'mandato ancora nascente'}). Non risultano note di implementazione da installare.</div>`);
   }
 
   body.innerHTML = html;
