@@ -4880,5 +4880,41 @@
                       }
                   ],
         "last_update":  "29 ottobre 2026"
+    },
+    {
+        "name":  "Egypt",
+        "name_it":  "Egitto",
+        "slug":  "egitto",
+        "b2b_status":  "Obbligatorio (clearance ETA, tutti i contribuenti dal 15/12/2022)",
+        "deployment":  "S/4HANA on-prem / ECC",
+        "central_note":  "3289354",
+        "central_title":  "SAP Document and Reporting Compliance Egypt e-Invoicing",
+        "component":  "CA-GTF-CSC-EDO-EG",
+        "framework":  "2134248",
+        "kba":  "-",
+        "has_solution":  true,
+        "notes_count":  2,
+        "customizing":  {
+                            "kba":  "-",
+                            "note_cust":  "Customizing e-Invoice Egypt descritto nella nota master e nella Application Help (SAP Document and Reporting Compliance Egypt Electronic Invoicing). Prerequisiti: ultima versione del framework eDocument (2134248); pacchetto di integrazione 'SAP Document and Reporting Compliance: Electronic Invoice for Egypt' su SAP Integration Suite (Cloud Foundry); server di firma interno con token/HSM e certificato di sigillo elettronico rilasciato da un provider autorizzato ITIDA; credenziali OAuth2 (client ID/secret) del portale ETA; codici articolo GS1/EGS registrati sul portale ETA. Livelli minimi indicati da SAP: S/4HANA 1709 SAP_BASIS 752 SP13; ERP EHP6 SAP_APPL 606 SP32, EHP7 SAP_APPL 617 SP27, EHP8 SAP_APPL 618 SP21 (S/4HANA 2023 incluso nello standard).",
+                            "img":  "SPRO > Cross-Application Components > General Application Functions > eDocument",
+                            "central":  "3289354 - le note da installare sono elencate in sequenza nella nota master",
+                            "help":  "https://help.sap.com/docs/search?q=eDocument%20Egypt"
+                        },
+        "notes":  [
+                      {
+                          "url":  "https://me.sap.com/notes/3289354",
+                          "title":  "SAP Document and Reporting Compliance Egypt e-Invoicing",
+                          "num":  "3289354",
+                          "category":  "Nota centrale (Implementation Overview)"
+                      },
+                      {
+                          "url":  "https://me.sap.com/notes/2134248",
+                          "title":  "Electronic Document Processing Framework - Implementation Overview",
+                          "num":  "2134248",
+                          "category":  "Framework"
+                      }
+                  ],
+        "last_update":  "13 novembre 2026"
     }
 ]
