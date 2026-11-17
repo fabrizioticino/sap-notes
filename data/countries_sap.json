@@ -4916,5 +4916,485 @@
                       }
                   ],
         "last_update":  "13 novembre 2026"
-    }
+    },
+{
+    "name":  "China",
+    "name_it":  "Cina",
+    "slug":  "cina",
+    "b2b_status":  "Fapiao interamente digitale disponibile; obbligo generale non confermato",
+    "deployment":  "S/4HANA on-prem / ECC",
+    "central_note":  "1868902",
+    "central_title":  "China Golden Tax interface (fatture attive) - Implementation Overview",
+    "component":  "FI-LOC-TIM-CN",
+    "framework":  "2134248",
+    "kba":  "-",
+    "has_solution":  true,
+    "notes_count":  6,
+    "customizing":  {
+                        "kba":  "-",
+                        "note_cust":  "Fatture attive: China Output VAT Invoice Management con interfaccia Golden Tax (web service tramite SAP Integration Suite). Fatture passive: China Incoming VAT Invoice Management (cataloghi SAP_FIN_BC_AP_REPORTING_CN).",
+                        "img":  "SPRO > ... > Document and Reporting Compliance",
+                        "central":  "1868902 - vedere la nota centrale",
+                        "help":  "https://help.sap.com/docs/search?q=China Document and Reporting Compliance"
+                    },
+    "notes":  [
+                  {
+                      "url":  "https://me.sap.com/notes/2134248",
+                      "title":  "Electronic Document Processing Framework - Implementation Overview",
+                      "num":  "2134248",
+                      "category":  "Framework (generico)"
+                  },
+                  {
+                      "url":  "https://me.sap.com/notes/1868902",
+                      "title":  "China Output VAT Invoice Management (Golden Tax interface) - Implementation Overview",
+                      "num":  "1868902",
+                      "category":  "Nota centrale"
+                  },
+                  {
+                      "url":  "https://me.sap.com/notes/3356346",
+                      "title":  "Fully Digitalized Electronic Invoice (FDEI) - fatture attive",
+                      "num":  "3356346",
+                      "category":  "Nota soluzione"
+                  },
+                  {
+                      "url":  "https://me.sap.com/notes/2526127",
+                      "title":  "China Incoming VAT Invoice Management - Implementation Overview",
+                      "num":  "2526127",
+                      "category":  "Fatture passive"
+                  },
+                  {
+                      "url":  "https://me.sap.com/notes/3386861",
+                      "title":  "Fully Digitalized Electronic Invoice (FDEI) - fatture passive",
+                      "num":  "3386861",
+                      "category":  "Fatture passive"
+                  },
+                  {
+                      "url":  "https://me.sap.com/notes/3285703",
+                      "title":  "Audit Report GB/T 24589 - Implementation Overview",
+                      "num":  "3285703",
+                      "category":  "Report legale"
+                  }
+              ],
+    "last_update":  "17 novembre 2026"
+},
+{
+    "name":  "Algeria",
+    "name_it":  "Algeria",
+    "slug":  "algeria",
+    "b2b_status":  "Pianificato (rinviato oltre il 2026)",
+    "deployment":  "S/4HANA on-prem / ECC",
+    "central_note":  "-",
+    "central_title":  "Paese non supportato da SAP Document and Reporting Compliance",
+    "component":  "-",
+    "framework":  "2134248",
+    "kba":  "-",
+    "has_solution":  false,
+    "notes_count":  0,
+    "customizing":  {
+                        "kba":  "-",
+                        "note_cust":  "Il paese non compare nella tabella SAP Supported Compliance Tasks by Country/Region (S/4HANA on-premise). Per eventuali obblighi locali servono soluzioni partner o sviluppi su misura.",
+                        "img":  "-",
+                        "central":  "Non disponibile",
+                        "help":  "https://help.sap.com/docs/search?q=Algeria Document and Reporting Compliance"
+                    },
+    "notes":  [
+                  {
+                      "url":  "https://me.sap.com/notes/2134248",
+                      "title":  "Electronic Document Processing Framework - Implementation Overview",
+                      "num":  "2134248",
+                      "category":  "Framework (generico)"
+                  }
+              ],
+    "last_update":  "17 novembre 2026"
+},
+{
+    "name":  "Canada",
+    "name_it":  "Canada",
+    "slug":  "canada",
+    "b2b_status":  "Volontario",
+    "deployment":  "S/4HANA on-prem / ECC",
+    "central_note":  "-",
+    "central_title":  "Paese non supportato da SAP Document and Reporting Compliance",
+    "component":  "-",
+    "framework":  "2134248",
+    "kba":  "-",
+    "has_solution":  false,
+    "notes_count":  0,
+    "customizing":  {
+                        "kba":  "-",
+                        "note_cust":  "Il paese non compare nella tabella SAP Supported Compliance Tasks by Country/Region (S/4HANA on-premise). Per eventuali obblighi locali servono soluzioni partner o sviluppi su misura.",
+                        "img":  "-",
+                        "central":  "Non disponibile",
+                        "help":  "https://help.sap.com/docs/search?q=Canada Document and Reporting Compliance"
+                    },
+    "notes":  [
+                  {
+                      "url":  "https://me.sap.com/notes/2134248",
+                      "title":  "Electronic Document Processing Framework - Implementation Overview",
+                      "num":  "2134248",
+                      "category":  "Framework (generico)"
+                  }
+              ],
+    "last_update":  "17 novembre 2026"
+},
+{
+    "name":  "Azerbaijan",
+    "name_it":  "Azerbaigian",
+    "slug":  "azerbaigian",
+    "b2b_status":  "Obbligatorio per i soggetti IVA (fattura IVA elettronica)",
+    "deployment":  "S/4HANA on-prem / ECC",
+    "central_note":  "-",
+    "central_title":  "Paese non supportato da SAP Document and Reporting Compliance",
+    "component":  "-",
+    "framework":  "2134248",
+    "kba":  "-",
+    "has_solution":  false,
+    "notes_count":  0,
+    "customizing":  {
+                        "kba":  "-",
+                        "note_cust":  "Il paese non compare nella tabella SAP Supported Compliance Tasks by Country/Region (S/4HANA on-premise). Per eventuali obblighi locali servono soluzioni partner o sviluppi su misura.",
+                        "img":  "-",
+                        "central":  "Non disponibile",
+                        "help":  "https://help.sap.com/docs/search?q=Azerbaijan Document and Reporting Compliance"
+                    },
+    "notes":  [
+                  {
+                      "url":  "https://me.sap.com/notes/2134248",
+                      "title":  "Electronic Document Processing Framework - Implementation Overview",
+                      "num":  "2134248",
+                      "category":  "Framework (generico)"
+                  }
+              ],
+    "last_update":  "17 novembre 2026"
+},
+{
+    "name":  "Libya",
+    "name_it":  "Libia",
+    "slug":  "libia",
+    "b2b_status":  "Nessun obbligo noto",
+    "deployment":  "S/4HANA on-prem / ECC",
+    "central_note":  "-",
+    "central_title":  "Paese non supportato da SAP Document and Reporting Compliance",
+    "component":  "-",
+    "framework":  "2134248",
+    "kba":  "-",
+    "has_solution":  false,
+    "notes_count":  0,
+    "customizing":  {
+                        "kba":  "-",
+                        "note_cust":  "Il paese non compare nella tabella SAP Supported Compliance Tasks by Country/Region (S/4HANA on-premise). Per eventuali obblighi locali servono soluzioni partner o sviluppi su misura.",
+                        "img":  "-",
+                        "central":  "Non disponibile",
+                        "help":  "https://help.sap.com/docs/search?q=Libya Document and Reporting Compliance"
+                    },
+    "notes":  [
+                  {
+                      "url":  "https://me.sap.com/notes/2134248",
+                      "title":  "Electronic Document Processing Framework - Implementation Overview",
+                      "num":  "2134248",
+                      "category":  "Framework (generico)"
+                  }
+              ],
+    "last_update":  "17 novembre 2026"
+},
+{
+    "name":  "Vietnam",
+    "name_it":  "Vietnam",
+    "slug":  "vietnam",
+    "b2b_status":  "Obbligatorio",
+    "deployment":  "S/4HANA on-prem / ECC",
+    "central_note":  "-",
+    "central_title":  "Paese non supportato da SAP Document and Reporting Compliance",
+    "component":  "-",
+    "framework":  "2134248",
+    "kba":  "-",
+    "has_solution":  false,
+    "notes_count":  0,
+    "customizing":  {
+                        "kba":  "-",
+                        "note_cust":  "Il paese non compare nella tabella SAP Supported Compliance Tasks by Country/Region (S/4HANA on-premise). Per eventuali obblighi locali servono soluzioni partner o sviluppi su misura.",
+                        "img":  "-",
+                        "central":  "Non disponibile",
+                        "help":  "https://help.sap.com/docs/search?q=Vietnam Document and Reporting Compliance"
+                    },
+    "notes":  [
+                  {
+                      "url":  "https://me.sap.com/notes/2134248",
+                      "title":  "Electronic Document Processing Framework - Implementation Overview",
+                      "num":  "2134248",
+                      "category":  "Framework (generico)"
+                  }
+              ],
+    "last_update":  "17 novembre 2026"
+},
+{
+    "name":  "Bulgaria",
+    "name_it":  "Bulgaria",
+    "slug":  "bulgaria",
+    "b2b_status":  "In bozza (obbligo previsto dal 2028)",
+    "deployment":  "S/4HANA on-prem / ECC",
+    "central_note":  "-",
+    "central_title":  "Paese non supportato da SAP Document and Reporting Compliance",
+    "component":  "-",
+    "framework":  "2134248",
+    "kba":  "-",
+    "has_solution":  false,
+    "notes_count":  0,
+    "customizing":  {
+                        "kba":  "-",
+                        "note_cust":  "Il paese non compare nella tabella SAP Supported Compliance Tasks by Country/Region (S/4HANA on-premise). Per eventuali obblighi locali servono soluzioni partner o sviluppi su misura.",
+                        "img":  "-",
+                        "central":  "Non disponibile",
+                        "help":  "https://help.sap.com/docs/search?q=Bulgaria Document and Reporting Compliance"
+                    },
+    "notes":  [
+                  {
+                      "url":  "https://me.sap.com/notes/2134248",
+                      "title":  "Electronic Document Processing Framework - Implementation Overview",
+                      "num":  "2134248",
+                      "category":  "Framework (generico)"
+                  }
+              ],
+    "last_update":  "17 novembre 2026"
+},
+{
+    "name":  "Tunisia",
+    "name_it":  "Tunisia",
+    "slug":  "tunisia",
+    "b2b_status":  "Obbligatorio per alcuni contribuenti e settori",
+    "deployment":  "S/4HANA on-prem / ECC",
+    "central_note":  "-",
+    "central_title":  "Paese non supportato da SAP Document and Reporting Compliance",
+    "component":  "-",
+    "framework":  "2134248",
+    "kba":  "-",
+    "has_solution":  false,
+    "notes_count":  0,
+    "customizing":  {
+                        "kba":  "-",
+                        "note_cust":  "Il paese non compare nella tabella SAP Supported Compliance Tasks by Country/Region (S/4HANA on-premise). Per eventuali obblighi locali servono soluzioni partner o sviluppi su misura.",
+                        "img":  "-",
+                        "central":  "Non disponibile",
+                        "help":  "https://help.sap.com/docs/search?q=Tunisia Document and Reporting Compliance"
+                    },
+    "notes":  [
+                  {
+                      "url":  "https://me.sap.com/notes/2134248",
+                      "title":  "Electronic Document Processing Framework - Implementation Overview",
+                      "num":  "2134248",
+                      "category":  "Framework (generico)"
+                  }
+              ],
+    "last_update":  "17 novembre 2026"
+},
+{
+    "name":  "Russia",
+    "name_it":  "Russia",
+    "slug":  "russia",
+    "b2b_status":  "Volontario, obbligatorio per le merci tracciabili",
+    "deployment":  "S/4HANA on-prem / ECC",
+    "central_note":  "-",
+    "central_title":  "Paese non supportato da SAP Document and Reporting Compliance",
+    "component":  "-",
+    "framework":  "2134248",
+    "kba":  "-",
+    "has_solution":  false,
+    "notes_count":  0,
+    "customizing":  {
+                        "kba":  "-",
+                        "note_cust":  "Il paese non compare nella tabella SAP Supported Compliance Tasks by Country/Region (S/4HANA on-premise). Per eventuali obblighi locali servono soluzioni partner o sviluppi su misura.",
+                        "img":  "-",
+                        "central":  "Non disponibile",
+                        "help":  "https://help.sap.com/docs/search?q=Russia Document and Reporting Compliance"
+                    },
+    "notes":  [
+                  {
+                      "url":  "https://me.sap.com/notes/2134248",
+                      "title":  "Electronic Document Processing Framework - Implementation Overview",
+                      "num":  "2134248",
+                      "category":  "Framework (generico)"
+                  }
+              ],
+    "last_update":  "17 novembre 2026"
+},
+{
+    "name":  "Indonesia",
+    "name_it":  "Indonesia",
+    "slug":  "indonesia",
+    "b2b_status":  "Obbligatorio",
+    "deployment":  "S/4HANA on-prem / ECC",
+    "central_note":  "-",
+    "central_title":  "Paese non supportato da SAP Document and Reporting Compliance",
+    "component":  "-",
+    "framework":  "2134248",
+    "kba":  "-",
+    "has_solution":  false,
+    "notes_count":  0,
+    "customizing":  {
+                        "kba":  "-",
+                        "note_cust":  "Il paese non compare nella tabella SAP Supported Compliance Tasks by Country/Region (S/4HANA on-premise). Per eventuali obblighi locali servono soluzioni partner o sviluppi su misura.",
+                        "img":  "-",
+                        "central":  "Non disponibile",
+                        "help":  "https://help.sap.com/docs/search?q=Indonesia Document and Reporting Compliance"
+                    },
+    "notes":  [
+                  {
+                      "url":  "https://me.sap.com/notes/2134248",
+                      "title":  "Electronic Document Processing Framework - Implementation Overview",
+                      "num":  "2134248",
+                      "category":  "Framework (generico)"
+                  }
+              ],
+    "last_update":  "17 novembre 2026"
+},
+{
+    "name":  "Hong Kong",
+    "name_it":  "Hong Kong",
+    "slug":  "hong-kong",
+    "b2b_status":  "Volontario",
+    "deployment":  "S/4HANA on-prem / ECC",
+    "central_note":  "-",
+    "central_title":  "Paese non supportato da SAP Document and Reporting Compliance",
+    "component":  "-",
+    "framework":  "2134248",
+    "kba":  "-",
+    "has_solution":  false,
+    "notes_count":  0,
+    "customizing":  {
+                        "kba":  "-",
+                        "note_cust":  "Il paese non compare nella tabella SAP Supported Compliance Tasks by Country/Region (S/4HANA on-premise). Per eventuali obblighi locali servono soluzioni partner o sviluppi su misura.",
+                        "img":  "-",
+                        "central":  "Non disponibile",
+                        "help":  "https://help.sap.com/docs/search?q=Hong%20Kong Document and Reporting Compliance"
+                    },
+    "notes":  [
+                  {
+                      "url":  "https://me.sap.com/notes/2134248",
+                      "title":  "Electronic Document Processing Framework - Implementation Overview",
+                      "num":  "2134248",
+                      "category":  "Framework (generico)"
+                  }
+              ],
+    "last_update":  "17 novembre 2026"
+},
+{
+    "name":  "Qatar",
+    "name_it":  "Qatar",
+    "slug":  "qatar",
+    "b2b_status":  "Pianificato (data non confermata)",
+    "deployment":  "S/4HANA on-prem / ECC",
+    "central_note":  "-",
+    "central_title":  "Paese non supportato da SAP Document and Reporting Compliance",
+    "component":  "-",
+    "framework":  "2134248",
+    "kba":  "-",
+    "has_solution":  false,
+    "notes_count":  0,
+    "customizing":  {
+                        "kba":  "-",
+                        "note_cust":  "Il paese non compare nella tabella SAP Supported Compliance Tasks by Country/Region (S/4HANA on-premise). Per eventuali obblighi locali servono soluzioni partner o sviluppi su misura.",
+                        "img":  "-",
+                        "central":  "Non disponibile",
+                        "help":  "https://help.sap.com/docs/search?q=Qatar Document and Reporting Compliance"
+                    },
+    "notes":  [
+                  {
+                      "url":  "https://me.sap.com/notes/2134248",
+                      "title":  "Electronic Document Processing Framework - Implementation Overview",
+                      "num":  "2134248",
+                      "category":  "Framework (generico)"
+                  }
+              ],
+    "last_update":  "17 novembre 2026"
+},
+{
+    "name":  "Morocco",
+    "name_it":  "Marocco",
+    "slug":  "marocco",
+    "b2b_status":  "Pianificato (data da fissare con decreto ministeriale)",
+    "deployment":  "S/4HANA on-prem / ECC",
+    "central_note":  "-",
+    "central_title":  "Paese non supportato da SAP Document and Reporting Compliance",
+    "component":  "-",
+    "framework":  "2134248",
+    "kba":  "-",
+    "has_solution":  false,
+    "notes_count":  0,
+    "customizing":  {
+                        "kba":  "-",
+                        "note_cust":  "Il paese non compare nella tabella SAP Supported Compliance Tasks by Country/Region (S/4HANA on-premise). Per eventuali obblighi locali servono soluzioni partner o sviluppi su misura.",
+                        "img":  "-",
+                        "central":  "Non disponibile",
+                        "help":  "https://help.sap.com/docs/search?q=Morocco Document and Reporting Compliance"
+                    },
+    "notes":  [
+                  {
+                      "url":  "https://me.sap.com/notes/2134248",
+                      "title":  "Electronic Document Processing Framework - Implementation Overview",
+                      "num":  "2134248",
+                      "category":  "Framework (generico)"
+                  }
+              ],
+    "last_update":  "17 novembre 2026"
+},
+{
+    "name":  "Serbia",
+    "name_it":  "Serbia",
+    "slug":  "serbia",
+    "b2b_status":  "Obbligatorio",
+    "deployment":  "S/4HANA on-prem / ECC",
+    "central_note":  "-",
+    "central_title":  "Paese non supportato da SAP Document and Reporting Compliance",
+    "component":  "-",
+    "framework":  "2134248",
+    "kba":  "-",
+    "has_solution":  false,
+    "notes_count":  0,
+    "customizing":  {
+                        "kba":  "-",
+                        "note_cust":  "Il paese non compare nella tabella SAP Supported Compliance Tasks by Country/Region (S/4HANA on-premise). Per eventuali obblighi locali servono soluzioni partner o sviluppi su misura.",
+                        "img":  "-",
+                        "central":  "Non disponibile",
+                        "help":  "https://help.sap.com/docs/search?q=Serbia Document and Reporting Compliance"
+                    },
+    "notes":  [
+                  {
+                      "url":  "https://me.sap.com/notes/2134248",
+                      "title":  "Electronic Document Processing Framework - Implementation Overview",
+                      "num":  "2134248",
+                      "category":  "Framework (generico)"
+                  }
+              ],
+    "last_update":  "17 novembre 2026"
+},
+{
+    "name":  "Kazakhstan",
+    "name_it":  "Kazakistan",
+    "slug":  "kazakistan",
+    "b2b_status":  "Obbligatorio per i soggetti IVA",
+    "deployment":  "S/4HANA on-prem / ECC",
+    "central_note":  "-",
+    "central_title":  "Paese non supportato da SAP Document and Reporting Compliance",
+    "component":  "-",
+    "framework":  "2134248",
+    "kba":  "-",
+    "has_solution":  false,
+    "notes_count":  0,
+    "customizing":  {
+                        "kba":  "-",
+                        "note_cust":  "Il paese non compare nella tabella SAP Supported Compliance Tasks by Country/Region (S/4HANA on-premise). Per eventuali obblighi locali servono soluzioni partner o sviluppi su misura.",
+                        "img":  "-",
+                        "central":  "Non disponibile",
+                        "help":  "https://help.sap.com/docs/search?q=Kazakhstan Document and Reporting Compliance"
+                    },
+    "notes":  [
+                  {
+                      "url":  "https://me.sap.com/notes/2134248",
+                      "title":  "Electronic Document Processing Framework - Implementation Overview",
+                      "num":  "2134248",
+                      "category":  "Framework (generico)"
+                  }
+              ],
+    "last_update":  "17 novembre 2026"
+}
 ]
